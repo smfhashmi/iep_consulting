@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Two44 Software Solutions'
 
 [params]
-website = 'http://localhost:1313/'
+website = 'https://two44software.com/'
 experience = '5'
 description = 'two44 software solutions'
 email = 'info@two44software.com'

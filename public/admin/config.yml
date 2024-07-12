@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  repo: smfhashmi/iep_consulting/ # Path to your Github repository
+  branch: master # Branch to update (optional; defaults to master)
+  debug: true
+
+# Media settings
+media_folder: static/assets/img
+public_folder: public/assets/img
+collections:
+  - name: 'index'
+    label: 'Home page'
+    folder: 'content'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Slider Content', name: 'content1', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
