@@ -4,5 +4,5 @@ content:
     label: Home
     path: content/_index.md
     type: file
-    fields:
-      content1: string
+    fields: [content1]
+      
