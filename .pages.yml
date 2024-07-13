@@ -25,6 +25,27 @@ content:
         fields:
           - { label: 'Span', name: 'span', type: 'string' }
           - { label: 'Text', name: 'text', type: 'string' }
+      
+      - label: 'Card 1'
+        name: 'card1'
+        type: 'object'
+        fields:
+          - { label: 'Title', name: 'title', type: 'string' }
+          - { label: 'Text', name: 'description', type: 'string' }
+      
+      - label: 'Card 2'
+        name: 'card2'
+        type: 'object'
+        fields:
+          - { label: 'Title', name: 'title', type: 'string' }
+          - { label: 'Text', name: 'description', type: 'string' }
+      
+      - label: 'Card 3'
+        name: 'card3'
+        type: 'object'
+        fields:
+          - { label: 'Title', name: 'title', type: 'string' }
+          - { label: 'Text', name: 'description', type: 'string' }
   
   - name: header
     label: Header
@@ -42,3 +63,17 @@ content:
       - label: 'Working title'  
         name: 'working_title'
         type: 'string'
+      
+      - label: 'Navigation'
+        name: 'nav'
+        type: 'list'
+        fields:
+          - { label: 'Name', name: 'name', type: 'string' }
+          - { label: 'URL', name: 'url', type: 'string' }
+      
+      - label: 'Social Media'
+        name: 'social_media'
+        type: 'list'
+        fields:
+          - { label: 'Name', name: 'name', type: 'string' }
+          - { label: 'URL', name: 'url', type: 'string' }
