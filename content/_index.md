@@ -1,6 +1,6 @@
 ---
 slider1:
-  span: IEP consulting
+  span: IEP consultings
   text: Two44 software
   image: assets/img/slider/slider-02.jpg
   embed_youtube: https://youtu.be/yJg-Y5byMMw
