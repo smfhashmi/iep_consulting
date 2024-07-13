@@ -5,4 +5,5 @@ content:
     path: content/_index.md
     type: file
     fields:
-      - { label: 'Slider Content', name: 'content1', type: 'string' }
+      - { label: Slider Content, name: content1, type: string }
+      - { label: Date, name: date, type: date}
