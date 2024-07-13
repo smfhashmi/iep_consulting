@@ -5,7 +5,7 @@
   <div class="slider-active">
     <div
       class="single-slider slider-height-3 slider-overlay slider-overlay-3 p-relative d-flex align-items-center"
-      data-background="assets/img/slider/slider-02.jpg"
+      data-background="{{.Params.slider1.image}}"
     >
       <div class="container">
         <div class="row align-items-center">
@@ -24,10 +24,10 @@
                 data-delay=".6s"
               >
                 <a
-                  href="https://youtu.be/yJg-Y5byMMw"
+                  href="{{.Params.slider1.embed_youtube}}"
                   data-fancybox
                   class="play-btn play-btn-pink"
-                  ><i class="far fa-play"></i
+                  ><i class="fa fa-play"></i
                 ></a>
               </div>
             </div>
@@ -37,7 +37,7 @@
     </div>
     <div
       class="single-slider slider-height-3 slider-overlay slider-overlay-3 p-relative d-flex align-items-center"
-      data-background="assets/img/slider/slider-01.jpg"
+      data-background="{{.Params.slider2.image}}"
     >
       <div class="container">
         <div class="row align-items-center">
@@ -56,10 +56,10 @@
                 data-delay=".6s"
               >
                 <a
-                  href="https://youtu.be/yJg-Y5byMMw"
+                href="{{.Params.slider2.embed_youtube}}"
                   data-fancybox
                   class="play-btn play-btn-pink"
-                  ><i class="far fa-play"></i
+                  ><i class="fa fa-play"></i
                 ></a>
               </div>
             </div>
@@ -69,7 +69,7 @@
     </div>
     <div
       class="single-slider slider-height-3 slider-overlay slider-overlay-3 p-relative d-flex align-items-center"
-      data-background="assets/img/slider/slider-02.jpg"
+      data-background="{{.Params.slider3.image}}"
     >
       <div class="container">
         <div class="row align-items-center">
@@ -88,10 +88,10 @@
                 data-delay=".6s"
               >
                 <a
-                  href="https://youtu.be/yJg-Y5byMMw"
+                  href="{{.Params.slider3.embed_youtube}}"
                   data-fancybox
                   class="play-btn play-btn-pink"
-                  ><i class="far fa-play"></i
+                  ><i class="fa fa-play"></i
                 ></a>
               </div>
             </div>
