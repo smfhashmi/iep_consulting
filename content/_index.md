@@ -6,7 +6,7 @@ slider1:
   embed_youtube: https://youtu.be/yJg-Y5byMMw
 slider2:
   span: BCBA
-  text: logo and branding
+  text: Behavior Analyst
   image: assets/img/slider/slider-01.jpg
   embed_youtube: https://youtu.be/yJg-Y5byMMw
 slider3:
