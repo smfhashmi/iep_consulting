@@ -52,14 +52,6 @@ content:
     path: data/header.yml
     type: file
     fields:
-      - label: 'Logo alt text'
-        name: 'logo_alt'
-        type: 'string'
-
-      - label: 'Logo url'
-        name: 'logo_url'
-        type: 'string'  
-
-      - label: 'Working title'  
-        name: 'working_title'
+      - label: 'Working days'  
+        name: 'working_text'
         type: string
