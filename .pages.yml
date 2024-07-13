@@ -5,7 +5,7 @@ content:
     path: content/_index.md
     type: file
     fields:
-        - label: 'Slider 1'
+      - label: 'Slider 1'
         name: 'slider1'
         type: 'object'
         fields:
