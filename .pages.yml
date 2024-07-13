@@ -62,3 +62,4 @@ content:
 
       - label: 'Working title'  
         name: 'working_title'
+        type: string
