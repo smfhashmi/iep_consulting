@@ -65,25 +65,11 @@
         <button class="info-close-btn"><i class="fal fa-times"></i></button>
       </div>
       <ul id="mobile-menu-active">
-        <li class="has-dropdown">
-          <a href="/">home</a>
+        {{ range .Site.Data.header.nav }}
+        <li>
+          <a href="{{ .url }}">{{.name}}</a>
         </li>
-        <li class="has-dropdown">
-          <a href="/">about</a>
-        </li>
-        <li class="has-dropdown">
-          <a href="/">services</a>
-        </li>
-        <li class="has-dropdown">
-          <a href="/">cases</a>
-        </li>
-        <li class="has-dropdown">
-          <a href="/">pages</a>
-        </li>
-        <li class="has-dropdown">
-          <a href="/">blog</a>
-        </li>
-        <li><a href="/">contact</a></li>
+        {{end}}
       </ul>
     </nav>
     <!-- side-mobile-menu end -->

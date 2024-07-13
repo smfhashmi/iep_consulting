@@ -8,7 +8,7 @@
             <div class="header__top-left">
               <div class="logo-2 logo-3">
                 <a href="https://two44software.com"
-                  ><img src="assets/img/logo/logo.png" alt="logo"
+                  ><img src="{{.Site.Data.header.logo_url}}" alt="{{.Site.Data.header.logo_alt}}"
                 /></a>
               </div>
             </div>
@@ -20,8 +20,8 @@
                   <span class="icon flaticon-history"></span>
                 </div>
                 <div class="header__info-text">
-                  <span>{{.Params.content1}}</span>
-                  <span> Sunday to Thursday</span>
+                  <span>{{.Site.Data.header.working_title}}</span>
+                  <span>{{.Site.Data.header.working_text}}</span>
                 </div>
               </div>
               <div class="header__info d-none d-md-flex">
@@ -29,8 +29,8 @@
                   <span class="icon flaticon-24-hours-support"></span>
                 </div>
                 <div class="header__info-text">
-                  <span>Call us:</span>
-                  <span>(202) 588-6500</span>
+                  <span>{{.Site.Data.header.working_title}}</span>
+                  <span>{{.Site.Params.mobile}}</span>
                 </div>
               </div>
               <div class="header__info d-none d-md-flex">
@@ -38,10 +38,10 @@
                   <span class="icon flaticon-envelope"></span>
                 </div>
                 <div class="header__info-text">
-                  <span>e-mail:</span>
+                  <span>{{.Site.Data.header.email_text}}</span>
                   <span
                     ><a href="https://two44software.com" class="__cf_email__"
-                      >{{.Site.Params.mobile}}</a
+                      >{{.Site.Params.email}}</a
                     ></span
                   >
                 </div>
@@ -58,24 +58,16 @@
             <div class="main-menu main-menu-2 main-menu-3 d-none d-md-block">
               <nav>
                 <ul>
-                  <li>
-                    <a href="/">home</a>
-                  </li>
-                  <li>
-                    <a href="/">Bio</a>
-                  </li>
-                  <li>
-                    <a href="/">Services</a>
-                  </li>
-                  <li>
-                    <a href="/">Publications</a>
-                  </li>
-                  <li><a href="/">contact</a></li>
+                  {{ range .Site.Data.header.nav }}
+                    <li>
+                      <a href="{{ .url }}">{{.name}}</a>
+                    </li>
+                  {{end}}
                 </ul>
               </nav>
             </div>
             <div class="logo-2 logo-3 text-center d-md-none">
-              <a href="/"><img src="assets/img/logo/logo.png" alt="logo" /></a>
+              <a href="/"><img src="{{.Site.Data.header.logo_url}}" alt="{{.Site.Data.header.logo_text}}" /></a>
             </div>
           </div>
           <div class="col-xl-5 col-lg-4 col-md-2 col-sm-6 col-4">
@@ -84,22 +76,15 @@
             >
               <div class="social social-border d-none d-xl-block">
                 <ul>
-                  <li>
-                    <a href="/"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="/"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="/"><i class="fab fa-pinterest-p"></i></a>
-                  </li>
-                  <li>
-                    <a href="/"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
+                  {{ range .Site.Data.header.social_media }}
+                    <li>
+                      <a href="{{.url}}"><i class="{{.name}}"></i></a>
+                    </li>
+                  {{ end }}
                 </ul>
               </div>
               <div class="header__btn ml-35 d-none d-lg-block">
-                <a href="/" class="s-btn s-btn__square">Contact Us Now</a>
+                <a href="/" class="s-btn s-btn__square">{{ .Site.Data.header.contact_text }}</a>
               </div>
               <div
                 class="header-bar header-bar-2 info-toggle-btn f-right d-md-block d-lg-none"

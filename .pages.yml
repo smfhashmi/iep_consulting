@@ -1,9 +1,44 @@
 media: public/assets/img
 content:
   - name: home
-    label: Home
+    label: Home page
     path: content/_index.md
     type: file
     fields:
-      - { label: Slider Content, name: content1, type: string }
-      - { label: Date, name: date, type: date}
+        - label: 'Slider 1'
+        name: 'slider1'
+        type: 'object'
+        fields:
+          - { label: 'Span', name: 'span', type: 'string' }
+          - { label: 'Text', name: 'text', type: 'string' }
+
+      - label: 'Slider 2'
+        name: 'slider2'
+        type: 'object'
+        fields:
+          - { label: 'Span', name: 'span', type: 'string' }
+          - { label: 'Text', name: 'text', type: 'string' }
+
+      - label: 'Slider 3'
+        name: 'slider3'
+        type: 'object'
+        fields:
+          - { label: 'Span', name: 'span', type: 'string' }
+          - { label: 'Text', name: 'text', type: 'string' }
+  
+  - name: header
+    label: Header
+    path: data/header.yml
+    type: file
+    fields:
+      - label: 'Logo alt text'
+        name: 'logo_alt'
+        type: 'string'
+
+      - label: 'Logo url'
+        name: 'logo_url'
+        type: 'string'  
+
+      - label: 'Working title'  
+        name: 'working_title'
+        type: 'string'
