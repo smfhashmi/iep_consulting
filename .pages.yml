@@ -66,14 +66,14 @@ content:
       
       - label: 'Navigation'
         name: 'nav'
-        type: 'list'
+        type: 'object'
         fields:
           - { label: 'Name', name: 'name', type: 'string' }
           - { label: 'URL', name: 'url', type: 'string' }
       
       - label: 'Social Media'
         name: 'social_media'
-        type: 'list'
+        type: 'object'
         fields:
           - { label: 'Name', name: 'name', type: 'string' }
           - { label: 'URL', name: 'url', type: 'string' }
