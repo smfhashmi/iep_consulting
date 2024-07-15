@@ -10,16 +10,16 @@ nav:
     url: "/"
 
   - name: "About"
-    url: "/"
+    url: "/about"
 
   - name: "Bio"
-    url: "/"
+    url: "/bio"
 
   - name: "Services"
     url: "/services"
 
   - name: "Contact"
-    url: "/"
+    url: "/contact"
 
 social_media:
   - name: "fab fa-facebook-f"

@@ -25,31 +25,13 @@
                   <div class="social">
                     <h4>Follow us</h4>
                     <ul>
-                      <li>
-                        <a href="/"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="/"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="/"
-                          ><i class="fab fa-pinterest-p"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="/"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="/"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                      </li>
+                      {{ range .Site.Data.header.social_media }}
+                        <li>
+                          <a href="{{.url}}"
+                            ><i class="{{.name}}"></i
+                          ></a>
+                        </li>
+                      {{ end }}
                     </ul>
                   </div>
                 </div>
@@ -64,26 +46,11 @@
               <div class="footer__widget-content">
                 <div class="footer__services">
                   <ul>
-                    <li>
-                      <a href="/">Business Frustation</a>
-                    </li>
-                    <li>
-                      <a href="/">Anxiety Dosorder</a>
-                    </li>
-                    <li>
-                      <a href="/">Personal Meeting</a>
-                    </li>
-                    <li><a href="/">Couple Therapy</a></li>
-                    <li>
-                      <a href="/">Family Counselling</a>
-                    </li>
-                    <li>
-                      <a href="/">Dating & Relation</a>
-                    </li>
-                    <li>
-                      <a href="/">Depression Problem</a>
-                    </li>
-                    <li><a href="/">Mental Problem</a></li>
+                    {{ range (where .Site.Pages "Section" "services") }}
+                      <li>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                      </li>
+                    {{ end }}
                   </ul>
                 </div>
               </div>

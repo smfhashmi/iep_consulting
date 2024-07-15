@@ -1,0 +1,143 @@
+{{ define "main" }}
+<!-- page title area start -->
+<section class="page__title p-relative pt-200 pb-200" data-background="/assets/img/page-title/page-title.jpg">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12">
+              <div class="page__title-inner text-center">
+                  <div class="page__title-breadcrumb">                                 
+                        <nav aria-label="breadcrumb">
+                          <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">About us</li>
+                          </ol>
+                        </nav>
+                  </div>
+                  <h1>Welcome to {{.Site.Params.company}}</h1>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- page title area end -->
+
+<!-- about area start -->
+<section class="about__area-2 pt-120 pb-120 box-105 p-relative">
+  <div class="container-fluid">
+      <div class="about__inner about__inner-3 p-relative">
+          <div class="about__bg-img p-absolute" data-background="/assets/img/about/about-2.jpg"></div>
+          <div class="row">
+              <div class="col-xl-6 offset-xl-6">
+                  <div class="about__content-wrapper pt-20 pl-85">
+                      <div class="section__title mb-30">
+                          <div class="section__icon mb-10">
+                              <span class="section__sub-title section__sub-title-2">welcome to sycho</span>
+                          </div>
+                          <h1 class="mb-100">Patients are Happy, Cause Proper Mental Cure Support</h1>
+                      </div>
+
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed dole there eiusmod tempor incididub labore  dolore magna aliqua denim ads minim veniam, quis nostrud exerctation ullamco nisi above murli aliquip commodo imperdet</p>
+
+                      <div class="about__info-2 d-sm-flex mb-60">
+                          <div class="about__info-experience white-bg mr-40">
+                              <h1>20 Years Professional Experience</h1>
+                          </div>
+                          <p>Lobortis facilisis potenti dictumst auctor at semper amet dis elit, neque nulla lectus. Nascetur habitasse dignissim class ac vehicula ultricies conubia suspendisse aenean suscipit nulla verra volutpat velit orci montes maece nas lorem porttitor tortor dise montes fames nascetur auctor dui rhoncus phasellus id sagittis a praesent dui rhoncus porttitor nullam commodo ultricess</p>
+                      </div>
+                      <div class="about-bottom d-sm-flex">
+                          <div class="about-author mr-30 mb-30">
+                              <img src="assets/img/about/author.png" alt="">
+                              <div class="ab-author">
+                                  <h3>Dalian Machen</h3>
+                                  <span>CEO, Sycho</span>
+                              </div>
+                          </div>
+                          <div class="about-btn mr-40 mb-30">
+                              <a href="about-us.html" class="s-btn s-btn__square s-btn__square-2" tabindex="0">more about us</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- about area start -->
+
+<!-- testimonial area start -->
+{{ partial "testimonial" . }}
+<!-- testimonial area end -->
+
+<!-- counter area start -->
+{{partial "counter" .}}
+<!-- counter area end -->
+
+
+<!-- services history area start -->
+<section class="services__history pt-110 pb-55">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+              <div class="section__title mb-70 pl-50 pr-50 text-center">
+                  <h1>From the Beginning Successfully Providing Best Service</h1>
+                  <div class="section__icon mb-10">
+                      <span class="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4">service history</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+              <div class="services__history-item text-center text-sm-left mb-60 pr-35">
+                  <div class="services__history-year mb-30">
+                      <h2>2012</h2>
+                  </div>
+                  <div class="services__history-content">
+                      <h3><a href="about-us.html#">Started Journey</a></h3>
+                      <p>Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+              <div class="services__history-item text-center text-sm-left mb-60 pr-35">
+                  <div class="services__history-year mb-30">
+                      <h2>2015</h2>
+                  </div>
+                  <div class="services__history-content">
+                      <h3><a href="about-us.html#">Open Branch</a></h3>
+                      <p>Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+              <div class="services__history-item text-center text-sm-left mb-60 pr-35">
+                  <div class="services__history-year mb-30">
+                      <h2>2017</h2>
+                  </div>
+                  <div class="services__history-content">
+                      <h3><a href="about-us.html#">Success Story</a></h3>
+                      <p>Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+              <div class="services__history-item text-center text-sm-left mb-60 pr-35">
+                  <div class="services__history-year mb-30">
+                      <h2>2020</h2>
+                  </div>
+                  <div class="services__history-content">
+                      <h3><a href="about-us.html#">Award Winning</a></h3>
+                      <p>Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- services history area end -->
+
+<!-- faq area start -->
+{{ partial "faq" . }}
+<!-- faq area end -->
+
+{{ end }}
