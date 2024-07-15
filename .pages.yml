@@ -11,7 +11,7 @@ content:
         fields:
           - { label: 'Span', name: 'span', type: 'string' }
           - { label: 'Text', name: 'text', type: 'string' }
-          - { label: 'Image', name: 'image', type: 'image' }
+          - { label: 'Image', name: 'image', type: 'string' }
           - { label: 'Youtube', name: 'embed_youtube', type: 'string' }
 
       - label: 'Slider 2'
