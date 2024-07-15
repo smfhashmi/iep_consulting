@@ -1,33 +1,10 @@
 <!-- footer area start -->
 <footer>
   <div class="footer__area pt-120 footer-bg">
-    <div class="footer__top footer__top-3 pb-60">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-4">
-            <div class="footer__subscribe-title">
-              <h3>Get our update in your inbox</h3>
-            </div>
-          </div>
-          <div class="col-xl-8">
-            <div class="footer__subscribe">
-              <div
-                class="footer__subscribe-form footer__subscribe-form-2 footer__subscribe-form-3 p-relative"
-              >
-                <input type="text" placeholder="Write your email" />
-                <button class="s-btn s-btn__square">
-                  <i class="fal fa-paper-plane"></i>subscribe now
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="footer__bottom pt-120 pb-50">
       <div class="container">
         <div class="row">
-          <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mb-50">
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 mb-50">
             <div class="footer__widget">
               <div class="footer__widget-title mb-30">
                 <div class="logo">
@@ -79,7 +56,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 offset-xl-1 mb-50">
+          <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 offset-xl-1 mb-50">
             <div class="footer__widget">
               <div class="footer__widget-title mb-25">
                 <h2>Services</h2>
@@ -112,7 +89,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 mb-50">
+          <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 mb-50">
             <div class="footer__widget">
               <div class="footer__widget-title mb-25">
                 <h2>Contact Info</h2>
@@ -123,7 +100,7 @@
                     <li>
                       <div class="footer__contact-address">
                         <span
-                          >House no 35, Palmall street, London, England</span
+                          >{{.Site.Params.address}}</span
                         >
                       </div>
                     </li>
@@ -142,57 +119,14 @@
                     <li>
                       <div class="footer__contact-item">
                         <h6>Support:</h6>
-                        <p>+1 325 562 3265</p>
+                        <p>{{.Site.Params.mobile}}</p>
                       </div>
                     </li>
                     <li>
                       <div class="footer__contact-item">
                         <h6>Website:</h6>
-                        <p>www.two44software.com</p>
+                        <p>{{.Site.Params.website}}</p>
                       </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 offset-xl-1 mb-50">
-            <div class="footer__widget">
-              <div class="footer__widget-title mb-25">
-                <h2>Instagram</h2>
-              </div>
-              <div class="footer__widget-content">
-                <div class="footer__insta">
-                  <ul>
-                    <li>
-                      <a href="/"
-                        ><img src="/assets/img/insta/insta-1.jpg" alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="/"
-                        ><img src="/assets/img/insta/insta-2.jpg" alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="/"
-                        ><img src="/assets/img/insta/insta-3.jpg" alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="/"
-                        ><img src="/assets/img/insta/insta-4.jpg" alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="/"
-                        ><img src="/assets/img/insta/insta-5.jpg" alt=""
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="/"
-                        ><img src="/assets/img/insta/insta-6.jpg" alt=""
-                      /></a>
                     </li>
                   </ul>
                 </div>
@@ -208,18 +142,16 @@
           <div class="col-xl-6 col-lg-6 col-md-6">
             <div class="footer__copyright-text">
               <p>
-                Copyright © 2024
-                <a href="https://two44software.com">
-                  Two44 software</a
+                Copyright © {{ now.Year }}
+                <a href="{{.Site.Params.website}}">
+                  {{.Site.Params.company}}</a
                 >. All Rights Reserved.
               </p>
             </div>
           </div>
           <div class="col-xl-6 col-lg-6 col-md-6">
             <div class="footer__policy">
-              <a href="/">Terms & Condition</a>
-              <a href="/"> Privacy</a>
-              <a href="/">Support</a>
+              <a href="/tnc">Terms & Condition</a>
             </div>
           </div>
         </div>

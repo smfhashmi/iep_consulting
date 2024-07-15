@@ -52,12 +52,3 @@ content:
         fields:
           - { label: 'Title', name: 'title', type: 'string' }
           - { label: 'Text', name: 'description', type: 'string' }
-  
-  - name: header
-    label: Header
-    path: data/header.yml
-    type: file
-    fields:
-      - label: 'Working days'  
-        name: 'working_text'
-        type: string

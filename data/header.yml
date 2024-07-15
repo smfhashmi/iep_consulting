@@ -1,5 +1,5 @@
 logo_alt: "IEP Consulting"
-logo_url: "assets/img/logo/logo.png"
+logo_url: "/assets/img/logo/logo.png"
 working_title: "Working days"
 working_text: "Monday to Friday"
 call_text: "Call us:"
@@ -16,10 +16,7 @@ nav:
     url: "/"
 
   - name: "Services"
-    url: "/"
-
-  - name: "Blog"
-    url: "/"
+    url: "/services"
 
   - name: "Contact"
     url: "/"
