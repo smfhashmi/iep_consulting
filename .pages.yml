@@ -5,55 +5,83 @@ content:
     path: content/_index.md
     type: file
     fields:
-      - label: 'Slider 1'
-        name: 'slider1'
-        type: 'object'
+      - label: "Slider 1"
+        name: "slider1"
+        type: "object"
         fields:
-          - { label: 'Span', name: 'span', type: 'string' }
-          - { label: 'Text', name: 'text', type: 'string' }
-          - { label: 'Image', name: 'image', type: 'string' }
-          - { label: 'Youtube', name: 'embed_youtube', type: 'string' }
+          - { label: "Span", name: "span", type: "string" }
+          - { label: "Text", name: "text", type: "string" }
+          - { label: "Image", name: "image", type: "string" }
+          - { label: "Youtube", name: "embed_youtube", type: "string" }
 
-      - label: 'Slider 2'
-        name: 'slider2'
-        type: 'object'
+      - label: "Slider 2"
+        name: "slider2"
+        type: "object"
         fields:
-          - { label: 'Span', name: 'span', type: 'string' }
-          - { label: 'Text', name: 'text', type: 'string' }
-          - { label: 'Image', name: 'image', type: 'string' }
-          - { label: 'Youtube', name: 'embed_youtube', type: 'string' }
+          - { label: "Span", name: "span", type: "string" }
+          - { label: "Text", name: "text", type: "string" }
+          - { label: "Image", name: "image", type: "string" }
+          - { label: "Youtube", name: "embed_youtube", type: "string" }
 
-      - label: 'Slider 3'
-        name: 'slider3'
-        type: 'object'
+      - label: "Slider 3"
+        name: "slider3"
+        type: "object"
         fields:
-          - { label: 'Span', name: 'span', type: 'string' }
-          - { label: 'Text', name: 'text', type: 'string' }
-          - { label: 'Image', name: 'image', type: 'string' }
-          - { label: 'Youtube', name: 'embed_youtube', type: 'string' }
-      
-      - label: 'Card 1'
-        name: 'card1'
-        type: 'object'
+          - { label: "Span", name: "span", type: "string" }
+          - { label: "Text", name: "text", type: "string" }
+          - { label: "Image", name: "image", type: "string" }
+          - { label: "Youtube", name: "embed_youtube", type: "string" }
+
+      - label: "Card 1"
+        name: "card1"
+        type: "object"
         fields:
-          - { label: 'Title', name: 'title', type: 'string' }
-          - { label: 'Text', name: 'description', type: 'string' }
-      
-      - label: 'Card 2'
-        name: 'card2'
-        type: 'object'
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" }
+
+      - label: "Card 2"
+        name: "card2"
+        type: "object"
         fields:
-          - { label: 'Title', name: 'title', type: 'string' }
-          - { label: 'Text', name: 'description', type: 'string' }
-      
-      - label: 'Card 3'
-        name: 'card3'
-        type: 'object'
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" }
+
+      - label: "Card 3"
+        name: "card3"
+        type: "object"
         fields:
-          - { label: 'Title', name: 'title', type: 'string' }
-          - { label: 'Text', name: 'description', type: 'string' }
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" }
 
   - name: services
     label: Services
     path: content/services/
     type: collection
+    view:
+      fields: [title]
+    fields:
+      - { label: Title, name: title, type: string, default: service }
+      - {
+          label: List Description,
+          name: list_description,
+          type: string,
+          default: service,
+        }
+      - { name: body, label: Body, type: rich-text }
+
+  - name: config
+    label: website config
+    type: file
+    path: hugo.toml
+    fields:
+      - {label: BaseUrl, name: baseurl, type: string, default: /}
+      - {label: TabTitle, name: title, type: string}
+      - {label: generic parameters, name: params, type: object, 
+          fields:
+            - {label: Website, name: website, type: string}
+            - {label: Experience, name: experience, type: string}
+            - {label: Company, name: company, type: string}
+            - {label: email, name: email, type: string}
+            - {label: mobile, name: mobile, type: string}
+            - {label: address, name: address, type: string}
+            - {label: keywords(comma separated), name: keywords, type: string}}
