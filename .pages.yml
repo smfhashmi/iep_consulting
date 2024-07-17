@@ -55,5 +55,5 @@ content:
 
   - name: services
     label: Services
-    path: content/services/_index.md
+    path: content/services/
     type: collection
