@@ -55,7 +55,7 @@ content:
 
   - name: services
     label: Services
-    path: content/services/
+    path: content/services
     type: collection
 
   - name: config
@@ -65,8 +65,10 @@ content:
     fields:
       - {label: BaseUrl, name: baseurl, type: string, default: /}
       - {label: TabTitle, name: title, type: string}
-      - {label: generic parameters, name: params, type: object, 
-          fields:
+      - name: params
+        label: Generic Parameters
+        type: object
+        fields:
             - {label: Website, name: website, type: string}
             - {label: Experience, name: experience, type: string}
             - {label: Company, name: company, type: string}
@@ -74,4 +76,4 @@ content:
             - {label: mobile, name: mobile, type: string}
             - {label: address, name: address, type: string}
             - {label: keywords(comma separated), name: keywords, type: string}
-        }
+        
