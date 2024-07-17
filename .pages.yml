@@ -52,3 +52,8 @@ content:
         fields:
           - { label: 'Title', name: 'title', type: 'string' }
           - { label: 'Text', name: 'description', type: 'string' }
+
+  - name: services
+    label: Services
+    path: content/services/_index.md
+    type: collection
