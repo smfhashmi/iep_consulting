@@ -311,41 +311,6 @@ content:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   - name: services
     label: Services
     path: content/services
@@ -370,3 +335,63 @@ content:
             - {label: address, name: address, type: string}
             - {label: keywords(comma separated), name: keywords, type: string}
         
+
+
+  - name: Contact 
+    label: Contact Us
+    path: content/contact
+    type: file
+    fields:
+      - label: "breadcrumbs Image "
+        name: "breadcrumbsImage"
+        type: "object"
+        fields:
+          - { label: "list1", name: "list1", type: "string" }
+          - { label: "list2", name: "list2", type: "string" }
+          - { label: "Image", name: "image", type: "string" }
+
+      - label: "contact Area "
+        name: "contactArea"
+        type: "object"
+        fields:
+          - { label: "span", name: "span", type: "string" }
+          - { label: "title", name: "title", type: "string" }
+          - { label: "description", name: "description", type: "string" }
+          
+      - label: "choose Problem "
+        name: "chooseProblem"
+        type: "object"
+        fields:
+          - { label: "list1", name: "list1", type: "string" }
+          - { label: "list2", name: "list2", type: "string" }
+          - { label: "list3", name: "list3", type: "string" }
+          - { label: "list4", name: "list4", type: "string" }
+          - { label: "list5", name: "list5", type: "string" }    
+      
+      - label: "address Card"
+        name: "addressCard"
+        type: "object"
+        fields:
+          - { label: "title", name: "title", type: "string" }
+          - { label: "span", name: "span", type: "string" }
+      
+      - label: "contact Details"
+        name: "contactDetails"
+        type: "object"
+        fields:
+          - { label: "title", name: "title", type: "string" }
+          - { label: "span", name: "span", type: "string" }
+      
+      - label: "email Details"
+        name: "emailDetails"
+        type: "object"
+        fields:
+          - { label: "email", name: "email", type: "string" }
+          - { label: "span", name: "span", type: "string" }
+      
+      - label: " map Iframe "
+        name: "mapIframe"
+        type: "object"
+        fields:
+          - { label: "iframe", name: "iframe", type: "string" }
+          
