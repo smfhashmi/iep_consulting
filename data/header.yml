@@ -1,0 +1,32 @@
+logo_alt: "IEP Consulting"
+logo_url: "/assets/img/logo/logo.png"
+working_title: "Working days"
+working_text: "Monday to Friday"
+call_text: "Call us:"
+email_text: "Email us:"
+contact_text: "Contact us Now"
+nav:
+  - name: "Home"
+    url: "/"
+
+  - name: "About"
+    url: "/about"
+
+  - name: "Bio"
+    url: "/bio"
+
+  - name: "Services"
+    url: "/services"
+
+  - name: "Contact"
+    url: "/contact"
+
+social_media:
+  - name: "fab fa-facebook-f"
+    url: "https://www.facebook.com/"
+
+  - name: "fab fa-twitter"
+    url: "https://twitter.com/"
+
+  - name: "fab fa-linkedin-in"
+    url: "https://www.instagram.com/"

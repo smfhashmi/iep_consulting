@@ -1,0 +1,10 @@
+
+baseurl = 'https://iep-consulting.pages.dev/'
+title = 'Two44 Software solutions'
+params.website = 'https://iep-consulting.pages.dev/'
+params.experience = '5'
+params.company = 'two44 software'
+params.email = 'info@two44software.com'
+params.mobile = '+91-8897443700'
+params.address = 'House no 35, Palmall street, London, England'
+params.keywords = 'best digital marketing in hyderabad'
