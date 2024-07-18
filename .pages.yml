@@ -53,6 +53,299 @@ content:
           - { label: "Title", name: "title", type: "string" }
           - { label: "Text", name: "description", type: "string" }
 
+      - label: "image Card"
+        name: "imageCard"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" }
+          - { label: "Image", name: "image", type: "string" }
+
+      - label: "welcome Span"
+        name: "welcomeSpan"
+        type: "object"
+        fields:
+          - { label: "span", name: "span", type: "string" }
+
+      
+      - label: "welcome Head 1"
+        name: "welcomeHead1"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" }
+
+      - label: "welcome Head 2"
+        name: "welcomeHead2"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" } 
+          
+      - label: "welcome Head 3"
+          name: "welcomeHead3"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "Text", name: "description", type: "string" } 
+
+      - label: "Services Head"
+          name: "servicesHead"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "Text", name: "description", type: "string" } 
+            
+
+      - label: "services Card 1"
+          name: "servicesCard1"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "Text", name: "description", type: "string" } 
+            - { label: "button", name: "button", type: "button" } 
+      - label: "services Card 2"
+          name: "servicesCard2"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "Text", name: "description", type: "string" } 
+            - { label: "button", name: "button", type: "button" } 
+      - label: "Services Card 3"
+          name: "servicesCard3"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "Text", name: "description", type: "string" } 
+            - { label: "button", name: "button", type: "button" } 
+      - label: "Services Card 4"
+          name: "servicesCard4"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "Text", name: "description", type: "string" } 
+            - { label: "button", name: "button", type: "button" } 
+      - label: "Services Card 5"
+          name: "servicesCard5"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "Text", name: "description", type: "string" } 
+            - { label: "button", name: "button", type: "button" } 
+      - label: "Services Card 6"
+          name: "servicesCard6"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "Text", name: "description", type: "string" } 
+            - { label: "button", name: "button", type: "button" } 
+
+
+      - label: "project Area"
+          name: "projectArea"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "span", name: "span", type: "string" } 
+           
+      - label: "project Area 1"
+          name: "projectArea1"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "span", name: "span", type: "string" } 
+            - { label: "image", name: "image", type: "string" }  
+
+        - label: "project Area 2"
+          name: "projectArea1"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "span", name: "span", type: "string" } 
+            - { label: "image", name: "image", type: "string" }  
+      - label: "project Area 3"
+          name: "projectArea3"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "span", name: "span", type: "string" } 
+            - { label: "image", name: "image", type: "string" }   
+        - label: "project Area 4"
+          name: "projectArea4"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "span", name: "span", type: "string" } 
+            - { label: "image", name: "image", type: "string" }  
+      - label: "project Area 5"
+          name: "projectArea5"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "span", name: "span", type: "string" }
+            - { label: "image", name: "image", type: "string" }   
+
+      - label: "team Area"
+          name: "teamArea"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "span", name: "span", type: "string" }
+      - label: "team Member 1"
+          name: "teamMember1"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "span", name: "span", type: "string" }      
+            - { label: "image", name: "image", type: "string" } 
+            - { label: "Facebook", name: "facebook", type: "string" }
+            - { label: "Twitter", name: "twitter", type: "string" }      
+            - { label: "Pinterest", name: "pinterest", type: "string" } 
+      - label: "team Member 2"
+          name: "teamMember2"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "span", name: "span", type: "string" }      
+            - { label: "image", name: "image", type: "string" } 
+            - { label: "Facebook", name: "facebook", type: "string" }
+            - { label: "Twitter", name: "twitter", type: "string" }      
+            - { label: "Pinterest", name: "pinterest", type: "string" } 
+      - label: "team Member 3"
+          name: "teamMember3"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "span", name: "span", type: "string" }      
+            - { label: "image", name: "image", type: "string" } 
+            - { label: "Facebook", name: "facebook", type: "string" }
+            - { label: "Twitter", name: "twitter", type: "string" }      
+            - { label: "Pinterest", name: "pinterest", type: "string" } 
+
+      - label: "counter Area 1"
+          name: "counterArea1"
+          type: "object"
+          fields:
+            - { label: "Numbers", name: "numbers", type: "integer" }
+            - { label: "span", name: "span", type: "string" }  
+      - label: "counter Area 2"
+          name: "counterArea2"
+          type: "object"
+          fields:
+           - { label: "Numbers", name: "numbers", type: "integer" }
+            - { label: "span", name: "span", type: "string" }   
+      - label: "counter Area 3"
+          name: "counterArea3"
+          type: "object"
+          fields:
+            - { label: "Numbers", name: "numbers", type: "integer" }
+            - { label: "span", name: "span", type: "string" }  
+      - label: "counter Area 4"
+          name: "counterArea4"
+          type: "object"
+          fields:
+            - { label: "Numbers", name: "numbers", type: "integer" }
+            - { label: "span", name: "span", type: "string" }  
+
+      - label: "why Choose Area"
+          name: "whyChooseArea"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "span", name: "span", type: "string" }      
+            - { label: "image", name: "image", type: "string" } 
+            - { label: "List 1", name: "list1", type: "string" }
+            - { label: "List 2", name: "list2", type: "string" }      
+            - { label: "List 3", name: "list3", type: "string" } 
+            - { label: "List 4", name: "list4", type: "string" }      
+            - { label: "List 5", name: "list5", type: "string" } 
+
+        - label: "Image Testimonial Area"
+          name: "imageTestimonialArea"
+          type: "object"
+          fields:
+            - { label: "image", name: "image", type: "string" }
+            - { label: "headline", name: "headline", type: "string" }  
+
+        - label: "Testimonial Feedback"
+          name: "testimonialFeedback"
+          type: "object"
+          fields:
+            - { label: "span", name: "span", type: "string" }
+            - { label: "title", name: "title", type: "string" }  
+
+        - label: "patient Feedback 1"
+          name: "patientFeedback1"
+          type: "object"
+          fields:
+            - { label: "description", name: "description", type: "string" }
+            - { label: "image", name: "image", type: "string" } 
+            - { label: "customer Name", name: "customerName", type: "string" }
+            - { label: "location Name", name: "locationName", type: "string" } 
+        - label: "patient Feedback 2"
+          name: "patientFeedback2"
+          type: "object"
+          fields:
+            - { label: "description", name: "description", type: "string" }
+            - { label: "image", name: "image", type: "string" } 
+            - { label: "customer Name", name: "customerName", type: "string" }
+            - { label: "location Name", name: "locationName", type: "string" } 
+        - label: "patient Feedback 3"
+          name: "patientFeedback3"
+          type: "object"
+          fields:
+            - { label: "description", name: "description", type: "string" }
+            - { label: "image", name: "image", type: "string" } 
+            - { label: "customer Name", name: "customerName", type: "string" }
+            - { label: "location Name", name: "locationName", type: "string" } 
+
+        - label: "contact Area"
+          name: "contactArea"
+          type: "object"
+          fields:
+            - { label: "span", name: "span", type: "string" }
+            - { label: "headline", name: "headline", type: "string" } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   - name: services
     label: Services
     path: content/services
