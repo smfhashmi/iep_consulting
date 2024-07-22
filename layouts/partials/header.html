@@ -6,9 +6,9 @@
         <div class="row align-items-center">
           <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-8">
             <div class="header__top-left">
-              <div class="logo-2 logo-3">
-                <a href="https://two44software.com"
-                  ><img src="{{.Site.Data.header.logo_url}}" alt="{{.Site.Data.header.logo_alt}}"
+              <div class="">
+                <a href="{{.Site.Params.website}}"
+                  ><img src="{{.Site.Data.header.logo_url}}" alt="{{.Site.Data.header.logo_alt}}" style="width:100%"
                 /></a>
               </div>
             </div>
@@ -40,7 +40,7 @@
                 <div class="header__info-text">
                   <span>{{.Site.Data.header.email_text}}</span>
                   <span
-                    ><a href="https://two44software.com" class="__cf_email__"
+                    ><a href="{{.Site.Params.website}}" class="__cf_email__"
                       >{{.Site.Params.email}}</a
                     ></span
                   >
@@ -66,8 +66,8 @@
                 </ul>
               </nav>
             </div>
-            <div class="logo-2 logo-3 text-center d-md-none">
-              <a href="/"><img src="{{.Site.Data.header.logo_url}}" alt="{{.Site.Data.header.logo_text}}" /></a>
+            <div class="d-md-none">
+              <a href="/"><img src="{{.Site.Data.header.logo_url}}" alt="{{.Site.Data.header.logo_text}}" / style="width:100%"></a>
             </div>
           </div>
           <div class="col-xl-5 col-lg-4 col-md-2 col-sm-6 col-4">
