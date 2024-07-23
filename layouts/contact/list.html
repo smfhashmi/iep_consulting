@@ -1,6 +1,6 @@
 {{define "main" }}
 <!-- page title area start -->
-<section class="page__title p-relative pt-200 pb-200" data-background="/assets/img/page-title/page-title-7.jpg">
+<section class="page__title p-relative pt-200 pb-200" data-background="{{.Params.breadcrumbsImage.image}}">
   <div class="container">
       <div class="row">
           <div class="col-xl-12 col-lg-12 col-md-12">
@@ -8,12 +8,12 @@
                   <div class="page__title-breadcrumb">                                 
                           <nav aria-label="breadcrumb">
                           <ol class="breadcrumb">
-                              <li class="breadcrumb-item"><a href="https://wphix.com/template/sycho-prv/sycho/index.html">Home</a></li>
-                              <li class="breadcrumb-item active" aria-current="page">contact us</li>
+                              <li class="breadcrumb-item"><a href="https://wphix.com/template/sycho-prv/sycho/index.html">{{.Params.breadcrumbsImage.list1}}</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">{{.Params.breadcrumbsImage.list}}</li>
                           </ol>
                           </nav>
                   </div>
-                  <h1>contact us</h1>
+                  <h1>{{.Params.breadcrumbsImage.title}}</h1>
               </div>
           </div>
       </div>
@@ -29,11 +29,11 @@
               <div class="contact__info-head mb-40">
                   <div class="section__title mb-25">
                       <div class="section__icon mb-10">
-                          <span class="section__sub-title section__sub-title-2 section__sub-title-3">Contact info</span>
+                          <span class="section__sub-title section__sub-title-2 section__sub-title-3">{{.Params.contactArea.span}}</span>
                       </div>
-                      <h1 >Have Any Questins Or Emergency Problem Contact With Us</h1>
+                      <h1 >{{.Params.contactArea.title}}</h1>
                   </div>
-                  <p>Pulvinar senectus morbi quisque nunc to towa faucibus netus etiam mone lestie nisi dis malesuada maecenas ora pretium ornare pharetra vestibulum mattis fringilla interdum cursus curae nisi pede laoreet placerat </p>
+                  <p>{{.Params.contactArea.description}} </p>
               </div>
           </div>
           <div class="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1">
@@ -53,12 +53,12 @@
                           </div>
                           <div class="col-xl-6">
                               <select class="contact__input contact__input-3 contact__input-4">
-                                  <option value="">Choose Problem</option>
-                                  <option value="">Option 1</option>
-                                  <option value="">Option 2</option>
-                                  <option value="">Option 3</option>
-                                  <option value="">Option 4</option>
-                                  <option value="">Option 5</option>
+                                  <option value="">{{.Params.chooseProblem.list1}}</option>
+                                  <option value="">{{.Params.chooseProblem.list2}}</option>
+                                  <option value="">{{.Params.chooseProblem.list3}}</option>
+                                  <option value="">{{.Params.chooseProblem.list4}}</option>
+                                  <option value="">{{.Params.chooseProblem.list5}}</option>
+                                  <option value="">{{.Params.chooseProblem.list6}}</option>
                               </select>
                           </div>
                       </div>

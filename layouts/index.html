@@ -163,11 +163,11 @@
 <section class="about__area-3 mb-120 box-105 pt-180 p-relative white-bg">
   <div
     class="about__bg-img about__bg-img-3 p-absolute"
-    data-background="assets/img/about/about-3.jpg"
+    data-background="{{.Params.imageCard.image}}"
   >
     <div class="about__info-experience-3 p-absolute">
-      <h2>20</h2>
-      <p>Years of Professional Experience</p>
+      <h2>{{.Params.imageCard.title}}</h2>
+      <p>{{.Params.imageCard.description}}</p>
     </div>
   </div>
   <div class="container">
@@ -178,20 +178,16 @@
             <div class="section__icon mb-10">
               <span
                 class="section__sub-title section__sub-title-2 section__sub-title-3"
-                >welcome to sycho</span
+                >{{.Params.welcomeSpan.span}}</span
               >
             </div>
             <h1 class="mb-100">
-              Patient are Happy for Proper Mental Cure Support
+              {{.Params.welcomeHead.title}}
             </h1>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit sed dole
-            there eiusm tempor dolore magna aliqua denim ads minim veniam, quis
-            nostrud exercen tatio to ullamco laibor nisi above murli aliquip
-            commodo usto imperdet quam praesent uten dictum at diamn toware sit
-            nisi integer potenti vitae egestas parturient
+           {{.Params.welcomeHead.description}}
           </p>
 
           <div class="about__info-3">
@@ -200,11 +196,9 @@
                 <span class="icon flaticon-psychologist"></span>
               </div>
               <div class="about__info-text">
-                <h3>Dedicated Support Manager</h3>
+                <h3>{{.Params.welcomeHead1.title}}</h3>
                 <p>
-                  Inceptos cras gravida augue massa sociosqu ultrices sit nase
-                  cetur taciti nonummy conubia vel eget massa inceptos faucib
-                  interdum a sapien lacus.
+                  {{.Params.welcomeHead1.description}}
                 </p>
               </div>
             </div>
@@ -213,11 +207,9 @@
                 <span class="icon flaticon-happy about__info-icon-pink"></span>
               </div>
               <div class="about__info-text">
-                <h3>Dedicated Support Manager</h3>
+                <h3>{{.Params.welcomeHead2.title}}</h3>
                 <p>
-                  Inceptos cras gravida augue massa sociosqu ultrices sit nase
-                  cetur taciti nonummy conubia vel eget massa inceptos faucib
-                  interdum a sapien lacus.
+                  {{.Params.welcomeHead2.description}}
                 </p>
               </div>
             </div>
@@ -254,13 +246,12 @@
             <span class="icon flaticon-date"></span>
           </div>
           <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">Couple Counseling</a></h3>
+            <h3><a href="services-details.html">{{.Params.servicesCard1.title}}</a></h3>
             <p>
-              Nostrud exerctation to ullamco laibor nisiod in above murli
-              aliquip commodo
+             {{.Params.servicesCard1.description}}
             </p>
 
-            <a href="services-details.html" class="link-btn">Read details</a>
+            <a href="services-details.html" class="link-btn">{{.Params.servicesCard1.button}}</a>
           </div>
         </div>
       </div>
@@ -272,13 +263,12 @@
             <span class="icon flaticon-relationship"></span>
           </div>
           <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">Personal Meeting</a></h3>
+            <h3><a href="services-details.html">{{.Params.servicesCard2.title}}</a></h3>
             <p>
-              Nostrud exerctation to ullamco laibor nisiod in above murli
-              aliquip commodo
+              {{.Params.servicesCard2.description}}
             </p>
 
-            <a href="services-details.html" class="link-btn">Read details</a>
+            <a href="services-details.html" class="link-btn">{{.Params.servicesCard2.button}}</a>
           </div>
         </div>
       </div>
@@ -290,13 +280,12 @@
             <span class="icon flaticon-psychosis"></span>
           </div>
           <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">Anxiety Disorder</a></h3>
+            <h3><a href="services-details.html">{{.Params.servicesCard3.title}}</a></h3>
             <p>
-              Nostrud exerctation to ullamco laibor nisiod in above murli
-              aliquip commodo
+              {{.Params.servicesCard3.description}}
             </p>
 
-            <a href="services-details.html" class="link-btn">Read details</a>
+            <a href="services-details.html" class="link-btn">{{.Params.servicesCard3.button}}</a>
           </div>
         </div>
       </div>
@@ -308,13 +297,12 @@
             <span class="icon flaticon-family"></span>
           </div>
           <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">Family Counseling</a></h3>
+            <h3><a href="services-details.html">{{.Params.servicesCard4.title}}</a></h3>
             <p>
-              Nostrud exerctation to ullamco laibor nisiod in above murli
-              aliquip commodo
+              {{.Params.servicesCard4.description}}
             </p>
 
-            <a href="services-details.html" class="link-btn">Read details</a>
+            <a href="services-details.html" class="link-btn">{{.Params.servicesCard4.button}}</a>
           </div>
         </div>
       </div>
@@ -326,13 +314,12 @@
             <span class="icon flaticon-sweat"></span>
           </div>
           <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">Depression Problem</a></h3>
+            <h3><a href="services-details.html">{{.Params.servicesCard5.title}}</a></h3>
             <p>
-              Nostrud exerctation to ullamco laibor nisiod in above murli
-              aliquip commodo
+              {{.Params.servicesCard5.description}}
             </p>
 
-            <a href="services-details.html" class="link-btn">Read details</a>
+            <a href="services-details.html" class="link-btn">{{.Params.servicesCard5.button}}</a>
           </div>
         </div>
       </div>
@@ -344,13 +331,12 @@
             <span class="icon flaticon-heart"></span>
           </div>
           <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">Dating & Relation</a></h3>
+            <h3><a href="services-details.html">{{.Params.servicesCard6.title}}</a></h3>
             <p>
-              Nostrud exerctation to ullamco laibor nisiod in above murli
-              aliquip commodo
+              {{.Params.servicesCard6.description}}
             </p>
 
-            <a href="services-details.html" class="link-btn">Read details</a>
+            <a href="services-details.html" class="link-btn">{{.Params.servicesCard6.button}}</a>
           </div>
         </div>
       </div>
@@ -368,11 +354,11 @@
           <div class="section__icon mb-10">
             <span
               class="section__sub-title section__sub-title-2 section__sub-title-3"
-              >Latest Projects</span
+              >{{.Params.projectArea.span}}</span
             >
           </div>
           <h1 class="mb-100">
-            Focusing Your Mind, With The Best Therapeutic Care
+            {{.Params.projectArea.title}}
           </h1>
         </div>
       </div>
@@ -385,13 +371,13 @@
           <div class="project__thumb w-img p-relative">
             <img src="assets/img/project/project-1.jpg" alt="project-1" />
             <div class="project__icon transition-3 p-absolute">
-              <a href="assets/img/project/project-1.jpg" data-fancybox="images"
+              <a href="{{.Params.projectArea1.image}}" data-fancybox="images"
                 ><i class="fal fa-plus"></i
               ></a>
             </div>
             <div class="project__content p-absolute transition-3">
-              <span><i class="far fa-hashtag"></i> Career Frustation</span>
-              <h3><a href="case-details.html">Personal Meeting</a></h3>
+              <span><i class="far fa-hashtag"></i> {{.Params.projectArea1.span}}</span>
+              <h3><a href="case-details.html">{{.Params.projectArea.title}}</a></h3>
             </div>
           </div>
         </div>
@@ -399,13 +385,13 @@
           <div class="project__thumb w-img p-relative">
             <img src="assets/img/project/project-2.jpg" alt="project-1" />
             <div class="project__icon transition-3 p-absolute">
-              <a href="assets/img/project/project-2.jpg" data-fancybox="images"
+              <a href="{{.Params.projectArea2.image}}" data-fancybox="images"
                 ><i class="fal fa-plus"></i
               ></a>
             </div>
             <div class="project__content p-absolute transition-3">
-              <span><i class="far fa-hashtag"></i> Career Frustation</span>
-              <h3><a href="case-details.html">Consultation</a></h3>
+              <span><i class="far fa-hashtag"></i> {{.Params.projectArea2.span}}</span>
+              <h3><a href="case-details.html">{{.Params.projectArea2.title}}</a></h3>
             </div>
           </div>
         </div>
@@ -413,13 +399,13 @@
           <div class="project__thumb w-img p-relative">
             <img src="assets/img/project/project-3.jpg" alt="project-1" />
             <div class="project__icon transition-3 p-absolute">
-              <a href="assets/img/project/project-3.jpg" data-fancybox="images"
+              <a href="{{.Params.projectArea3.image}}" data-fancybox="images"
                 ><i class="fal fa-plus"></i
               ></a>
             </div>
             <div class="project__content p-absolute transition-3">
-              <span><i class="far fa-hashtag"></i> Career Frustation</span>
-              <h3><a href="case-details.html">Couple Problem</a></h3>
+              <span><i class="far fa-hashtag"></i>{{.Params.projectArea3.span}}</span>
+              <h3><a href="case-details.html">{{.Params.projectArea3.title}}</a></h3>
             </div>
           </div>
         </div>
@@ -427,13 +413,13 @@
           <div class="project__thumb w-img p-relative">
             <img src="assets/img/project/project-4.jpg" alt="project-1" />
             <div class="project__icon transition-3 p-absolute">
-              <a href="assets/img/project/project-4.jpg" data-fancybox="images">
+              <a href="{{.Params.projectArea4.image}}" data-fancybox="images">
                 <i class="fal fa-plus"></i
               ></a>
             </div>
             <div class="project__content p-absolute transition-3">
-              <span><i class="far fa-hashtag"></i> Career Frustation</span>
-              <h3><a href="case-details.html">Depression</a></h3>
+              <span><i class="far fa-hashtag"></i>{{.Params.projectArea4.span}}</span>
+              <h3><a href="case-details.html">{{.Params.projectArea4.title}}</a></h3>
             </div>
           </div>
         </div>
@@ -441,13 +427,13 @@
           <div class="project__thumb w-img p-relative">
             <img src="assets/img/project/project-2.jpg" alt="project-1" />
             <div class="project__icon transition-3 p-absolute">
-              <a href="assets/img/project/project-2.jpg" data-fancybox="images"
+              <a href="{{.Params.projectArea5.image}}" data-fancybox="images"
                 ><i class="fal fa-plus"></i
               ></a>
             </div>
             <div class="project__content p-absolute transition-3">
-              <span><i class="far fa-hashtag"></i> Career Frustation</span>
-              <h3><a href="case-details.html">Mental Problem</a></h3>
+              <span><i class="far fa-hashtag"></i>{{.Params.projectArea5.span}}</span>
+              <h3><a href="case-details.html">{{.Params.projectArea5.title  }}</a></h3>
             </div>
           </div>
         </div>
@@ -463,12 +449,12 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2">
         <div class="section__title mb-70 text-center">
-          <h1>Focusing Your Mind, With The Best Therapeutic Care</h1>
+          <h1>{{.Params.teamArea.title}}/h1>
           <div class="section__icon mb-10">
             <span
               class="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4"
             >
-              Expert member</span
+             {{.Params.teamArea.span}}</span
             >
           </div>
         </div>
@@ -480,35 +466,35 @@
           <div class="team__thumb w-img fix p-relative">
             <img
               class="transition-3"
-              src="assets/img/team/03/team-01.jpg"
+              src="{{.Params.teamMember1.image}}"
               alt="team-1"
             />
           </div>
           <div class="team__content text-center white-bg transition-3">
             <div class="team__name">
-              <h3><a href="team-details.html">Donnie Anderson</a></h3>
-              <span>Sr. Psychologist</span>
+              <h3><a href="team-details.html">{{.Params.teamMember1.name}}</a></h3>
+              <span>{{.Params.teamMember1.span}}</span>
             </div>
             <div class="team__info">
               <p>
                 <a
                   href="https://wphix.com/cdn-cgi/l/email-protection"
                   class="__cf_email__"
-                  >{{.Site.Params.email}}</a
+                  >{{.Params.teamMember1.email}}</a
                 >
               </p>
               <div class="team__social-2 social transition-3 mt-20">
                 <ul>
                   <li>
-                    <a href="index-3.html#"
+                    <a href="{{.Params.teamMember1.facebook}}"
                       ><i class="fab fa-facebook-f"></i
                     ></a>
                   </li>
                   <li>
-                    <a href="index-3.html#"><i class="fab fa-twitter"></i></a>
+                    <a href="{{.Params.teamMember1.twitter}}"><i class="fab fa-twitter"></i></a>
                   </li>
                   <li>
-                    <a href="index-3.html#"
+                    <a href="{{.Params.teamMember1.pinterest}}"
                       ><i class="fab fa-pinterest-p"></i
                     ></a>
                   </li>
@@ -523,33 +509,33 @@
           <div class="team__thumb w-img fix p-relative">
             <img
               class="transition-3"
-              src="assets/img/team/03/team-02.jpg"
+              src="{{.Params.teamMember2.image}}"
               alt="team-1"
             />
           </div>
           <div class="team__content text-center white-bg transition-3">
             <div class="team__name">
-              <h3><a href="/">Tashanu Canalse</a></h3>
-              <span>Therapy Expert</span>
+              <h3><a href="/">{{.Params.teamMember2.name}}</a></h3>
+              <span>{{.Params.teamMember2.span}}</span>
             </div>
             <div class="team__info">
               <p>
                 <a
                   href="https://wphix.com/cdn-cgi/l/email-protection"
                   class="__cf_email__"
-                  >{{.Site.Params.email}}</a
+                  >{{.Params.teamMember2.email}}</a
                 >
               </p>
               <div class="team__social-2 social transition-3 mt-20">
                 <ul>
                   <li>
-                    <a href="/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="{{.Params.teamMember2.facebook}}"><i class="fab fa-facebook-f"></i></a>
                   </li>
                   <li>
-                    <a href="/"><i class="fab fa-twitter"></i></a>
+                    <a href="{{.Params.teamMember2.twitter}}"><i class="fab fa-twitter"></i></a>
                   </li>
                   <li>
-                    <a href="/"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="{{.Params.teamMember2.pinterest}}"><i class="fab fa-pinterest-p"></i></a>
                   </li>
                 </ul>
               </div>
@@ -562,35 +548,35 @@
           <div class="team__thumb w-img fix p-relative">
             <img
               class="transition-3"
-              src="assets/img/team/03/team-03.jpg"
+              src="{{.Params.teamMember3.image}}"
               alt="team-1"
             />
           </div>
           <div class="team__content text-center white-bg transition-3">
             <div class="team__name">
-              <h3><a href="team-details.html">Richard Sikora</a></h3>
-              <span>CEO & Founder</span>
+              <h3><a href="team-details.html">{{.Params.teamMember3.name}}</a></h3>
+              <span>{{.Params.teamMember3.span}}</span>
             </div>
             <div class="team__info">
               <p>
                 <a
                   href="https://wphix.com/cdn-cgi/l/email-protection"
                   class="__cf_email__"
-                  >{{.Site.Params.email}}</a
+                  >{{.Params.teamMember3.email}}</a
                 >
               </p>
               <div class="team__social-2 social transition-3 mt-20">
                 <ul>
                   <li>
-                    <a href="index-3.html#"
+                    <a href="{{.Params.teamMember3.facebook}}"
                       ><i class="fab fa-facebook-f"></i
                     ></a>
                   </li>
                   <li>
-                    <a href="index-3.html#"><i class="fab fa-twitter"></i></a>
+                    <a href="{{.Params.teamMember3.twitter}}"><i class="fab fa-twitter"></i></a>
                   </li>
                   <li>
-                    <a href="index-3.html#"
+                    <a href="{{.Params.teamMember3.pinterest}}"
                       ><i class="fab fa-pinterest-p"></i
                     ></a>
                   </li>
@@ -618,8 +604,8 @@
             <span class="icon flaticon-support"></span>
           </div>
           <div class="counter__content">
-            <h3 class="counter">2950</h3>
-            <span>Psychologist</span>
+            <h3 class="counter">{{.Params.counterArea1.numbers}}</h3>
+            <span>{{.Params.counterArea1.span}}</span>
           </div>
         </div>
       </div>
@@ -629,8 +615,8 @@
             <span class="icon flaticon-house"></span>
           </div>
           <div class="counter__content">
-            <h3 class="counter">1520</h3>
-            <span> All Branches</span>
+            <h3 class="counter">{{.Params.counterArea2.numbers}}</h3>
+            <span>{{.Params.counterArea2.span}}</span>
           </div>
         </div>
       </div>
@@ -642,8 +628,8 @@
             <span class="icon flaticon-recovered"></span>
           </div>
           <div class="counter__content">
-            <h3 class="counter">3250</h3>
-            <span>Total Patient</span>
+            <h3 class="counter">{{.Params.counterArea3.numbers}}</h3>
+            <span>{{.Params.counterArea3.span}}</span>
           </div>
         </div>
       </div>
@@ -655,8 +641,8 @@
             <span class="icon flaticon-medal"></span>
           </div>
           <div class="counter__content">
-            <h3 class="counter">2150</h3>
-            <span>Achievement</span>
+            <h3 class="counter">{{.Params.counterArea4.numbers}}</h3>
+            <span>{{.Params.counterArea4.span}}</span>
           </div>
         </div>
       </div>
@@ -675,25 +661,25 @@
             <div class="section__icon mb-10">
               <span
                 class="section__sub-title section__sub-title-2 section__sub-title-3"
-                >Why choose us</span
+                >{{.Params.whyChooseArea.span}}</span
               >
             </div>
-            <h1>Best Method Apply our Patients</h1>
+            <h1>{{.Params.whyChooseArea.title}}</h1>
           </div>
           <div class="why__list">
             <ul>
-              <li><h3>Psychodynamic Therapy</h3></li>
-              <li><h3>Personal Development</h3></li>
-              <li><h3>Motivational Speech</h3></li>
-              <li><h3>Mindtherafy Professional</h3></li>
-              <li><h3>Assesment Consultation</h3></li>
+              <li><h3>{{.Params.whyChooseArea.list1}}</h3></li>
+              <li><h3>{{.Params.whyChooseArea.list2}}</h3></li>
+              <li><h3>{{.Params.whyChooseArea.list3}}</h3></li>
+              <li><h3>{{.Params.whyChooseArea.list4}}</h3></li>
+              <li><h3>{{.Params.whyChooseArea.list5}}</h3></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="col-xl-7 col-lg-6">
         <div class="why__img w-img">
-          <img src="assets/img/why/why-img-03.jpg" alt="" />
+          <img src="{{.Params.whyChooseArea.image}}" alt="" />
         </div>
       </div>
     </div>
@@ -706,16 +692,16 @@
   <div class="testimonial__inner p-relative">
     <div
       class="testimonial__img border-radius-8 p-absolute fix"
-      data-background="assets/img/testimonial/testimonial-img.jpg"
+      data-background="{{.Params.imageTestimonialArea.image}}"
     >
       <div class="testimonial__video p-absolute fix">
         <div class="testimonial__shape p-absolute">
-          <img src="assets/img/testimonial/shape-1.png" alt="" />
+          <!-- <img src="assets/img/testimonial/shape-1.png" alt="" /> -->
         </div>
         <div class="testimonial__shape testimonial__shape-2 p-absolute">
           <img src="assets/img/testimonial/shape-2.png" alt="" />
         </div>
-        <h3>See Our Success Story</h3>
+        <h3>{{.Params.imageTestimonialArea.imageHeadline}}</h3>
         <a
           href="https://youtu.be/yJg-Y5byMMw"
           data-fancybox=""
@@ -735,75 +721,57 @@
               <div class="section__icon mb-10">
                 <span
                   class="section__sub-title section__sub-title-2 section__sub-title-3"
-                  >patients feedbak</span
+                  >{{.Params.testimonialFeedback.span}}</span
                 >
               </div>
-              <h1>Happy Patient Feedback About our Service</h1>
+              <h1>{{.Params.testimonialFeedback.title}}</h1>
             </div>
             <div class="testimonial__slider-3 owl-carousel">
               <div class="testimonial__item-3">
                 <p>
-                  Malesuada imperdiet commodo nostra taciti neque arcu in sem a
-                  vivamus tempor ac sem convallis ullamcorper ac enim Massa
-                  massa porta interdum to nullam nis augue donec leo ut
-                  fermentum senectus eget. Metus lacinia turpis. Potenti in
-                  aliquet ipsum primis a pede volutpat. Feugiat hymenaeos
-                  facilisis erat morbi libero to sociosqu inte dum justo
-                  sagittis feugiat facilisis morb.
+                 {{.Params.patientFeedback1.description}}
                 </p>
                 <div
                   class="testimonial__person testimonial__person-3 d-flex align-items-center"
                 >
                   <div class="testimonial__avater">
-                    <img src="assets/img/testimonial/person-1.png" alt="" />
+                    <img src="{{.Params.patientFeedback1.image}}" alt="" />
                   </div>
                   <div class="testimonial__info testimonial__info-3">
-                    <h3>Eleonora Morgan</h3>
-                    <span>CEO & Founder</span>
+                    <h3>{{.Params.patientFeedback1.customerName}}</h3>
+                    <span>{{.Params.patientFeedback1.locationName}}</span>
                   </div>
                 </div>
               </div>
               <div class="testimonial__item-3">
                 <p>
-                  Malesuada imperdiet commodo nostra taciti neque arcu in sem a
-                  vivamus tempor ac sem convallis ullamcorper ac enim Massa
-                  massa porta interdum to nullam nis augue donec leo ut
-                  fermentum senectus eget. Metus lacinia turpis. Potenti in
-                  aliquet ipsum primis a pede volutpat. Feugiat hymenaeos
-                  facilisis erat morbi libero to sociosqu inte dum justo
-                  sagittis feugiat facilisis morb.
+                  {{.Params.patientFeedback2.description}}
                 </p>
                 <div
                   class="testimonial__person testimonial__person-3 d-flex align-items-center"
                 >
                   <div class="testimonial__avater">
-                    <img src="assets/img/testimonial/person-2.png" alt="" />
+                    <img src="{{.Params.patientFeedback2.image}}" alt="" />
                   </div>
                   <div class="testimonial__info testimonial__info-3">
-                    <h3>Jeso Smith</h3>
-                    <span>CEO & Founder</span>
+                    <h3>{{.Params.patientFeedback2.customerName}}</h3>
+                    <span>{{.Params.patientFeedback2.locationName}}</span>
                   </div>
                 </div>
               </div>
               <div class="testimonial__item-3">
                 <p>
-                  Malesuada imperdiet commodo nostra taciti neque arcu in sem a
-                  vivamus tempor ac sem convallis ullamcorper ac enim Massa
-                  massa porta interdum to nullam nis augue donec leo ut
-                  fermentum senectus eget. Metus lacinia turpis. Potenti in
-                  aliquet ipsum primis a pede volutpat. Feugiat hymenaeos
-                  facilisis erat morbi libero to sociosqu inte dum justo
-                  sagittis feugiat facilisis morb.
+                  {{.Params.patientFeedback3.description}}
                 </p>
                 <div
                   class="testimonial__person testimonial__person-3 d-flex align-items-center"
                 >
                   <div class="testimonial__avater">
-                    <img src="assets/img/testimonial/person-3.png" alt="" />
+                    <img src="{{.Params.patientFeedback3.image}}" alt="" />
                   </div>
                   <div class="testimonial__info testimonial__info-3">
-                    <h3>Salim rana</h3>
-                    <span>CEO & Founder</span>
+                    <h3>{{.Params.patientFeedback3.customerName}}</h3>
+                    <span>{{.Params.patientFeedback3.locationName}}</span>
                   </div>
                 </div>
               </div>
@@ -831,10 +799,10 @@
             <div class="section__icon mb-10">
               <span
                 class="section__sub-title section__sub-title-2 section__sub-title-3"
-                >any problem</span
+                >{{.Params.contactArea.span}}</span
               >
             </div>
-            <h1 class="white-color">Don’t Hesitate, Conatct us</h1>
+            <h1 class="white-color">{{.Params.contactArea.headline}}</h1>
           </div>
           <div class="contact__form">
             <form
