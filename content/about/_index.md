@@ -9,21 +9,21 @@ aboutArea :
     designation: CEO, Sycho
 
 servicesHistory:
-    service1-year: 2012
-    service1-title: Started Journey
-    service1-explain: Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.
+    service1Year: 2012
+    service1Title: Started Journey
+    service1Explain: Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.
 
-    service2-year: 2012
-    service2-title: Open Branch
-    service2-explain: Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.
+    service2Year: 2012
+    service2Title: Open Branch
+    service2Explain: Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.
 
-    service3-year: 2012
-    service3-title: Success Story
-    service3-explain: Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor. 
+    service3Year: 2012
+    service3Title: Success Story
+    service3Explain: Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor. 
     
-    service4-year: 2012
-    service4-title: Award Winning
-    service4-explain: Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.
+    service4Year: 2012
+    service4Title: Award Winning
+    service4Explain: Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.
 
 
 ---
