@@ -3,14 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-07-15T03:13:06+05:30</lastmod>
+    <lastmod>2024-07-24T16:28:01+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/services/</loc>
-    <lastmod>2024-07-15T03:13:06+05:30</lastmod>
+    <loc>http://localhost:1313/bio/</loc>
+    <lastmod>2024-07-24T16:28:01+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/services/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>

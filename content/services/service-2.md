@@ -1,6 +1,6 @@
 +++
 title = "service2"
-list_description = "loremipsum di loremipsum diloremipsum diloremipsum di loremipsum di"
+list_description = "BCBA"
 service_image = "/assets/img/services/details/services-details-img.jpg"
 +++
 
