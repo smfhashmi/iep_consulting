@@ -1,0 +1,6 @@
+{{ $servicesPages := where .Site.Pages "Section" "services" }}
+{{ range $servicesPages }}
+  {{ if ne .File.Path "content/services/_index.md" }}
+    {{ .Render "services" }}
+  {{ end }}
+{{ end }}
