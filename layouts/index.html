@@ -222,127 +222,29 @@
 <!-- about area start -->
 
 <!-- services area start -->
-<section class="services__area-2 pt-110 pb-90 grey-bg-3">
+<section class="services__area-2 pt-110 pb-90">
   <div class="container">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="section__title mb-70 text-center">
-          <h1>Professional Psychology Therapy Service You Can Choose</h1>
-          <div class="section__icon mb-10">
-            <span
-              class="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4"
-              >affordable Services</span
-            >
+      <div class="row">
+          <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+              <div class="section__title mb-70 text-center">
+                  <h1>Professional Psychology Therapy Service You Can Choose</h1>
+                  <div class="section__icon mb-10">
+                      <span class="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4">affordable Services</span>
+                  </div>
+              </div>
           </div>
+      </div>
+      <div class="row">
+        {{ partial "services" . }}
+        <div class="row">
+          {{ range .Pages }}
+          {{ .Render "services"  }}
+          {{ end }}
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xl-6 col-lg-6">
-        <div
-          class="services__item-2 services__item-3 d-sm-flex align-items-center transition-3 mb-30 white-bg"
-        >
-          <div class="services__icon services__icon-3 mr-30">
-            <span class="icon flaticon-date"></span>
-          </div>
-          <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">{{.Params.servicesCard1.title}}</a></h3>
-            <p>
-             {{.Params.servicesCard1.description}}
-            </p>
-
-            <a href="services-details.html" class="link-btn">{{.Params.servicesCard1.button}}</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6">
-        <div
-          class="services__item-2 services__item-3 d-sm-flex align-items-center transition-3 mb-30 white-bg"
-        >
-          <div class="services__icon services__icon-3 mr-30">
-            <span class="icon flaticon-relationship"></span>
-          </div>
-          <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">{{.Params.servicesCard2.title}}</a></h3>
-            <p>
-              {{.Params.servicesCard2.description}}
-            </p>
-
-            <a href="services-details.html" class="link-btn">{{.Params.servicesCard2.button}}</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6">
-        <div
-          class="services__item-2 services__item-3 d-sm-flex align-items-center transition-3 mb-30 white-bg"
-        >
-          <div class="services__icon services__icon-3 mr-30">
-            <span class="icon flaticon-psychosis"></span>
-          </div>
-          <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">{{.Params.servicesCard3.title}}</a></h3>
-            <p>
-              {{.Params.servicesCard3.description}}
-            </p>
-
-            <a href="services-details.html" class="link-btn">{{.Params.servicesCard3.button}}</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6">
-        <div
-          class="services__item-2 services__item-3 d-sm-flex align-items-center transition-3 mb-30 white-bg"
-        >
-          <div class="services__icon services__icon-3 mr-30">
-            <span class="icon flaticon-family"></span>
-          </div>
-          <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">{{.Params.servicesCard4.title}}</a></h3>
-            <p>
-              {{.Params.servicesCard4.description}}
-            </p>
-
-            <a href="services-details.html" class="link-btn">{{.Params.servicesCard4.button}}</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6">
-        <div
-          class="services__item-2 services__item-3 d-sm-flex align-items-center transition-3 mb-30 white-bg"
-        >
-          <div class="services__icon services__icon-3 mr-30">
-            <span class="icon flaticon-sweat"></span>
-          </div>
-          <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">{{.Params.servicesCard5.title}}</a></h3>
-            <p>
-              {{.Params.servicesCard5.description}}
-            </p>
-
-            <a href="services-details.html" class="link-btn">{{.Params.servicesCard5.button}}</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6">
-        <div
-          class="services__item-2 services__item-3 d-sm-flex align-items-center transition-3 mb-30 white-bg"
-        >
-          <div class="services__icon services__icon-3 mr-30">
-            <span class="icon flaticon-heart"></span>
-          </div>
-          <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">{{.Params.servicesCard6.title}}</a></h3>
-            <p>
-              {{.Params.servicesCard6.description}}
-            </p>
-
-            <a href="services-details.html" class="link-btn">{{.Params.servicesCard6.button}}</a>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
+
 <!-- services area end -->
 
 <!-- team area start -->
@@ -411,21 +313,21 @@
           <div class="team__thumb w-img fix p-relative">
             <img
               class="transition-3"
-              src="{{.Params.teamMember3.image}}"
+              src="{{.Params.teamMember2.image}}"
               alt="team-1"
             />
           </div>
           <div class="team__content text-center white-bg transition-3">
             <div class="team__name">
-              <h3><a href="team-details.html">{{.Params.teamMember3.name}}</a></h3>
-              <span>{{.Params.teamMember3.span}}</span>
+              <h3><a href="team-details.html">{{.Params.teamMember2.name}}</a></h3>
+              <span>{{.Params.teamMember2.span}}</span>
             </div>
             <div class="team__info">
               <p>
                 <a
                   href="https://wphix.com/cdn-cgi/l/email-protection"
                   class="__cf_email__"
-                  >{{.Params.teamMember3.email}}</a
+                  >{{.Params.teamMember2.email}}</a
                 >
               </p>
               <div class="team__social-2 social transition-3 mt-20">
@@ -451,63 +353,7 @@
 <!-- team area end -->
 
 <!-- counter area start -->
-<section
-  class="counter__area counter__overlay pt-110 pb-60 p-relative"
-  data-background="assets/img/counter/counter-bg.jpg"
->
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-        <div class="counter__item p-relative text-center mb-30">
-          <div class="counter__icon mb-25">
-            <span class="icon flaticon-support"></span>
-          </div>
-          <div class="counter__content">
-            <h3 class="counter">{{.Params.counterArea1.numbers}}</h3>
-            <span>{{.Params.counterArea1.span}}</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-        <div class="counter__item p-relative text-center mb-30">
-          <div class="counter__icon mb-25">
-            <span class="icon flaticon-house"></span>
-          </div>
-          <div class="counter__content">
-            <h3 class="counter">{{.Params.counterArea2.numbers}}</h3>
-            <span>{{.Params.counterArea2.span}}</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-        <div
-          class="counter__item counter__item-3rd p-relative text-center mb-30"
-        >
-          <div class="counter__icon mb-25">
-            <span class="icon flaticon-recovered"></span>
-          </div>
-          <div class="counter__content">
-            <h3 class="counter">{{.Params.counterArea3.numbers}}</h3>
-            <span>{{.Params.counterArea3.span}}</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-        <div
-          class="counter__item counter__item-4th last-child-after p-relative text-center mb-30"
-        >
-          <div class="counter__icon mb-25">
-            <span class="icon flaticon-medal"></span>
-          </div>
-          <div class="counter__content">
-            <h3 class="counter">{{.Params.counterArea4.numbers}}</h3>
-            <span>{{.Params.counterArea4.span}}</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{{partial "counter" .}}
 <!-- counter area end -->
 
 <!-- why area start -->
@@ -547,100 +393,7 @@
 <!-- why area end -->
 
 <!-- testimonial area start -->
-<section class="testimonial__area pt-120 pb-120 grey-bg-3 box-105">
-  <div class="testimonial__inner p-relative">
-    <div
-      class="testimonial__img border-radius-8 p-absolute fix"
-      data-background="{{.Params.imageTestimonialArea.image}}"
-    >
-      <div class="testimonial__video p-absolute fix">
-        <div class="testimonial__shape p-absolute">
-          <!-- <img src="assets/img/testimonial/shape-1.png" alt="" /> -->
-        </div>
-        <div class="testimonial__shape testimonial__shape-2 p-absolute">
-          <img src="assets/img/testimonial/shape-2.png" alt="" />
-        </div>
-        <h3>{{.Params.imageTestimonialArea.imageHeadline}}</h3>
-        <a
-          href="https://youtu.be/yJg-Y5byMMw"
-          data-fancybox=""
-          class="play-btn play-btn-sm play-btn-pink play-btn-pink-white"
-          ><i class="fa fa-play"></i
-        ></a>
-      </div>
-    </div>
-    <!-- <div class="testimonial__bg-pattern p-absolute" data-background="assets/img/bg/pattern-4.jpg"></div> -->
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-7 offset-xl-5 col-lg-7 offset-lg-5">
-          <div
-            class="testimonial__wrapper testimonial__wrapper-3 pl-30 pt-50 pb-35"
-          >
-            <div class="section__title mb-20">
-              <div class="section__icon mb-10">
-                <span
-                  class="section__sub-title section__sub-title-2 section__sub-title-3"
-                  >{{.Params.testimonialFeedback.span}}</span
-                >
-              </div>
-              <h1>{{.Params.testimonialFeedback.title}}</h1>
-            </div>
-            <div class="testimonial__slider-3 owl-carousel">
-              <div class="testimonial__item-3">
-                <p>
-                 {{.Params.patientFeedback1.description}}
-                </p>
-                <div
-                  class="testimonial__person testimonial__person-3 d-flex align-items-center"
-                >
-                  <div class="testimonial__avater">
-                    <img src="{{.Params.patientFeedback1.image}}" alt="" />
-                  </div>
-                  <div class="testimonial__info testimonial__info-3">
-                    <h3>{{.Params.patientFeedback1.customerName}}</h3>
-                    <span>{{.Params.patientFeedback1.locationName}}</span>
-                  </div>
-                </div>
-              </div>
-              <div class="testimonial__item-3">
-                <p>
-                  {{.Params.patientFeedback2.description}}
-                </p>
-                <div
-                  class="testimonial__person testimonial__person-3 d-flex align-items-center"
-                >
-                  <div class="testimonial__avater">
-                    <img src="{{.Params.patientFeedback2.image}}" alt="" />
-                  </div>
-                  <div class="testimonial__info testimonial__info-3">
-                    <h3>{{.Params.patientFeedback2.customerName}}</h3>
-                    <span>{{.Params.patientFeedback2.locationName}}</span>
-                  </div>
-                </div>
-              </div>
-              <div class="testimonial__item-3">
-                <p>
-                  {{.Params.patientFeedback3.description}}
-                </p>
-                <div
-                  class="testimonial__person testimonial__person-3 d-flex align-items-center"
-                >
-                  <div class="testimonial__avater">
-                    <img src="{{.Params.patientFeedback3.image}}" alt="" />
-                  </div>
-                  <div class="testimonial__info testimonial__info-3">
-                    <h3>{{.Params.patientFeedback3.customerName}}</h3>
-                    <span>{{.Params.patientFeedback3.locationName}}</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{{partial "testimonial" .}}
 <!-- testimonial area end -->
 
 <!-- contact area start -->
@@ -658,10 +411,11 @@
             <div class="section__icon mb-10">
               <span
                 class="section__sub-title section__sub-title-2 section__sub-title-3"
-                >{{.Params.contactArea.span}}</span
+                >any problem</span
               >
             </div>
-            <h1 class="white-color">{{.Params.contactArea.headline}}</h1>
+            <h1 class="white-color">Don’t Hesitate to share your problem, Contact us
+</h1>
           </div>
           <div class="contact__form">
             <form

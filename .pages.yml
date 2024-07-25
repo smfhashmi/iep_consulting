@@ -89,111 +89,6 @@ content:
             - { label: "Title", name: "title", type: "string" }
             - { label: "Text", name: "description", type: "string" } 
 
-      - label: "Services Head"
-          name: "servicesHead"
-          type: "object"
-          fields:
-            - { label: "Title", name: "title", type: "string" }
-            - { label: "Text", name: "description", type: "string" } 
-            
-
-      - label: "services Card 1"
-          name: "servicesCard1"
-          type: "object"
-          fields:
-            - { label: "Title", name: "title", type: "string" }
-            - { label: "Text", name: "description", type: "string" } 
-            - { label: "button", name: "button", type: "button" } 
-      - label: "services Card 2"
-          name: "servicesCard2"
-          type: "object"
-          fields:
-            - { label: "Title", name: "title", type: "string" }
-            - { label: "Text", name: "description", type: "string" } 
-            - { label: "button", name: "button", type: "button" } 
-      - label: "Services Card 3"
-          name: "servicesCard3"
-          type: "object"
-          fields:
-            - { label: "Title", name: "title", type: "string" }
-            - { label: "Text", name: "description", type: "string" } 
-            - { label: "button", name: "button", type: "button" } 
-      - label: "Services Card 4"
-          name: "servicesCard4"
-          type: "object"
-          fields:
-            - { label: "Title", name: "title", type: "string" }
-            - { label: "Text", name: "description", type: "string" } 
-            - { label: "button", name: "button", type: "button" } 
-      - label: "Services Card 5"
-          name: "servicesCard5"
-          type: "object"
-          fields:
-            - { label: "Title", name: "title", type: "string" }
-            - { label: "Text", name: "description", type: "string" } 
-            - { label: "button", name: "button", type: "button" } 
-      - label: "Services Card 6"
-          name: "servicesCard6"
-          type: "object"
-          fields:
-            - { label: "Title", name: "title", type: "string" }
-            - { label: "Text", name: "description", type: "string" } 
-            - { label: "button", name: "button", type: "button" } 
- 
-
-      - label: "team Area"
-          name: "teamArea"
-          type: "object"
-          fields:
-            - { label: "Title", name: "title", type: "string" }
-            - { label: "span", name: "span", type: "string" }
-      - label: "team Member 1"
-          name: "teamMember1"
-          type: "object"
-          fields:
-            - { label: "Title", name: "title", type: "string" }
-            - { label: "span", name: "span", type: "string" }      
-            - { label: "image", name: "image", type: "string" } 
-            - { label: "Facebook", name: "facebook", type: "string" }
-            - { label: "Twitter", name: "twitter", type: "string" }      
-            - { label: "Pinterest", name: "pinterest", type: "string" } 
-      
-      - label: "team Member 3"
-          name: "teamMember3"
-          type: "object"
-          fields:
-            - { label: "Title", name: "title", type: "string" }
-            - { label: "span", name: "span", type: "string" }      
-            - { label: "image", name: "image", type: "string" } 
-            - { label: "Facebook", name: "facebook", type: "string" }
-            - { label: "Twitter", name: "twitter", type: "string" }      
-            - { label: "Pinterest", name: "pinterest", type: "string" } 
-
-      - label: "counter Area 1"
-          name: "counterArea1"
-          type: "object"
-          fields:
-            - { label: "Numbers", name: "numbers", type: "integer" }
-            - { label: "span", name: "span", type: "string" }  
-      - label: "counter Area 2"
-          name: "counterArea2"
-          type: "object"
-          fields:
-           - { label: "Numbers", name: "numbers", type: "integer" }
-            - { label: "span", name: "span", type: "string" }   
-      - label: "counter Area 3"
-          name: "counterArea3"
-          type: "object"
-          fields:
-            - { label: "Numbers", name: "numbers", type: "integer" }
-            - { label: "span", name: "span", type: "string" }  
-      - label: "counter Area 4"
-          name: "counterArea4"
-          type: "object"
-          fields:
-            - { label: "Numbers", name: "numbers", type: "integer" }
-            - { label: "span", name: "span", type: "string" }  
-
       - label: "why Choose Area"
           name: "whyChooseArea"
           type: "object"
@@ -207,53 +102,8 @@ content:
             - { label: "List 4", name: "list4", type: "string" }      
             - { label: "List 5", name: "list5", type: "string" } 
 
-        - label: "Image Testimonial Area"
-          name: "imageTestimonialArea"
-          type: "object"
-          fields:
-            - { label: "image", name: "image", type: "string" }
-            - { label: "headline", name: "headline", type: "string" }  
-
-        - label: "Testimonial Feedback"
-          name: "testimonialFeedback"
-          type: "object"
-          fields:
-            - { label: "span", name: "span", type: "string" }
-            - { label: "title", name: "title", type: "string" }  
-
-        - label: "patient Feedback 1"
-          name: "patientFeedback1"
-          type: "object"
-          fields:
-            - { label: "description", name: "description", type: "string" }
-            - { label: "image", name: "image", type: "string" } 
-            - { label: "customer Name", name: "customerName", type: "string" }
-            - { label: "location Name", name: "locationName", type: "string" } 
-        - label: "patient Feedback 2"
-          name: "patientFeedback2"
-          type: "object"
-          fields:
-            - { label: "description", name: "description", type: "string" }
-            - { label: "image", name: "image", type: "string" } 
-            - { label: "customer Name", name: "customerName", type: "string" }
-            - { label: "location Name", name: "locationName", type: "string" } 
-        - label: "patient Feedback 3"
-          name: "patientFeedback3"
-          type: "object"
-          fields:
-            - { label: "description", name: "description", type: "string" }
-            - { label: "image", name: "image", type: "string" } 
-            - { label: "customer Name", name: "customerName", type: "string" }
-            - { label: "location Name", name: "locationName", type: "string" } 
-
-        - label: "contact Area"
-          name: "contactArea"
-          type: "object"
-          fields:
-            - { label: "span", name: "span", type: "string" }
-            - { label: "headline", name: "headline", type: "string" } 
-
-
+        
+      
  name: About us
     label: About us
     path: content/about us
@@ -271,32 +121,6 @@ content:
           - { label: "name", name: "name", type: "string" }
           - { label: "designation", name: "designation", type: "string" }
 
-      
-      
-      - label: "counter Area 1"
-          name: "counterArea1"
-          type: "object"
-          fields:
-            - { label: "Numbers", name: "numbers", type: "integer" }
-            - { label: "span", name: "span", type: "string" }  
-      - label: "counter Area 2"
-          name: "counterArea2"
-          type: "object"
-          fields:
-           - { label: "Numbers", name: "numbers", type: "integer" }
-            - { label: "span", name: "span", type: "string" }   
-      - label: "counter Area 3"
-          name: "counterArea3"
-          type: "object"
-          fields:
-            - { label: "Numbers", name: "numbers", type: "integer" }
-            - { label: "span", name: "span", type: "string" }  
-      - label: "counter Area 4"
-          name: "counterArea4"
-          type: "object"
-          fields:
-            - { label: "Numbers", name: "numbers", type: "integer" }
-            - { label: "span", name: "span", type: "string" }      
 
       - label: "services History"
         name: "servicesHistory"
@@ -315,30 +139,6 @@ content:
           - { label: "title", name: "title", type: "string" }
           - { label: "service4-explain", name: "service4-explain", type: "string" }
 
-      - label: "FAQ Section"
-          name: "faqSection"
-          type: "object"
-          fields:
-            - { label: "ID", name: "id", type: "integer" }
-            - { label: "Question", name: "question", type: "string" }
-            - { label: "Answer", name: "answer", type: "string" }
-         values:
-            - id: 1
-              question: "What do you do differently from other people?"
-              answer: "Porttitor porta ultrices platea iaculis malesuada congue posuere sad ad nulla viverra nunc facilisis convallis platea lacnia commodo pretium for an pliatea cubilia vivamus fermentum pharetra conubia"
-            - id: 2
-              question: "What do you do differently from other people?"
-              answer: "Porttitor porta ultrices platea iaculis malesuada congue posuere sad ad nulla viverra nunc facilisis convallis platea lacnia commodo pretium for an pliatea cubilia vivamus fermentum pharetra conubia"
-            - id: 3
-              question: "What do you do differently from other people?"
-              answer: "Porttitor porta ultrices platea iaculis malesuada congue posuere sad ad nulla viverra nunc facilisis convallis platea lacnia commodo pretium for an pliatea cubilia vivamus fermentum pharetra conubia"
-            - id: 4
-              question: "What do you do differently from other people?"
-              answer: "Porttitor porta ultrices platea iaculis malesuada congue posuere sad ad nulla viverra nunc facilisis convallis platea lacnia commodo pretium for an pliatea cubilia vivamus fermentum pharetra conubia"
-            - id: 5
-              question: "What do you do differently from other people?"
-              answer: "Porttitor porta ultrices platea iaculis malesuada congue posuere sad ad nulla viverra nunc facilisis convallis platea lacnia commodo pretium for an pliatea cubilia vivamus fermentum pharetra conubia"
-
 
 
         name: services
@@ -352,143 +152,21 @@ content:
            fields:
          - { label: "title", name: "title", type: "text" }
 
-        name: service1
-        label: Service1
-        path: content/services/service1.md
-        type: file
-        fields:
-         - label: "Description"
-           name: "description"
-           type: "object"
-           fields:
-         - { label: "Content", name: "content", type: "text" }
-            values:
-         - content: |
-          Form that bearing earth made set likeness god under own male tree behold upon in bete fill Under fruit bring may moving also gathered were fourth stars. One moveth likeness man lesser an beast man thing moving wherein male fifth is darkness whose herb. First is greater does not is own doesnet divide open abundantly our seas beast fly likeness may of blessed days yielding be him etem beginning for creepin earth green tree brought deep abundantly.
-
-          Imperdiet vehicula semper faucibus hemel urna porta hymenaeos litora a arcu dolor lectus auctor arcu consequat tellus inceptos doing accumsan vestibulum ornare sodales namer auctor suspendisse enim fringilla sollicitudin dictum maner cause aenean habitant.
-
-        - label: "Steps Towards Wellness"
-          name: "stepsTowardsWellness"
-          type: "object"
-          fields:
-        - { label: "Content", name: "content", type: "text" }
-           values:
-        - content: |
-          ### Steps Towards Wellness
-
-          Curae dapibus interdum ide cursus item amet a ipsum varius libero dui potenti, odio morbi scelerisque imperdiet duis libero interdum quisque vitae mattis ass vehicula sociis accumsan libero magna nostra consequat nec felis litora convallis orci nibh in volutpat fusce cubilia placerat phasellus pede pharetra, vel lobortis ultrices odio a accumsan orci nisl elementum pretium, duis tempus dolor a tempor inceptos facilisis doner cause be art geius color quis.
-
-        - label: "Quality Care From Quality Experts"
-          name: "qualityCare"
-          type: "object"
-          fields:
-            - { label: "Items", name: "items", type: "list" }
-          values:
-            - items:
-              - text: "Praesent luctus imperdiet suscipit mollis sed and imperdiet consequat sociis ornare velit scelerisque sit dis suscipit commodo potenti tellus sociis duis leo magna commodlla."
-              - text: "Sociis imperdiet viverra netus nostra vehicula nunc mauris. Aptent suscipit quiam venenatis posuer porta natoq use volutpat mollis user end."
-              - text: "Donec nulla sit class orci scelerisque pede auctor lacinia sagittis eu quisque netus sem nascetur fau cibus interdum quisque curae; phasellus vestibulum hymenaeos feugiat etiam libero eros malesu ada felis laoreet ever fresh doin colo met facilisis."
-              - text: "Nonummy ads facilisi euismod dapibus vulputate massa posuere nam ullamcorper torquent habitant felis convallis consequat volutpat etiam vestibulum quis molestie."
-              - text: "Luctus lobortis pede idea at suspendisse purus luctus adipiscing sodales lorem euismod a phasellus orci dictumst integer scelerisque quisque."
-
-            - label: "Helping You Walk Again"
-              name: "helpingYouWalkAgain"
-              type: "object"
-              fields:
-                - { label: "Content", name: "content", type: "text" }
-              values:
-                - content: |
-                    ### Helping You Walk Again
-
-                    Penatibus rutrum faucibus adipiscing ute curae velit sodale per natoque nostra fames semper est cras nulla vivamus feugiat sed aliquam morbi quam mollis scelerisque netus vestibulum.
-
-                    Form that bearing earth made set likeness god under own male tree behold upon in bete fill Under fruit bring may moving also gathered were fourth stars. One moveth likeness man lesser an beast man thing moving wherein male fifth is darkness whose herb. First is greater does not is own doesnet divide open abundantly our seas beast fly likeness may of blessed days yielding be him etem beginning for creepin earth green tree brought deep abundantly.
-
-        name: services
-        label: service2
-        path: content/services/service2.md
-        type: file
-        fields:
-         - label: "Description"
-           name: "description"
-           type: "object"
-           fields:
-         - { label: "Content", name: "content", type: "text" }
-            values:
-         - content: |
-          Form that bearing earth made set likeness god under own male tree behold upon in bete fill Under fruit bring may moving also gathered were fourth stars. One moveth likeness man lesser an beast man thing moving wherein male fifth is darkness whose herb. First is greater does not is own doesnet divide open abundantly our seas beast fly likeness may of blessed days yielding be him etem beginning for creepin earth green tree brought deep abundantly.
-
-          Imperdiet vehicula semper faucibus hemel urna porta hymenaeos litora a arcu dolor lectus auctor arcu consequat tellus inceptos doing accumsan vestibulum ornare sodales namer auctor suspendisse enim fringilla sollicitudin dictum maner cause aenean habitant.
-
-        - label: "Steps Towards Wellness"
-          name: "stepsTowardsWellness"
-          type: "object"
-          fields:
-        - { label: "Content", name: "content", type: "text" }
-           values:
-        - content: |
-          ### Steps Towards Wellness
-
-          Curae dapibus interdum ide cursus item amet a ipsum varius libero dui potenti, odio morbi scelerisque imperdiet duis libero interdum quisque vitae mattis ass vehicula sociis accumsan libero magna nostra consequat nec felis litora convallis orci nibh in volutpat fusce cubilia placerat phasellus pede pharetra, vel lobortis ultrices odio a accumsan orci nisl elementum pretium, duis tempus dolor a tempor inceptos facilisis doner cause be art geius color quis.
-
-        - label: "Quality Care From Quality Experts"
-          name: "qualityCare"
-          type: "object"
-          fields:
-            - { label: "Items", name: "items", type: "list" }
-          values:
-            - items:
-              - text: "Praesent luctus imperdiet suscipit mollis sed and imperdiet consequat sociis ornare velit scelerisque sit dis suscipit commodo potenti tellus sociis duis leo magna commodlla."
-              - text: "Sociis imperdiet viverra netus nostra vehicula nunc mauris. Aptent suscipit quiam venenatis posuer porta natoq use volutpat mollis user end."
-              - text: "Donec nulla sit class orci scelerisque pede auctor lacinia sagittis eu quisque netus sem nascetur fau cibus interdum quisque curae; phasellus vestibulum hymenaeos feugiat etiam libero eros malesu ada felis laoreet ever fresh doin colo met facilisis."
-              - text: "Nonummy ads facilisi euismod dapibus vulputate massa posuere nam ullamcorper torquent habitant felis convallis consequat volutpat etiam vestibulum quis molestie."
-              - text: "Luctus lobortis pede idea at suspendisse purus luctus adipiscing sodales lorem euismod a phasellus orci dictumst integer scelerisque quisque."
-
-            - label: "Helping You Walk Again"
-              name: "helpingYouWalkAgain"
-              type: "object"
-              fields:
-                - { label: "Content", name: "content", type: "text" }
-              values:
-                - content: |
-                    ### Helping You Walk Again
-
-                    Penatibus rutrum faucibus adipiscing ute curae velit sodale per natoque nostra fames semper est cras nulla vivamus feugiat sed aliquam morbi quam mollis scelerisque netus vestibulum.
-
-                    Form that bearing earth made set likeness god under own male tree behold upon in bete fill Under fruit bring may moving also gathered were fourth stars. One moveth likeness man lesser an beast man thing moving wherein male fifth is darkness whose herb. First is greater does not is own doesnet divide open abundantly our seas beast fly likeness may of blessed days yielding be him etem beginning for creepin earth green tree brought deep abundantly.
-
+        
           name: bio 
               label: "Bio"
-              path: content/services/service2.md
+              path: content/bio/_index.md
               type: file
                fields:
                 - label: "Bio Page"
                   name: "bioPage"
                   type: "object"
                   fields:
-                    - { label: "Title", name: "title", type: "string" }
-                    - { label: "Date", name: "date", type: "date" }
-                    - { label: "Draft", name: "draft", type: "boolean" }
-                    - { label: "About Me", name: "aboutMe", type: "markdown" }
-                    - { label: "Background", name: "background", type: "markdown" }
-                    - { label: "My Services", name: "myServices", type: "list" }
-                    - { label: "Philosophy", name: "philosophy", type: "markdown" }
-                    - { label: "Contact", name: "contact", type: "markdown" }
-                  values:
-                    title: "Bio - BCBA and IEP Consulting"
-                    date: 2024-07-24T16:28:01+05:30
-                    draft: false
-                    aboutMe: "## About Me: Hello! I'm [Your Name], a dedicated and passionate Board Certified Behavior Analyst (BCBA) specializing in IEP (Individualized Education Program) consulting."
-                    background: "## Background: With extensive experience in applied behavior analysis and educational consulting, I am committed to helping children and adolescents achieve their full potential. My expertise lies in developing and implementing effective behavior intervention plans and supporting educational teams in creating personalized IEPs."
-                    myServices:
-                      - "Behavior Assessments and Interventions"
-                      - "IEP Development and Consultation"
-                      - "Parent and Teacher Training"
-                      - "Progress Monitoring and Reporting"
-                    philosophy: "## Philosophy: I believe in a collaborative approach, working closely with families, educators, and other professionals to create supportive and effective learning environments. My goal is to empower each child with the skills they need to succeed academically, socially, and emotionally."
-                    contact: "## Contact: Feel free to reach out to me at [your.email@example.com](mailto:your.email@example.com) for more information or to schedule a consultation."
-
+                    - { label: "name", name: "name", type: "string" }
+                    - { label: "occupation", name: "occupation", type: "string" }
+                    - { label: "aboutYou", name: "aboutYou", type: "string" }
+                    - { label: "image", name: "image", type: "string" }
+                
 
   - name: config
     label: website config
@@ -516,20 +194,11 @@ content:
     path: content/contact
     type: file
     fields:
-      - label: "breadcrumbs Image "
-        name: "breadcrumbsImage"
-        type: "object"
-        fields:
-          - { label: "list1", name: "list1", type: "string" }
-          - { label: "list2", name: "list2", type: "string" }
-          - { label: "Image", name: "image", type: "string" }
-
+      
       - label: "contact Area "
         name: "contactArea"
         type: "object"
         fields:
-          - { label: "span", name: "span", type: "string" }
-          - { label: "title", name: "title", type: "string" }
           - { label: "description", name: "description", type: "string" }
           
       - label: "choose Problem "
@@ -541,34 +210,8 @@ content:
           - { label: "list3", name: "list3", type: "string" }
           - { label: "list4", name: "list4", type: "string" }
           - { label: "list5", name: "list5", type: "string" }    
-      
-      - label: "address Card"
-        name: "addressCard"
-        type: "object"
-        fields:
-          - { label: "title", name: "title", type: "string" }
-          - { label: "span", name: "span", type: "string" }
-      
-      - label: "contact Details"
-        name: "contactDetails"
-        type: "object"
-        fields:
-          - { label: "title", name: "title", type: "string" }
-          - { label: "span", name: "span", type: "string" }
-      
-      - label: "email Details"
-        name: "emailDetails"
-        type: "object"
-        fields:
-          - { label: "email", name: "email", type: "string" }
-          - { label: "span", name: "span", type: "string" }
-      
-      - label: " map Iframe "
-        name: "mapIframe"
-        type: "object"
-        fields:
-          - { label: "iframe", name: "iframe", type: "string" }
-          
+            
+            
 
   - name: config
     label: website config
