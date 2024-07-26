@@ -89,19 +89,6 @@ content:
             - { label: "Title", name: "title", type: "string" }
             - { label: "Text", name: "description", type: "string" } 
 
-      - label: "why Choose Area"
-          name: "whyChooseArea"
-          type: "object"
-          fields:
-            - { label: "Title", name: "title", type: "string" }
-            - { label: "span", name: "span", type: "string" }      
-            - { label: "image", name: "image", type: "string" } 
-            - { label: "List 1", name: "list1", type: "string" }
-            - { label: "List 2", name: "list2", type: "string" }      
-            - { label: "List 3", name: "list3", type: "string" } 
-            - { label: "List 4", name: "list4", type: "string" }      
-            - { label: "List 5", name: "list5", type: "string" } 
-
         
       
  name: About us
@@ -166,7 +153,23 @@ content:
                     - { label: "occupation", name: "occupation", type: "string" }
                     - { label: "aboutYou", name: "aboutYou", type: "string" }
                     - { label: "image", name: "image", type: "string" }
+
+
                 
+  - name: Contact 
+    label: Contact Us
+    path: content/contact
+    type: file
+    fields:
+      
+      - label: "contact Area "
+        name: "contactArea"
+        type: "object"
+        fields:
+          - { label: "description", name: "description", type: "string" }
+
+
+
 
   - name: config
     label: website config
@@ -189,46 +192,11 @@ content:
         
 
 
-  - name: Contact 
-    label: Contact Us
-    path: content/contact
-    type: file
-    fields:
-      
-      - label: "contact Area "
-        name: "contactArea"
-        type: "object"
-        fields:
-          - { label: "description", name: "description", type: "string" }
+  
           
-      - label: "choose Problem "
-        name: "chooseProblem"
-        type: "object"
-        fields:
-          - { label: "list1", name: "list1", type: "string" }
-          - { label: "list2", name: "list2", type: "string" }
-          - { label: "list3", name: "list3", type: "string" }
-          - { label: "list4", name: "list4", type: "string" }
-          - { label: "list5", name: "list5", type: "string" }    
+        
             
             
 
-  - name: config
-    label: website config
-    type: file
-    path: hugo.toml
-    fields:
-      - {label: BaseUrl, name: baseurl, type: string, default: /}
-      - {label: TabTitle, name: title, type: string}
-      - name: params
-        label: Generic Parameters
-        type: object
-        fields:
-            - {label: Website, name: website, type: string}
-            - {label: Experience, name: experience, type: string}
-            - {label: Company, name: company, type: string}
-            - {label: email, name: email, type: string}
-            - {label: mobile, name: mobile, type: string}
-            - {label: address, name: address, type: string}
-            - {label: keywords(comma separated), name: keywords, type: string}
+
         

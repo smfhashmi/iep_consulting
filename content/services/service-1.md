@@ -1,6 +1,6 @@
 +++
 title = "service1"
-list_description = "hello world"
+list_description = "IEP"
 service_image = "/assets/img/services/details/services-details-img.jpg"
 +++
 

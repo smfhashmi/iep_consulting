@@ -70,15 +70,6 @@ teamMember2:
   email: 254@gmail.com
 
 
-whyChooseArea:
-  span: Why choose us
-  title: Best Method Apply our Patients
-  list1: Psychodynamic Therapy
-  list2: Personal Development
-  list3: Motivational Speech
-  list4: Mindtherafy Professional
-  list5: Assesment Consultation
-  image: assets/img/why/why-img-03.jpg
 
 
 

@@ -236,13 +236,10 @@
       </div>
       <div class="row">
         {{ partial "services" . }}
-        <div class="row">
-          {{ range .Pages }}
-          {{ .Render "services"  }}
-          {{ end }}
         </div>
       </div>
   </div>
+
 </section>
 
 <!-- services area end -->
@@ -357,39 +354,7 @@
 <!-- counter area end -->
 
 <!-- why area start -->
-<section class="why__area pt-120 pb-120">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-5 col-lg-6">
-        <div class="why__area-3">
-          <div class="section__title mb-45">
-            <div class="section__icon mb-10">
-              <span
-                class="section__sub-title section__sub-title-2 section__sub-title-3"
-                >{{.Params.whyChooseArea.span}}</span
-              >
-            </div>
-            <h1>{{.Params.whyChooseArea.title}}</h1>
-          </div>
-          <div class="why__list">
-            <ul>
-              <li><h3>{{.Params.whyChooseArea.list1}}</h3></li>
-              <li><h3>{{.Params.whyChooseArea.list2}}</h3></li>
-              <li><h3>{{.Params.whyChooseArea.list3}}</h3></li>
-              <li><h3>{{.Params.whyChooseArea.list4}}</h3></li>
-              <li><h3>{{.Params.whyChooseArea.list5}}</h3></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-7 col-lg-6">
-        <div class="why__img w-img">
-          <img src="{{.Params.whyChooseArea.image}}" alt="" />
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{{partial "whyArea" .}}
 <!-- why area end -->
 
 <!-- testimonial area start -->
@@ -414,8 +379,7 @@
                 >any problem</span
               >
             </div>
-            <h1 class="white-color">Don’t Hesitate to share your problem, Contact us
-</h1>
+            <h1 class="white-color">Don’t Hesitate to share your problem, Contact us</h1>
           </div>
           <div class="contact__form">
             <form
