@@ -128,11 +128,11 @@ content:
           
 
 
-     -  name: services
-        label: services
-        path: content/services/_index.md
-        type: file
-        fields:
+  -  name: services
+     label: services
+     path: content/services/_index.md
+     type: file
+     fields:
          - label: "service Area"
            name: "serviceArea"
            type: "object"
