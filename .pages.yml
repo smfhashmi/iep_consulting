@@ -91,11 +91,11 @@ content:
 
         
       
-       - name: about
-          label: About us
-          path: content/about/_index.md
-          type: file
-          fields:
+  - name: about
+    label: About us
+    path: content/about/_index.md
+    type: file
+    fields:
             - label: "about Area"
               name: "aboutArea"
               type: "object"
@@ -121,10 +121,10 @@ content:
                     - { label: "service2-explain", name: "service2-explain", type: "string" }
                     - { label: "service3-year", name: "service3-year", type: "string" }
                     - { label: "title", name: "title", type: "string" }
-                    - { label: "service3-explain", name: "service3-explain", type: "string" }
-                    - { label: "service4-year", name: "service4-year", type: "string" }
-                    - { label: "title", name: "title", type: "string" }
-                    - { label: "service4-explain", name: "service4-explain", type: "string" }
+                  - { label: "service3-explain", name: "service3-explain", type: "string" }
+         - { label: "service4-year", name: "service4-year", type: "string" }
+         - { label: "title", name: "title", type: "string" }
+         - { label: "service4-explain", name: "service4-explain", type: "string" }
           
 
 
