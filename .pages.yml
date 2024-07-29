@@ -91,9 +91,9 @@ content:
 
         
       
- name: About us
+  - name: about
     label: About us
-    path: content/about us
+    path: content/about/_index.md
     type: file
     fields:
       - label: "about Area"
@@ -128,11 +128,11 @@ content:
 
 
 
-        name: services
-        label: services
-        path: content/services/_index.md
-        type: file
-        fields:
+  -  name: services
+     label: services
+     path: content/services/_index.md
+     type: file
+     fields:
          - label: "service Area"
            name: "serviceArea"
            type: "object"
@@ -140,19 +140,20 @@ content:
          - { label: "title", name: "title", type: "text" }
 
         
-          name: bio 
-              label: "Bio"
-              path: content/bio/_index.md
-              type: file
-               fields:
-                - label: "Bio Page"
-                  name: "bioPage"
-                  type: "object"
-                  fields:
-                    - { label: "name", name: "name", type: "string" }
-                    - { label: "occupation", name: "occupation", type: "string" }
-                    - { label: "aboutYou", name: "aboutYou", type: "string" }
-                    - { label: "image", name: "image", type: "string" }
+  - name: bio 
+    label: "Bio"
+    path: content/bio/_index.md
+    type: file
+    fields:
+
+        - label: "Bio Page"
+          name: "bio"
+          type: "object"
+          fields:
+            - { label: "name", name: "name", type: "string" }
+            - { label: "occupation", name: "occupation", type: "string" }
+            - { label: "aboutYou", name: "aboutYou", type: "string" }
+            - { label: "image", name: "image", type: "string" }
 
 
                 
