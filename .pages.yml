@@ -91,7 +91,7 @@ content:
 
         
       
-       - name: About us
+       - name: About
           label: About us
           path: content/about/_index.md
           type: file
