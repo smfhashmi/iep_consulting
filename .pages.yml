@@ -91,41 +91,41 @@ content:
 
         
       
- name: About us
-    label: About us
-    path: content/about us
-    type: file
-    fields:
-      - label: "about Area"
-        name: "aboutArea"
-        type: "object"
-        fields:
-          - { label: "Span", name: "span", type: "string" }
-          - { label: "title", name: "title", type: "string" }
-          - { label: "description", name: "description", type: "string" }
-          - { label: "boxTitle", name: "boxTitle", type: "string" }
-          - { label: "boxDescription", name: "boxDescription", type: "string" }
-          - { label: "name", name: "name", type: "string" }
-          - { label: "designation", name: "designation", type: "string" }
+       - name: About us
+          label: About us
+          path: content/about/_index.md
+          type: file
+          fields:
+            - label: "about Area"
+              name: "aboutArea"
+              type: "object"
+              fields:
+                - { label: "Span", name: "span", type: "string" }
+                - { label: "title", name: "title", type: "string" }
+                - { label: "description", name: "description", type: "string" }
+                - { label: "boxTitle", name: "boxTitle", type: "string" }
+                - { label: "boxDescription", name: "boxDescription", type: "string" }
+                - { label: "name", name: "name", type: "string" }
+                - { label: "designation", name: "designation", type: "string" }
 
 
-      - label: "services History"
-        name: "servicesHistory"
-        type: "object"
-        fields:
-          - { label: "service1-year", name: "service1-year", type: "string" }
-          - { label: "title", name: "title", type: "string" }
-          - { label: "service1-explain", name: "service1-explain", type: "string" }
-          - { label: "service2-year", name: "service2-year", type: "string" }
-          - { label: "title", name: "title", type: "string" }
-          - { label: "service2-explain", name: "service2-explain", type: "string" }
-          - { label: "service3-year", name: "service3-year", type: "string" }
-          - { label: "title", name: "title", type: "string" }
-          - { label: "service3-explain", name: "service3-explain", type: "string" }
-          - { label: "service4-year", name: "service4-year", type: "string" }
-          - { label: "title", name: "title", type: "string" }
-          - { label: "service4-explain", name: "service4-explain", type: "string" }
-
+                - label: "services History"
+                  name: "servicesHistory"
+                  type: "object"
+                  fields:
+                    - { label: "service1-year", name: "service1-year", type: "string" }
+                    - { label: "title", name: "title", type: "string" }
+                    - { label: "service1-explain", name: "service1-explain", type: "string" }
+                    - { label: "service2-year", name: "service2-year", type: "string" }
+                    - { label: "title", name: "title", type: "string" }
+                    - { label: "service2-explain", name: "service2-explain", type: "string" }
+                    - { label: "service3-year", name: "service3-year", type: "string" }
+                    - { label: "title", name: "title", type: "string" }
+                    - { label: "service3-explain", name: "service3-explain", type: "string" }
+                    - { label: "service4-year", name: "service4-year", type: "string" }
+                    - { label: "title", name: "title", type: "string" }
+                    - { label: "service4-explain", name: "service4-explain", type: "string" }
+          
 
 
         name: services
