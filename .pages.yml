@@ -91,7 +91,7 @@ content:
 
         
       
-       - name: About
+       - name: about
           label: About us
           path: content/about/_index.md
           type: file
@@ -128,7 +128,7 @@ content:
           
 
 
-        name: services
+     -  name: services
         label: services
         path: content/services/_index.md
         type: file
@@ -140,13 +140,13 @@ content:
          - { label: "title", name: "title", type: "text" }
 
         
-          name: bio 
+         - name: bio 
               label: "Bio"
               path: content/bio/_index.md
               type: file
                fields:
                 - label: "Bio Page"
-                  name: "bioPage"
+                  name: "bio"
                   type: "object"
                   fields:
                     - { label: "name", name: "name", type: "string" }
