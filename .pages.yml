@@ -157,7 +157,7 @@ content:
 
 
                 
-  - name: Contact 
+  - name: contact 
     label: Contact Us
     path: content/contact
     type: file
