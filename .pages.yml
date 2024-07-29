@@ -140,19 +140,20 @@ content:
          - { label: "title", name: "title", type: "text" }
 
         
-         - name: bio 
-              label: "Bio"
-              path: content/bio/_index.md
-              type: file
-               fields:
-                - label: "Bio Page"
-                  name: "bio"
-                  type: "object"
-                  fields:
-                    - { label: "name", name: "name", type: "string" }
-                    - { label: "occupation", name: "occupation", type: "string" }
-                    - { label: "aboutYou", name: "aboutYou", type: "string" }
-                    - { label: "image", name: "image", type: "string" }
+  - name: bio 
+    label: "Bio"
+    path: content/bio/_index.md
+    type: file
+    fields:
+
+        - label: "Bio Page"
+          name: "bio"
+          type: "object"
+          fields:
+            - { label: "name", name: "name", type: "string" }
+            - { label: "occupation", name: "occupation", type: "string" }
+            - { label: "aboutYou", name: "aboutYou", type: "string" }
+            - { label: "image", name: "image", type: "string" }
 
 
                 
