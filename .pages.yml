@@ -53,10 +53,123 @@ content:
           - { label: "Title", name: "title", type: "string" }
           - { label: "Text", name: "description", type: "string" }
 
-  - name: services
-    label: Services
-    path: content/services
-    type: collection
+      - label: "image Card"
+        name: "imageCard"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" }
+          - { label: "Image", name: "image", type: "string" }
+
+      - label: "welcome Span"
+        name: "welcomeSpan"
+        type: "object"
+        fields:
+          - { label: "span", name: "span", type: "string" }
+
+      
+      - label: "welcome Head 1"
+        name: "welcomeHead1"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" }
+
+      - label: "welcome Head 2"
+        name: "welcomeHead2"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" } 
+          
+      - label: "welcome Head 3"
+          name: "welcomeHead3"
+          type: "object"
+          fields:
+            - { label: "Title", name: "title", type: "string" }
+            - { label: "Text", name: "description", type: "string" } 
+
+        
+      
+ name: About us
+    label: About us
+    path: content/about us
+    type: file
+    fields:
+      - label: "about Area"
+        name: "aboutArea"
+        type: "object"
+        fields:
+          - { label: "Span", name: "span", type: "string" }
+          - { label: "title", name: "title", type: "string" }
+          - { label: "description", name: "description", type: "string" }
+          - { label: "boxTitle", name: "boxTitle", type: "string" }
+          - { label: "boxDescription", name: "boxDescription", type: "string" }
+          - { label: "name", name: "name", type: "string" }
+          - { label: "designation", name: "designation", type: "string" }
+
+
+      - label: "services History"
+        name: "servicesHistory"
+        type: "object"
+        fields:
+          - { label: "service1-year", name: "service1-year", type: "string" }
+          - { label: "title", name: "title", type: "string" }
+          - { label: "service1-explain", name: "service1-explain", type: "string" }
+          - { label: "service2-year", name: "service2-year", type: "string" }
+          - { label: "title", name: "title", type: "string" }
+          - { label: "service2-explain", name: "service2-explain", type: "string" }
+          - { label: "service3-year", name: "service3-year", type: "string" }
+          - { label: "title", name: "title", type: "string" }
+          - { label: "service3-explain", name: "service3-explain", type: "string" }
+          - { label: "service4-year", name: "service4-year", type: "string" }
+          - { label: "title", name: "title", type: "string" }
+          - { label: "service4-explain", name: "service4-explain", type: "string" }
+
+
+
+        name: services
+        label: services
+        path: content/services/_index.md
+        type: file
+        fields:
+         - label: "service Area"
+           name: "serviceArea"
+           type: "object"
+           fields:
+         - { label: "title", name: "title", type: "text" }
+
+        
+          name: bio 
+              label: "Bio"
+              path: content/bio/_index.md
+              type: file
+               fields:
+                - label: "Bio Page"
+                  name: "bioPage"
+                  type: "object"
+                  fields:
+                    - { label: "name", name: "name", type: "string" }
+                    - { label: "occupation", name: "occupation", type: "string" }
+                    - { label: "aboutYou", name: "aboutYou", type: "string" }
+                    - { label: "image", name: "image", type: "string" }
+
+
+                
+  - name: Contact 
+    label: Contact Us
+    path: content/contact
+    type: file
+    fields:
+      
+      - label: "contact Area "
+        name: "contactArea"
+        type: "object"
+        fields:
+          - { label: "description", name: "description", type: "string" }
+
+
+
 
   - name: config
     label: website config
@@ -76,4 +189,14 @@ content:
             - {label: mobile, name: mobile, type: string}
             - {label: address, name: address, type: string}
             - {label: keywords(comma separated), name: keywords, type: string}
+        
+
+
+  
+          
+        
+            
+            
+
+
         

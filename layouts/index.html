@@ -163,11 +163,11 @@
 <section class="about__area-3 mb-120 box-105 pt-180 p-relative white-bg">
   <div
     class="about__bg-img about__bg-img-3 p-absolute"
-    data-background="assets/img/about/about-3.jpg"
+    data-background="{{.Params.imageCard.image}}"
   >
     <div class="about__info-experience-3 p-absolute">
-      <h2>20</h2>
-      <p>Years of Professional Experience</p>
+      <h2>{{.Params.imageCard.title}}</h2>
+      <p>{{.Params.imageCard.description}}</p>
     </div>
   </div>
   <div class="container">
@@ -178,20 +178,16 @@
             <div class="section__icon mb-10">
               <span
                 class="section__sub-title section__sub-title-2 section__sub-title-3"
-                >welcome to sycho</span
+                >{{.Params.welcomeSpan.span}}</span
               >
             </div>
             <h1 class="mb-100">
-              Patient are Happy for Proper Mental Cure Support
+              {{.Params.welcomeHead.title}}
             </h1>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit sed dole
-            there eiusm tempor dolore magna aliqua denim ads minim veniam, quis
-            nostrud exercen tatio to ullamco laibor nisi above murli aliquip
-            commodo usto imperdet quam praesent uten dictum at diamn toware sit
-            nisi integer potenti vitae egestas parturient
+           {{.Params.welcomeHead.description}}
           </p>
 
           <div class="about__info-3">
@@ -200,11 +196,9 @@
                 <span class="icon flaticon-psychologist"></span>
               </div>
               <div class="about__info-text">
-                <h3>Dedicated Support Manager</h3>
+                <h3>{{.Params.welcomeHead1.title}}</h3>
                 <p>
-                  Inceptos cras gravida augue massa sociosqu ultrices sit nase
-                  cetur taciti nonummy conubia vel eget massa inceptos faucib
-                  interdum a sapien lacus.
+                  {{.Params.welcomeHead1.description}}
                 </p>
               </div>
             </div>
@@ -213,11 +207,9 @@
                 <span class="icon flaticon-happy about__info-icon-pink"></span>
               </div>
               <div class="about__info-text">
-                <h3>Dedicated Support Manager</h3>
+                <h3>{{.Params.welcomeHead2.title}}</h3>
                 <p>
-                  Inceptos cras gravida augue massa sociosqu ultrices sit nase
-                  cetur taciti nonummy conubia vel eget massa inceptos faucib
-                  interdum a sapien lacus.
+                  {{.Params.welcomeHead2.description}}
                 </p>
               </div>
             </div>
@@ -230,133 +222,26 @@
 <!-- about area start -->
 
 <!-- services area start -->
-<section class="services__area-2 pt-110 pb-90 grey-bg-3">
+<section class="services__area-2 pt-110 pb-90">
   <div class="container">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="section__title mb-70 text-center">
-          <h1>Professional Psychology Therapy Service You Can Choose</h1>
-          <div class="section__icon mb-10">
-            <span
-              class="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4"
-              >affordable Services</span
-            >
+      <div class="row">
+          <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+              <div class="section__title mb-70 text-center">
+                  <h1>Professional Psychology Therapy Service You Can Choose</h1>
+                  <div class="section__icon mb-10">
+                      <span class="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4">affordable Services</span>
+                  </div>
+              </div>
           </div>
+      </div>
+      <div class="row">
+        {{ partial "services" . }}
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xl-6 col-lg-6">
-        <div
-          class="services__item-2 services__item-3 d-sm-flex align-items-center transition-3 mb-30 white-bg"
-        >
-          <div class="services__icon services__icon-3 mr-30">
-            <span class="icon flaticon-date"></span>
-          </div>
-          <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">Couple Counseling</a></h3>
-            <p>
-              Nostrud exerctation to ullamco laibor nisiod in above murli
-              aliquip commodo
-            </p>
-
-            <a href="services-details.html" class="link-btn">Read details</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6">
-        <div
-          class="services__item-2 services__item-3 d-sm-flex align-items-center transition-3 mb-30 white-bg"
-        >
-          <div class="services__icon services__icon-3 mr-30">
-            <span class="icon flaticon-relationship"></span>
-          </div>
-          <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">Personal Meeting</a></h3>
-            <p>
-              Nostrud exerctation to ullamco laibor nisiod in above murli
-              aliquip commodo
-            </p>
-
-            <a href="services-details.html" class="link-btn">Read details</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6">
-        <div
-          class="services__item-2 services__item-3 d-sm-flex align-items-center transition-3 mb-30 white-bg"
-        >
-          <div class="services__icon services__icon-3 mr-30">
-            <span class="icon flaticon-psychosis"></span>
-          </div>
-          <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">Anxiety Disorder</a></h3>
-            <p>
-              Nostrud exerctation to ullamco laibor nisiod in above murli
-              aliquip commodo
-            </p>
-
-            <a href="services-details.html" class="link-btn">Read details</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6">
-        <div
-          class="services__item-2 services__item-3 d-sm-flex align-items-center transition-3 mb-30 white-bg"
-        >
-          <div class="services__icon services__icon-3 mr-30">
-            <span class="icon flaticon-family"></span>
-          </div>
-          <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">Family Counseling</a></h3>
-            <p>
-              Nostrud exerctation to ullamco laibor nisiod in above murli
-              aliquip commodo
-            </p>
-
-            <a href="services-details.html" class="link-btn">Read details</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6">
-        <div
-          class="services__item-2 services__item-3 d-sm-flex align-items-center transition-3 mb-30 white-bg"
-        >
-          <div class="services__icon services__icon-3 mr-30">
-            <span class="icon flaticon-sweat"></span>
-          </div>
-          <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">Depression Problem</a></h3>
-            <p>
-              Nostrud exerctation to ullamco laibor nisiod in above murli
-              aliquip commodo
-            </p>
-
-            <a href="services-details.html" class="link-btn">Read details</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6">
-        <div
-          class="services__item-2 services__item-3 d-sm-flex align-items-center transition-3 mb-30 white-bg"
-        >
-          <div class="services__icon services__icon-3 mr-30">
-            <span class="icon flaticon-heart"></span>
-          </div>
-          <div class="services__content-2 services__content-3 transition-3">
-            <h3><a href="services-details.html">Dating & Relation</a></h3>
-            <p>
-              Nostrud exerctation to ullamco laibor nisiod in above murli
-              aliquip commodo
-            </p>
-
-            <a href="services-details.html" class="link-btn">Read details</a>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
+
 </section>
+
 <!-- services area end -->
 
 <!-- team area start -->
@@ -365,12 +250,12 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2">
         <div class="section__title mb-70 text-center">
-          <h1>Focusing Your Mind, With The Best Therapeutic Care</h1>
+          <h1>{{.Params.teamArea.title}}/h1>
           <div class="section__icon mb-10">
             <span
               class="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4"
             >
-              Expert member</span
+             {{.Params.teamArea.span}}</span
             >
           </div>
         </div>
@@ -382,35 +267,35 @@
           <div class="team__thumb w-img fix p-relative">
             <img
               class="transition-3"
-              src="assets/img/team/03/team-01.jpg"
+              src="{{.Params.teamMember1.image}}"
               alt="team-1"
             />
           </div>
           <div class="team__content text-center white-bg transition-3">
             <div class="team__name">
-              <h3><a href="team-details.html">Donnie Anderson</a></h3>
-              <span>Sr. Psychologist</span>
+              <h3><a href="team-details.html">{{.Params.teamMember1.name}}</a></h3>
+              <span>{{.Params.teamMember1.span}}</span>
             </div>
             <div class="team__info">
               <p>
                 <a
                   href="https://wphix.com/cdn-cgi/l/email-protection"
                   class="__cf_email__"
-                  >{{.Site.Params.email}}</a
+                  >{{.Params.teamMember1.email}}</a
                 >
               </p>
               <div class="team__social-2 social transition-3 mt-20">
                 <ul>
                   <li>
-                    <a href="index-3.html#"
+                    <a href="{{.Params.teamMember1.facebook}}"
                       ><i class="fab fa-facebook-f"></i
                     ></a>
                   </li>
                   <li>
-                    <a href="index-3.html#"><i class="fab fa-twitter"></i></a>
+                    <a href="{{.Params.teamMember1.twitter}}"><i class="fab fa-twitter"></i></a>
                   </li>
                   <li>
-                    <a href="index-3.html#"
+                    <a href="{{.Params.teamMember1.pinterest}}"
                       ><i class="fab fa-pinterest-p"></i
                     ></a>
                   </li>
@@ -425,21 +310,21 @@
           <div class="team__thumb w-img fix p-relative">
             <img
               class="transition-3"
-              src="assets/img/team/03/team-02.jpg"
+              src="{{.Params.teamMember2.image}}"
               alt="team-1"
             />
           </div>
           <div class="team__content text-center white-bg transition-3">
             <div class="team__name">
-              <h3><a href="/">Tashanu Canalse</a></h3>
-              <span>Therapy Expert</span>
+              <h3><a href="team-details.html">{{.Params.teamMember2.name}}</a></h3>
+              <span>{{.Params.teamMember2.span}}</span>
             </div>
             <div class="team__info">
               <p>
                 <a
                   href="https://wphix.com/cdn-cgi/l/email-protection"
                   class="__cf_email__"
-                  >{{.Site.Params.email}}</a
+                  >{{.Params.teamMember2.email}}</a
                 >
               </p>
               <div class="team__social-2 social transition-3 mt-20">
@@ -465,214 +350,15 @@
 <!-- team area end -->
 
 <!-- counter area start -->
-<section
-  class="counter__area counter__overlay pt-110 pb-60 p-relative"
-  data-background="assets/img/counter/counter-bg.jpg"
->
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-        <div class="counter__item p-relative text-center mb-30">
-          <div class="counter__icon mb-25">
-            <span class="icon flaticon-support"></span>
-          </div>
-          <div class="counter__content">
-            <h3 class="counter">2950</h3>
-            <span>Psychologist</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-        <div class="counter__item p-relative text-center mb-30">
-          <div class="counter__icon mb-25">
-            <span class="icon flaticon-house"></span>
-          </div>
-          <div class="counter__content">
-            <h3 class="counter">1520</h3>
-            <span> All Branches</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-        <div
-          class="counter__item counter__item-3rd p-relative text-center mb-30"
-        >
-          <div class="counter__icon mb-25">
-            <span class="icon flaticon-recovered"></span>
-          </div>
-          <div class="counter__content">
-            <h3 class="counter">3250</h3>
-            <span>Total Patient</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-        <div
-          class="counter__item counter__item-4th last-child-after p-relative text-center mb-30"
-        >
-          <div class="counter__icon mb-25">
-            <span class="icon flaticon-medal"></span>
-          </div>
-          <div class="counter__content">
-            <h3 class="counter">2150</h3>
-            <span>Achievement</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{{partial "counter" .}}
 <!-- counter area end -->
 
 <!-- why area start -->
-<section class="why__area pt-120 pb-120">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-5 col-lg-6">
-        <div class="why__area-3">
-          <div class="section__title mb-45">
-            <div class="section__icon mb-10">
-              <span
-                class="section__sub-title section__sub-title-2 section__sub-title-3"
-                >Why choose us</span
-              >
-            </div>
-            <h1>Best Method Apply our Patients</h1>
-          </div>
-          <div class="why__list">
-            <ul>
-              <li><h3>Psychodynamic Therapy</h3></li>
-              <li><h3>Personal Development</h3></li>
-              <li><h3>Motivational Speech</h3></li>
-              <li><h3>Mindtherafy Professional</h3></li>
-              <li><h3>Assesment Consultation</h3></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-7 col-lg-6">
-        <div class="why__img w-img">
-          <img src="assets/img/why/why-img-03.jpg" alt="" />
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{{partial "whyArea" .}}
 <!-- why area end -->
 
 <!-- testimonial area start -->
-<section class="testimonial__area pt-120 pb-120 grey-bg-3 box-105">
-  <div class="testimonial__inner p-relative">
-    <div
-      class="testimonial__img border-radius-8 p-absolute fix"
-      data-background="assets/img/testimonial/testimonial-img.jpg"
-    >
-      <div class="testimonial__video p-absolute fix">
-        <div class="testimonial__shape p-absolute">
-          <img src="assets/img/testimonial/shape-1.png" alt="" />
-        </div>
-        <div class="testimonial__shape testimonial__shape-2 p-absolute">
-          <img src="assets/img/testimonial/shape-2.png" alt="" />
-        </div>
-        <h3>See Our Success Story</h3>
-        <a
-          href="https://youtu.be/yJg-Y5byMMw"
-          data-fancybox=""
-          class="play-btn play-btn-sm play-btn-pink play-btn-pink-white"
-          ><i class="fa fa-play"></i
-        ></a>
-      </div>
-    </div>
-    <!-- <div class="testimonial__bg-pattern p-absolute" data-background="assets/img/bg/pattern-4.jpg"></div> -->
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-7 offset-xl-5 col-lg-7 offset-lg-5">
-          <div
-            class="testimonial__wrapper testimonial__wrapper-3 pl-30 pt-50 pb-35"
-          >
-            <div class="section__title mb-20">
-              <div class="section__icon mb-10">
-                <span
-                  class="section__sub-title section__sub-title-2 section__sub-title-3"
-                  >patients feedbak</span
-                >
-              </div>
-              <h1>Happy Patient Feedback About our Service</h1>
-            </div>
-            <div class="testimonial__slider-3 owl-carousel">
-              <div class="testimonial__item-3">
-                <p>
-                  Malesuada imperdiet commodo nostra taciti neque arcu in sem a
-                  vivamus tempor ac sem convallis ullamcorper ac enim Massa
-                  massa porta interdum to nullam nis augue donec leo ut
-                  fermentum senectus eget. Metus lacinia turpis. Potenti in
-                  aliquet ipsum primis a pede volutpat. Feugiat hymenaeos
-                  facilisis erat morbi libero to sociosqu inte dum justo
-                  sagittis feugiat facilisis morb.
-                </p>
-                <div
-                  class="testimonial__person testimonial__person-3 d-flex align-items-center"
-                >
-                  <div class="testimonial__avater">
-                    <img src="assets/img/testimonial/person-1.png" alt="" />
-                  </div>
-                  <div class="testimonial__info testimonial__info-3">
-                    <h3>Eleonora Morgan</h3>
-                    <span>CEO & Founder</span>
-                  </div>
-                </div>
-              </div>
-              <div class="testimonial__item-3">
-                <p>
-                  Malesuada imperdiet commodo nostra taciti neque arcu in sem a
-                  vivamus tempor ac sem convallis ullamcorper ac enim Massa
-                  massa porta interdum to nullam nis augue donec leo ut
-                  fermentum senectus eget. Metus lacinia turpis. Potenti in
-                  aliquet ipsum primis a pede volutpat. Feugiat hymenaeos
-                  facilisis erat morbi libero to sociosqu inte dum justo
-                  sagittis feugiat facilisis morb.
-                </p>
-                <div
-                  class="testimonial__person testimonial__person-3 d-flex align-items-center"
-                >
-                  <div class="testimonial__avater">
-                    <img src="assets/img/testimonial/person-2.png" alt="" />
-                  </div>
-                  <div class="testimonial__info testimonial__info-3">
-                    <h3>Jeso Smith</h3>
-                    <span>CEO & Founder</span>
-                  </div>
-                </div>
-              </div>
-              <div class="testimonial__item-3">
-                <p>
-                  Malesuada imperdiet commodo nostra taciti neque arcu in sem a
-                  vivamus tempor ac sem convallis ullamcorper ac enim Massa
-                  massa porta interdum to nullam nis augue donec leo ut
-                  fermentum senectus eget. Metus lacinia turpis. Potenti in
-                  aliquet ipsum primis a pede volutpat. Feugiat hymenaeos
-                  facilisis erat morbi libero to sociosqu inte dum justo
-                  sagittis feugiat facilisis morb.
-                </p>
-                <div
-                  class="testimonial__person testimonial__person-3 d-flex align-items-center"
-                >
-                  <div class="testimonial__avater">
-                    <img src="assets/img/testimonial/person-3.png" alt="" />
-                  </div>
-                  <div class="testimonial__info testimonial__info-3">
-                    <h3>Salim rana</h3>
-                    <span>CEO & Founder</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{{partial "testimonial" .}}
 <!-- testimonial area end -->
 
 <!-- contact area start -->
@@ -693,7 +379,7 @@
                 >any problem</span
               >
             </div>
-            <h1 class="white-color">Don’t Hesitate, Conatct us</h1>
+            <h1 class="white-color">Don’t Hesitate to share your problem, Contact us</h1>
           </div>
           <div class="contact__form">
             <form

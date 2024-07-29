@@ -24,4 +24,54 @@ card2:
 card3:
   title: Support Patient
   description: Nostrud exerctation to ullamco laibor nisiod in above murli aliquip commodo
+imageCard:
+  title: 20 
+  description: years of Professional Experience
+  image: assets/img/about/about-3.jpg
+welcomeSpan:
+  span: welcome to heloWorld
+welcomeHead:
+  title: Patient are Happy for Proper Mental Cure Support
+  description:  Lorem ipsum dolor sit amet consectetur adipisicing elit sed dole there eiusm tempor dolore magna aliqua denim ads minim veniam,quis
+            nostrud exercen tatio to ullamco laibor nisi above murli aliquip
+            commodo usto imperdet quam praesent uten dictum at diamn toware sit
+            nisi integer potenti vitae egestas parturient
+welcomeHead1:
+  title: Dedicated Support Manager
+  description: Inceptos cras gravida augue massa sociosqu ultrices sit nase
+                  cetur taciti nonummy conubia vel eget massa inceptos faucib
+                  interdum a sapien lacus
+welcomeHead2:
+  title: Dedicated Support Manager
+  description: Inceptos cras gravida augue massa sociosqu ultrices sit nase
+                  cetur taciti nonummy conubia vel eget massa inceptos faucib
+                  interdum a sapien lacus
+ 
+
+
+teamArea:
+  title: Focusing Your Mind, With The Best Therapeutic Care
+  span: Expert member
+teamMember1:
+  image: assets/img/team/03/team-01.jpg
+  name: Donnie Anderson
+  span: Sr. Psychologist 
+  facebook: index-3.html#
+  twitter: index-3.html#
+  pinterest: index-3.html#
+  email: 123@gmail.com
+teamMember2:
+  image: assets/img/team/03/team-02.jpg
+  name: Tashanu Canalse
+  span: Therapy Expert 
+  facebook: index-3.html#
+  twitter: index-3.html#
+  pinterest: index-3.html#
+  email: 254@gmail.com
+
+
+
+
+
+
 ---

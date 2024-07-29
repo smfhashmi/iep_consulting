@@ -31,25 +31,25 @@
                   <div class="about__content-wrapper pt-20 pl-85">
                       <div class="section__title mb-30">
                           <div class="section__icon mb-10">
-                              <span class="section__sub-title section__sub-title-2">welcome to sycho</span>
+                              <span class="section__sub-title section__sub-title-2">{{.Params.aboutArea.span}}</span>
                           </div>
-                          <h1 class="mb-100">Patients are Happy, Cause Proper Mental Cure Support</h1>
+                          <h1 class="mb-100">{{.Params.aboutArea.title}}</h1>
                       </div>
 
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed dole there eiusmod tempor incididub labore  dolore magna aliqua denim ads minim veniam, quis nostrud exerctation ullamco nisi above murli aliquip commodo imperdet</p>
+                      <p>{{.Params.aboutArea.description}}</p>
 
                       <div class="about__info-2 d-sm-flex mb-60">
                           <div class="about__info-experience white-bg mr-40">
-                              <h1>20 Years Professional Experience</h1>
+                              <h1>{{.Params.aboutArea.boxTitle}}</h1>
                           </div>
-                          <p>Lobortis facilisis potenti dictumst auctor at semper amet dis elit, neque nulla lectus. Nascetur habitasse dignissim class ac vehicula ultricies conubia suspendisse aenean suscipit nulla verra volutpat velit orci montes maece nas lorem porttitor tortor dise montes fames nascetur auctor dui rhoncus phasellus id sagittis a praesent dui rhoncus porttitor nullam commodo ultricess</p>
+                          <p>{{.Params.aboutArea.boxDescription}}</p>
                       </div>
                       <div class="about-bottom d-sm-flex">
                           <div class="about-author mr-30 mb-30">
                               <img src="assets/img/about/author.png" alt="">
                               <div class="ab-author">
-                                  <h3>Dalian Machen</h3>
-                                  <span>CEO, Sycho</span>
+                                  <h3>{{.Params.aboutArea.name}}</h3>
+                                  <span>{{.Params.aboutArea.designation}}</span>
                               </div>
                           </div>
                           <div class="about-btn mr-40 mb-30">
@@ -90,44 +90,44 @@
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
               <div class="services__history-item text-center text-sm-left mb-60 pr-35">
                   <div class="services__history-year mb-30">
-                      <h2>2012</h2>
+                      <h2> {{.Params.servicesHistory.service1Year}} </h2>
                   </div>
                   <div class="services__history-content">
-                      <h3><a href="about-us.html#">Started Journey</a></h3>
-                      <p>Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.</p>
+                      <h3><a href="about-us.html#">{{.Params.servicesHistory.service1Title}}</a></h3>
+                      <p>{{.Params.servicesHistory.service1Explain}}</p>
                   </div>
               </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
               <div class="services__history-item text-center text-sm-left mb-60 pr-35">
                   <div class="services__history-year mb-30">
-                      <h2>2015</h2>
+                      <h2>{{.Params.servicesHistory.service2Year}}</h2>
                   </div>
                   <div class="services__history-content">
-                      <h3><a href="about-us.html#">Open Branch</a></h3>
-                      <p>Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.</p>
+                      <h3><a href="about-us.html#">{{.Params.servicesHistory.service2Title}}</a></h3>
+                      <p>{{.Params.servicesHistory.service2Explain}}</p>
                   </div>
               </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
               <div class="services__history-item text-center text-sm-left mb-60 pr-35">
                   <div class="services__history-year mb-30">
-                      <h2>2017</h2>
+                      <h2>{{.Params.servicesHistory.service3Year}}</h2>
                   </div>
                   <div class="services__history-content">
-                      <h3><a href="about-us.html#">Success Story</a></h3>
-                      <p>Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.</p>
+                      <h3><a href="about-us.html#">{{.Params.servicesHistory.service3Title}}</a></h3>
+                      <p>{{.Params.servicesHistory.service3Explain}}</p>
                   </div>
               </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
               <div class="services__history-item text-center text-sm-left mb-60 pr-35">
                   <div class="services__history-year mb-30">
-                      <h2>2020</h2>
+                      <h2>{{.Params.servicesHistory.service4Year}}</h2>
                   </div>
                   <div class="services__history-content">
-                      <h3><a href="about-us.html#">Award Winning</a></h3>
-                      <p>Magnis condi mentum amet vel nonummy lacinia hac sed felis defer tobe porttitor.</p>
+                      <h3><a href="about-us.html#">{{.Params.servicesHistory.service4Title}}</a></h3>
+                      <p>{{.Params.servicesHistory.service4Explain}}</p>
                   </div>
               </div>
           </div>
