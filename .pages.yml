@@ -159,7 +159,7 @@ content:
                 
   - name: contact 
     label: Contact Us
-    path: content/contact
+    path: content/contact/_index.md
     type: file
     fields:
       
