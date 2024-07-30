@@ -133,12 +133,18 @@ content:
     path: content/services
     type: file
     fields:
+      - label: "Service Area"
+        name: "serviceArea"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "text" }
           - label: "Services"
             name: "services"
-            type: list
+            type: "list"
             fields:
               - { label: "Service Title", name: "serviceTitle", type: "text" }
               - { label: "Description", name: "description", type: "textarea" }
+
 
 
         
