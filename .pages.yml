@@ -130,7 +130,7 @@ content:
 
   - name: services
     label: Services
-    path: content/services
+    path: content/services/_index.md
     type: file
     fields:
           - label: "service Area"
