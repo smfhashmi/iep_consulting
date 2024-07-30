@@ -135,7 +135,7 @@ content:
     fields:
           - label: "Services"
             name: "services"
-            type: "list"
+            type: list
             fields:
               - { label: "Service Title", name: "serviceTitle", type: "text" }
               - { label: "Description", name: "description", type: "textarea" }
