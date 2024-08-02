@@ -130,7 +130,7 @@ content:
 
 
   - name: services
-    label: services
+    label: Services
     path: content/services/_index.md
     type: collection
     fields:
