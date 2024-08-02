@@ -138,7 +138,7 @@ content:
            name: "serviceArea"
            type: "object"
            fields:
-             - { label: "title", name: "title", type: "text" }
+          - { label: "title", name: "title", type: "text" }
          
             
         
