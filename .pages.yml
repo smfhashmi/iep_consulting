@@ -134,16 +134,15 @@ content:
     path: content/services
     type: "collection"
     fields:
-       - label: "Service 1"
-         name: "service-1"
-         file: "service-1.md"
-         type: file
+       - label: "Services"
+         name: "services"
+         type: object
          fields:
            - { label: "Title", name: "title", type: "text" }
            - { label: "Description", name: "description", type: "textarea" }
        - label: "Service 2"
          name: "service-2"
-         file: "service-2.md"
+         path: content/services/service-2.md
          type: file
          fields:
            - { label: "Title", name: "title", type: "text" }
