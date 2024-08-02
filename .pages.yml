@@ -127,7 +127,7 @@ content:
                     - { label: "service4-explain", name: "service4-explain", type: "string" }
           
 
-collections:
+
   - name: services
     label: Services
     path: content/services/_index.md
