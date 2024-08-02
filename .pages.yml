@@ -132,9 +132,9 @@ content:
   - name: services
     label: Services
     path: content/services
-    type: "collection"
+    type: "file"
     fields:
-         - label: "service Area"
+         - label: "Service Area"
            name: "serviceArea"
            type: "object"
            fields:
