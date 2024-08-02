@@ -139,9 +139,7 @@ content:
          type: object
          fields:
            - { label: "Title", name: "title", type: "text" }
-           - { label: "Description", name: "description", type: "textarea" }
-       
-                           
+           - { label: "Content", name: "content", type: "textarea" }              
         
   - name: bio 
     label: "Bio"
