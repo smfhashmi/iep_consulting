@@ -138,18 +138,7 @@ content:
             type: "object"
             fields:
               - { label: "title", name: "title", type: "text" } 
-              - label: "Services"
-                name: "services"
-                type: "list"
-                fields:
-                  - label: "Service"
-                    name: "service"
-                    type: "object"
-                    fields:
-                      - { label: "Service Name", name: "serviceName", type: "text" }
-                      - { label: "Service Description", name: "serviceDescription", type: "textarea" }
-         
-
+              
         
   - name: bio 
     label: "Bio"
