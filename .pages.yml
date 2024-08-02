@@ -127,14 +127,14 @@ content:
                     - { label: "service4-explain", name: "service4-explain", type: "string" }
           
 
-
+collections:
   - name: services
     label: Services
     path: content/services/_index.md
-    type: file
+    type: list
     fields:
-          - label: "service Area"
-            name: "serviceArea"
+          - label: "Services"
+            name: "service"
             type: "object"
             fields:
               - { label: "title", name: "title", type: "text" } 
