@@ -130,8 +130,8 @@ content:
 
 
   - name: services
-    label: services
-    path: content/services/_index.md
+    label: Services
+    path: content/services
     type: collection
     fields:
          - label: "service Area"
