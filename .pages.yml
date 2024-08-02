@@ -146,7 +146,7 @@ content:
                     name: "service"
                     type: "object"
                     fields:
-                      - { label: "Service-1", name: "serviceName", type: "text" }
+                      - { label: "Service-1", name: "serviceName", type: "list" }
               
         
   - name: bio 
