@@ -134,12 +134,12 @@ content:
     path: content/services
     type: "collection"
     fields:
-       - label: "Services"
-         name: "services"
-         type: object
-         fields:
-           - { label: "Title", name: "title", type: "text" }
-           - { label: "Content", name: "content", type: "text" }              
+      - label: "Title"
+        name: "title"
+        type: "text"
+      - label: "Content"
+        name: "content"
+        type: "textarea"
         
   - name: bio 
     label: "Bio"
