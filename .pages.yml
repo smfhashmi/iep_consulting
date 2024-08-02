@@ -132,7 +132,7 @@ content:
   - name: services
     label: Services
     path: content/services
-    type: "file"
+    type: file
     fields:
          - label: "Service Area"
            name: "serviceArea"
