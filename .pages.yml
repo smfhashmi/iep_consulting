@@ -128,16 +128,26 @@ content:
           
 
 
+
   - name: services
     label: Services
-    path: content/services/_index.md
-    type: folder
+    path: content/services
+    type: "collection"
     fields:
-          - label: "Services"
-            name: "service"
-            type: "object"
-            fields:
-              - { label: "title", name: "title", type: "text" } 
+       - label: "Service 1"
+         name: "service-1"
+         file: "service-1.md"
+         type: file
+         fields:
+           - { label: "Title", name: "title", type: "text" }
+           - { label: "Description", name: "description", type: "textarea" }
+       - label: "Service 2"
+         name: "service-2"
+         file: "service-2.md"
+         type: file
+         fields:
+           - { label: "Title", name: "title", type: "text" }
+           - { label: "Description", name: "description", type: "textarea" }
                            
         
   - name: bio 
