@@ -139,12 +139,7 @@ content:
            type: "object"
            fields:
          - { label: "title", name: "title", type: "text" }
-    fields:
-         - label: "service-1.md"
-           name: "service-1.md"
-           type: ".md"
-           fields:
-         - { label: "title", name: "title", type: "text" }
+    
         
   - name: bio 
     label: "Bio"
