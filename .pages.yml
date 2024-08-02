@@ -139,27 +139,7 @@ content:
            type: "object"
            fields:
          - { label: "title", name: "title", type: "text" }
- files:
-  - file: content/services/service-1.md
-    label: Service 1
-    name: service1
-    fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Body
-        name: body
-        widget: markdown
-  - file: content/services/service-2.md
-    label: Service 2
-    name: service2
-    fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Body
-        name: body
-        widget: markdown
+
          
                 
         
