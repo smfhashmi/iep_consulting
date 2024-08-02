@@ -131,7 +131,7 @@ content:
   - name: services
     label: Services
     path: content/services/_index.md
-    type: list
+    type: folder
     fields:
           - label: "Services"
             name: "service"
