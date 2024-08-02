@@ -140,13 +140,7 @@ content:
          fields:
            - { label: "Title", name: "title", type: "text" }
            - { label: "Description", name: "description", type: "textarea" }
-       - label: "Service 2"
-         name: "service-2"
-         path: content/services/service-2.md
-         type: file
-         fields:
-           - { label: "Title", name: "title", type: "text" }
-           - { label: "Description", name: "description", type: "textarea" }
+       
                            
         
   - name: bio 
