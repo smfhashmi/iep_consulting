@@ -149,8 +149,8 @@ content:
     type: file
     fields:
 
-        - label: "Bio Page"
-          name: "bio"
+        - label: "Bio Area"
+          name: "bioArea"
           type: "object"
           fields:
             - { label: "name", name: "name", type: "string" }
