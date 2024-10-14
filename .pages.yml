@@ -156,7 +156,7 @@ content:
             - { label: "name", name: "name", type: "string" }
             - { label: "occupation", name: "occupation", type: "string" }
             - { label: "aboutYou", name: "aboutYou", type: "string" }
-            - { label: "image", name: "image", type: "hyperlink" }
+            - { label: "image", name: "image", type: "link" }
 
 
                 
