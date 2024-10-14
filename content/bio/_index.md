@@ -1,7 +1,7 @@
 ---
-bio:
-  name: Florina David Colar
-  occupation: M.A., M.S., BCBA, LBA
+bioArea:
+  name: FLORINA DAVID COLAR
+  occupation: M.A., M.S., BCBA, LBA, QBA, BCASE
   aboutYou: "I was born in Transylvania, Romania. At an early age, I developed an
     interest in psychology and helping others. In 2006 I graduated from
     Babes-Bolyai State University in Romania with a B.S. in Clinical Psychology.
@@ -41,6 +41,5 @@ bio:
     states.  I am currently a Ph.D. student and working towards my licensure in
     clinical psychology in Ca, NC and VA. In 2015 I formed an agency to serve
     high functioning individuals with autism in California. In my free time, I
-    love to play tennis and travel. I am a mother and a dog lover. "
-  image: /static/assets/img/sychologist/sychologist-person.png
+    love to play tennis and travel. I am a mother and a dog lover."
 ---
