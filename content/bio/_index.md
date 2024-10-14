@@ -41,5 +41,5 @@ bio:
     states.  I am currently a Ph.D. student and working towards my licensure in
     clinical psychology in Ca, NC and VA. In 2015 I formed an agency to serve
     high functioning individuals with autism in California. In my free time, I
-    love to play tennis and travel. I am a mother and a dog lover."
+    love to play tennis and travel. I am a mother and a dog lover. "
 ---
