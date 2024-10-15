@@ -112,7 +112,7 @@ content:
                 - { label: "service1title", name: "service1title", type: "string" }
                 - { label: "service1explain", name: "service1explain", type: "string" }
                 - { label: "service2year", name: "service2year", type: "string" }
-                - { label: "service2title", name: "service1title", type: "string" }
+                - { label: "service2title", name: "service2title", type: "string" }
                 - { label: "service2explain", name: "service2explain", type: "string" }
                 - { label: "service3year", name: "service3year", type: "string" }
                 - { label: "service3title", name: "service3title", type: "string" }
