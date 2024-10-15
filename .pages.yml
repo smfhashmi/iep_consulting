@@ -108,18 +108,18 @@ content:
               name: "servicesHistory"
               type: "object"
               fields:
-                - { label: "service1-year", name: "service1year", type: "string" }
+                - { label: "service1year", name: "service1year", type: "string" }
                 - { label: "title", name: "title", type: "string" }
-                - { label: "service1-explain", name: "service1explain", type: "string" }
-                - { label: "service2-year", name: "service2year", type: "string" }
+                - { label: "service1explain", name: "service1explain", type: "string" }
+                - { label: "service2year", name: "service2year", type: "string" }
                 - { label: "title", name: "title", type: "string" }
-                - { label: "service2-explain", name: "service2explain", type: "string" }
-                - { label: "service3-year", name: "service3year", type: "string" }
+                - { label: "service2explain", name: "service2explain", type: "string" }
+                - { label: "service3year", name: "service3year", type: "string" }
                 - { label: "title", name: "title", type: "string" }
-                - { label: "service3-explain", name: "service3explain", type: "string" }
-                - { label: "service4-year", name: "service4year", type: "string" }
+                - { label: "service3explain", name: "service3explain", type: "string" }
+                - { label: "service4year", name: "service4year", type: "string" }
                 - { label: "title", name: "title", type: "string" }
-                - { label: "service4-explain", name: "service4explain", type: "string" } 
+                - { label: "service4explain", name: "service4explain", type: "string" } 
           
 
 
