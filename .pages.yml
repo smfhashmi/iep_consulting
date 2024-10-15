@@ -82,12 +82,7 @@ content:
           - { label: "Title", name: "title", type: "string" }
           - { label: "Text", name: "description", type: "string" } 
           
-      - label: "welcome Head 3"
-          name: "welcomeHead3"
-          type: "object"
-          fields:
-            - { label: "Title", name: "title", type: "string" }
-            - { label: "Text", name: "description", type: "string" } 
+     
 
         
       
