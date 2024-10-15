@@ -11,7 +11,7 @@ slider2:
   embed_youtube: https://youtu.be/yJg-Y5byMMw
 slider3:
   span: florina david colar
-  text: website development
+  text: ABA Therapy
   image: assets/img/slider/slider-02.jpg
   embed_youtube: https://youtu.be/yJg-Y5byMMw
 card1:
