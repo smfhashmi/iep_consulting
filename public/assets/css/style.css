@@ -2242,6 +2242,7 @@ p {
 }
 .sychologist__content p {
   margin-bottom: 45px;
+  padding-left: 100px;
 }
 .sychologist__call:hover span {
   background: #f8a683;
