@@ -29,4 +29,9 @@ aboutArea:
     future. Let us support your family in this journey. "
   name: Florina David Colar
   designation: Founder & CEO, IEP Consulting BCBA
+servicesHistory:
+  service1-year: "2018"
+  title: Behavioral Therapy Launch
+  service1-explain: Introduced a comprehensive ABA therapy program tailored to
+    individual needs of children with autism.
 ---
