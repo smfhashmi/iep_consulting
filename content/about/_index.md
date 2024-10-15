@@ -36,9 +36,16 @@ servicesHistory:
   service2year: "2020"
   service3year: "2021"
   service4year: "2023"
-  service4explain: Global Collaboration Expansion
-  service3explain: Parent Training Programs Introduced
-  service2explain: Multidisciplinary Evaluations Initiated
-  service1explain: Behavioral Therapy Launch
+  service4explain: Established international partnerships, expanding our support
+    network to multicultural and multilingual families.
+  service3explain: Launched personalized parent coaching and training services to
+    enhance home-based intervention success.
+  service2explain: Integrated cross-functional evaluations for students with ASD,
+    focusing on behavior, academics, and social development.
+  service1explain: Introduced a comprehensive ABA therapy program tailored to
+    individual needs of children with autism.
   service1title: Behavioral Therapy Launch
+  service2title: Multidisciplinary Evaluations Initiated
+  service3title: Parent Training Programs Introduced
+  service4title: Global Collaboration Expansion
 ---
