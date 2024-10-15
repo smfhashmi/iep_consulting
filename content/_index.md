@@ -16,28 +16,29 @@ slider3:
   embed_youtube: https://youtu.be/yJg-Y5byMMw
 card1:
   title: Satisfied Services
-  description: " Satisfied Services Nostrud exerctation to ullamco laibor nisiod
-    in above murli aliquip commodo"
+  description: We offer personalized care to enhance children's development and
+    improve their quality of life through expert guidance.
 card2:
   title: " Dedicated Therapist"
-  description: Nostrud exerctation to ullamco laibor nisiod in above murli aliquip commodo
+  description: Our skilled therapists, including BCBAs and RBTs, provide
+    individualized ABA therapy, building essential communication and social
+    skills for your child.
 card3:
   title: Support Patient
-  description: Nostrud exerctation to ullamco laibor nisiod in above murli aliquip commodo
+  description: We offer continuous support, ensuring progress beyond therapy
+    sessions, empowering children and families with comprehensive, 24/7 care.
 imageCard:
   title: 20
   description: years of Professional Experience
   image: assets/img/about/about-3.jpg
 welcomeSpan:
-  span: welcome to heloWorld
+  span: welcome to IEP Consulting
 welcomeHead1:
-  title: Dedicated Support Manager
-  description: Inceptos cras gravida augue massa sociosqu ultrices sit nase cetur
-    taciti nonummy conubia vel eget massa inceptos faucib interdum a sapien
-    lacus
+  title: Professional Care Manager
+  description: Expert managers provide tailored support, fostering growth and
+    stability for lasting success and development.
 welcomeHead2:
   title: Dedicated Support Manager
-  description: Inceptos cras gravida augue massa sociosqu ultrices sit nase cetur
-    taciti nonummy conubia vel eget massa inceptos faucib interdum a sapien
-    lacus
+  description: Our dedicated managers focus on individual needs, ensuring progress
+    through personalized care and guidance.
 ---
