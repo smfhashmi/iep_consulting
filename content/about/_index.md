@@ -36,4 +36,8 @@ servicesHistory:
   service2year: "2020"
   service3year: "2021"
   service4year: "2023"
+  service4explain: Global Collaboration Expansion
+  service3explain: Parent Training Programs Introduced
+  service2explain: Multidisciplinary Evaluations Initiated
+  service1explain: Behavioral Therapy Launch
 ---
