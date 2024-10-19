@@ -18,6 +18,12 @@ bioArea:
     State University. She later pursued her M.A. in Clinical Psychology with an
     emphasis in Applied Behavior Analysis at The Chicago School of Professional
     Psychology in the USA. Her academic pursuits were followed by extensive work
-    experience in the UK, USA, and Canada, solidifying her expertise.
+    experience in the UK, USA, and Canada, solidifying her expertise. Her work
+    in renowned institutions, such as City of Hope Medical Center in California,
+    and her collaboration with esteemed professionals like Dr. Joyce Tu-BCBA-D
+    and Dr. Hank Schlinger, PhD, BCBA-D, have been instrumental in shaping her
+    approach. Florina's experience as a Behavior Consultant and Clinical
+    Director in various agencies has equipped her with a unique understanding of
+    the complexities of autism.
   image: /assets/img/sychologist/sychologist-person.png
 ---
