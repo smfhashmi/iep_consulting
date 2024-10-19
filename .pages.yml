@@ -102,6 +102,26 @@ content:
                 - { label: "boxDescription", name: "boxDescription", type: "string" }
                 - { label: "name", name: "name", type: "string" }
                 - { label: "designation", name: "designation", type: "string" }
+                - { label: "topic1", name: "topic1", type: "string" }
+                - { label: "topic1detail", name: "topic1detail", type: "string" }
+                - { label: "topic2", name: "topic2", type: "string" }
+                - { label: "topic2detail", name: "topic2detail", type: "string" }
+                - { label: "topic3", name: "topic3", type: "string" }
+                - { label: "topic3detail", name: "topic3detail", type: "string" }
+                - { label: "topic4", name: "topic4", type: "string" }
+                - { label: "list1", name: "list1", type: "string" }
+                - { label: "list2", name: "list2", type: "string" }
+                - { label: "list3", name: "list3", type: "string" }
+                - { label: "list4", name: "list4", type: "string" }
+                - { label: "list5", name: "list5", type: "string" }
+                - { label: "list6", name: "list6", type: "string" }
+                - { label: "list7", name: "list7", type: "string" }
+                - { label: "list8", name: "list8", type: "string" }
+                - { label: "list9", name: "list9", type: "string" }
+                - { label: "list10", name: "list10", type: "string" }
+                - { label: "list11", name: "list11", type: "string" }
+                - { label: "list12", name: "list12", type: "string" }
+                - { label: "list13", name: "list13", type: "string" }
 
 
             - label: "services History"
