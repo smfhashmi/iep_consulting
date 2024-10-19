@@ -1767,7 +1767,7 @@ p {
 .about__area-2 {
   z-index: 11;
 }
-.about__area-2::after {
+/* .about__area-2::after {
   position: absolute;
   content: "";
   top: -80px; 
@@ -1776,7 +1776,7 @@ p {
   height: calc(100% + 200px);
   background: #f6f6f6;
   z-index: -1;
-}
+} */
 .about__area-3 {
   margin-top: -190px;
 }
