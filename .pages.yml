@@ -151,6 +151,10 @@ content:
             - { label: "name", name: "name", type: "string" }
             - { label: "occupation", name: "occupation", type: "string" }
             - { label: "aboutYou", name: "aboutYou", type: "string" }
+            - { label: "aboutYou1", name: "aboutYou1", type: "string" }
+            - { label: "aboutYou2", name: "aboutYou2", type: "string" }
+            - { label: "aboutYou3", name: "aboutYou3", type: "string" }
+            - { label: "aboutYou4", name: "aboutYou4", type: "string" }
             - { label: "image", name: "image", type: "string" }
 
 
