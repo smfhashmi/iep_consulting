@@ -29,6 +29,55 @@ aboutArea:
     future. Let us support your family in this journey. "
   name: Florina David Colar
   designation: Founder & CEO, IEP Consulting BCBA
+  topic1: Trusted International Team
+  topic1detail: At IEP Consulting BCBA, we are a well recognized international
+    team helping children with autism reach their full potential through
+    personalized Applied Behaviour Analysis (ABA) therapy. Our team of
+    experienced experts from BCBA, SP, LCSW, CP & RBT’s collaborates closely
+    with families to design customized treatment plans, focusing on enhancing
+    social, communication, and daily living skills. We believe in empowering
+    children to overcome challenges, build confidence, and develop the tools
+    they need to thrive in their everyday lives. Our mission is to provide
+    meaningful support, helping each child achieve lasting progress and success.
+    Let us be a part of your child's journey toward skill acquisition such as
+    social skills, communication in the context and building and maintaining
+    friendship
+  topic2: Who We Are
+  topic2detail: At IEP Consulting BCBA, our compassionate team of expert Board
+    Certified Behaviour Analysts (BCBAs) and trained Registered Behaviour
+    Technicians (RBTs) provide personalized, research-based ABA therapy both
+    in-home and in-clinic. We focus on fostering your child’s development in
+    natural, everyday environments, ensuring they grow in the areas that matter
+    most. A key focus of our therapy is social and life skills development. We
+    understand how important it is for your child to feel confident in social
+    interactions and daily tasks. Our tailored programs help children build
+    meaningful connections, improve communication, develop independence, and
+    strengthen relationships. Our goal is to equip your child with the tools
+    they need to thrive both socially and in everyday life, now and in the
+    future. Let us support your family in this journey.
+  topic3: " Our Commitment to Families and Child Development"
+  topic3detail: We enhance our evaluations and treatment plans by actively
+    including recommendations and feedback from families, caregivers, and
+    teachers. We prioritize supporting families during transitions and helping
+    them achieve their children's developmental goals. Our clinicians coach
+    parents on implementing carryover interventions alongside regular care
+    plans. We provide coaching and training in child development for community
+    members and childcare providers. By aligning a child's environment with
+    their needs, we foster a supportive space for them to thrive.
+  topic4: "How We Help Kids :"
+  list1: "Social Skills  "
+  list2: "Fine Motor Skills   "
+  list3: School Readiness
+  list4: Emotional Development
+  list5: "Parent Education    "
+  list6: Self Care Skills
+  list7: "Language & Communication  "
+  list8: Problem Solving & Critical Thinking
+  list9: " Play Skills"
+  list10: Self-Regulation & Impulse Contro
+  list11: Resilience & Coping Skills
+  list12: "Time Management "
+  list13: " Organization Safety Awareness"
 servicesHistory:
   service1-year: "2018"
   title: Behavioral Therapy Launch
