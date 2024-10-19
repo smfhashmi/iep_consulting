@@ -1,6 +1,6 @@
 +++
-title = "service2"
-list_description = "BCBA"
+title = " ABA therapy"
+list_description = "Evidence-based behavior therapy for autism and developmental disorders."
 service_image = "/assets/img/services/details/services-details-img.jpg"
 +++
 
