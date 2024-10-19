@@ -78,6 +78,23 @@ aboutArea:
   list11: Resilience & Coping Skills
   list12: "Time Management "
   list13: " Organization Safety Awareness"
+  mission: "Mission:"
+  missioncontent: At IEP Consulting BCBA, our mission is to empower children with
+    autism by providing personalized, evidence-based Applied Behavior Analysis
+    (ABA) therapy. We are committed to collaborating closely with families,
+    caregivers, and educators to develop individualized treatment plans that
+    help children build essential life skills, improve communication, and foster
+    independence. Through compassion, expertise, and a family-centered approach,
+    we aim to support each child in achieving meaningful, long-lasting progress.
+  vision: "Vision:"
+  visioncontent: Our vision is to be a global leader in autism care and school
+    consultancy, recognized for delivering exceptional ABA services that
+    transform lives. We strive to create a world where every child with autism
+    has the opportunity to reach their full potential in a nurturing, inclusive
+    environment. By continuously innovating our practices and expanding our
+    reach, we aim to set new standards for comprehensive care and advocacy in
+    the autism community, ensuring that every child has the support they need to
+    thrive.
 servicesHistory:
   service1-year: "2018"
   title: Behavioral Therapy Launch
