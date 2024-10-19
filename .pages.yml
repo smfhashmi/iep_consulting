@@ -122,7 +122,10 @@ content:
                 - { label: "list11", name: "list11", type: "string" }
                 - { label: "list12", name: "list12", type: "string" }
                 - { label: "list13", name: "list13", type: "string" }
-
+                - { label: "mission", name: "mission", type: "string" }
+                - { label: "missioncontent", name: "missioncontent", type: "string" }
+                - { label: "vision", name: "vision", type: "string" }
+                - { label: "visioncontent", name: "visioncontent", type: "string" }
 
             - label: "services History"
               name: "servicesHistory"
