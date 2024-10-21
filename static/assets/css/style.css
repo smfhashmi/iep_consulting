@@ -2234,7 +2234,7 @@ p {
   margin-top: -65px;
 }
 .sychologist__person-2 {
-  margin-top: 0;
+  margin-top: 30px;
 }
 .sychologist__content h1 {
   font-size: 50px;
@@ -2245,8 +2245,8 @@ p {
   margin-bottom: 22px;
 }
 .sychologist__content p {
-  margin-bottom: 45px;
-  padding-left: 100px;
+  margin-bottom: 65px;
+  padding-left: 10px;
 }
 .sychologist__call:hover span {
   background: #f8a683;
