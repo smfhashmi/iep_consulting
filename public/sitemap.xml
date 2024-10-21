@@ -10,13 +10,21 @@
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
+    <loc>http://localhost:1313/services/aba-therapy/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/services/service-1/</loc>
+    <loc>http://localhost:1313/services/iep-consulting-504-and-parental-rights/</loc>
   </url><url>
-    <loc>http://localhost:1313/services/service-2/</loc>
+    <loc>http://localhost:1313/services/parent-counselling/</loc>
+  </url><url>
+    <loc>http://localhost:1313/services/pyschological-testing/</loc>
   </url><url>
     <loc>http://localhost:1313/services/</loc>
+  </url><url>
+    <loc>http://localhost:1313/services/special-education/</loc>
+  </url><url>
+    <loc>http://localhost:1313/services/speech-development-verbal-behaviour-development/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
