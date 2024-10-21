@@ -20,9 +20,8 @@ card1:
     improve their quality of life through expert guidance.
 card2:
   title: " Dedicated Therapist"
-  description: Our skilled therapists, including BCBAs and RBTs, provide
-    individualized ABA therapy, building essential communication and social
-    skills for your child.
+  description: Our skilled therapists, BCBAs and RBTs, provide individualized ABA
+    therapy, building essential communication and social skills for your child
 card3:
   title: Support Patient
   description: We offer continuous support, ensuring progress beyond therapy
