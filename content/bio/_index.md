@@ -1,7 +1,7 @@
 ---
 bioArea:
   name: FLORINA DAVID COLAR
-  occupation: M.A., M.S., BCBA, LBA, QBA, BCASE
+  occupation: M.A., M.S., BCBA, LBA, QBA, BCASE, Test
   aboutYou: As the CEO and Founder of IEP Consulting BCBA Inc, Florina David
     Colar's mission is to enhance educational outcomes through expert behavior
     analysis and individualized support for school districts. With a focus on
