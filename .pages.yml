@@ -158,7 +158,7 @@ content:
            fields:
               - label: "Services"
                 name: "services"
-                type: ""  # Allows multiple service entries
+                type: "string"  
                 fields:
                   - { label: "Title", name: "title", type: "string" }
                   - { label: "Description", name: "description", type: "text" } 
