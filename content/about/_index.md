@@ -5,15 +5,14 @@ aboutArea:
   description: At IEP Consulting BCBA, we are well recognized international team
     helping children with autism reach their full potential through personalized
     Applied Behaviour Analysis (ABA) therapy. Our team of experienced experts
-    from BCBA, SP, LCSW, CP &amp; RBT’s collaborates closely with families to
-    design customized treatment plans, focusing on enhancing social,
-    communication, and daily living skills. We believe in empowering children to
-    overcome challenges, build confidence, and develop the tools they need to
-    thrive in their everyday lives. Our mission is to provide meaningful
-    support, helping each child achieve lasting progress and success. Let us be
-    a part of your child&#39;s journey toward skill acquisition such as social
-    skills, communication in the context and building and maintaining
-    friendship.
+    from BCBA, SP, LCSW, CP & RBT’s collaborate closely with families to design
+    customized treatment plans, focusing on enhancing social, communication, and
+    daily living skills. We believe in empowering children to overcome
+    challenges, build confidence, and develop the tools they need to thrive in
+    their everyday lives. Our mission is to provide meaningful support, helping
+    each child achieve lasting progress and success. Let us be a part of your
+    child's journey toward skill acquisition such as social skills,
+    communication in the context and building and maintaining friendship.
   boxTitle: 20 Years Professional Experience
   boxDescription: "At IEP Consulting BCBA, our compassionate team of expert Board
     Certified Behaviour Analysts (BCBAs) and trained Registered Behaviour
