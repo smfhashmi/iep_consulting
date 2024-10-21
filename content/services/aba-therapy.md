@@ -1,4 +1,2 @@
 ---
-serviceArea:
-  services: hello
 ---
