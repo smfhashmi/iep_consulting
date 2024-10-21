@@ -156,12 +156,7 @@ content:
            name: "serviceArea"
            type: "object"
            fields:
-              - label: "Services"
-                name: "services"
-                type: "string"  
-                fields:
-                  - { label: "Title", name: "title", type: "string" }
-                  - { label: "Description", name: "description", type: "text" } 
+              - { label: "title", name: "title", type: "string" }
                   
 
          
