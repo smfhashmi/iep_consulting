@@ -1,8 +1,8 @@
 ---
 aboutArea:
   span: Welcome to IEP Consulting BCBA
-  title: Patients are Happy, Cause Proper Mental Cure Support
-  description: At IEP Consulting BCBA, we are well recognized international team
+  title: Patients are Happy, Cause Proper Tailored Plans
+  description: At IEP Consulting BCBA, we are a well recognized international team
     helping children with autism reach their full potential through personalized
     Applied Behaviour Analysis (ABA) therapy. Our team of experienced experts
     from BCBA, SP, LCSW, CP & RBT’s collaborate closely with families to design
