@@ -179,6 +179,9 @@ content:
             - { label: "aboutYou2", name: "aboutYou2", type: "string" }
             - { label: "aboutYou3", name: "aboutYou3", type: "string" }
             - { label: "aboutYou4", name: "aboutYou4", type: "string" }
+            - { label: "aboutYou5", name: "aboutYou5", type: "string" }
+            - { label: "aboutYou6", name: "aboutYou6", type: "string" }
+            - { label: "aboutYou7", name: "aboutYou7", type: "string" }
             - { label: "image", name: "image", type: "string" }
 
 
