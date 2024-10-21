@@ -62,7 +62,7 @@
               <nav>
                 <ul>
                   {{ range .Site.Data.header.nav }}
-                  <li class="{{ if .dropdown }}.has-dropdown{{ end }}">
+                  <li class="{{ if .dropdown }}has-dropdown{{ end }}">
                     <a href="{{ .url }}">{{ .name }}</a>
                     {{ if .dropdown }}
                       <ul class="submenu">
@@ -80,7 +80,7 @@
             <div class="d-md-none">
               <a href="/"
                 ><img src="{{.Site.Data.header.logo_url}}"
-                alt="{{.Site.Data.header.logo_text}}" / style="width:100%"></a
+                alt="{{.Site.Data.header.logo_text}}"  style="width:100%"></a
               >
             </div>
           </div>
@@ -89,10 +89,10 @@
               class="header__bottom-3-right d-flex justify-content-end align-items-center"
             >
               <div class="social social-border d-none d-xl-block">
-                <ul>
+                <ul target = >
                   {{ range .Site.Data.header.social_media }}
                   <li>
-                    <a href="{{.url}}"><i class="{{.name}}"></i></a>
+                    <a href="{{.url}}" target="_blank"><i class="{{.name}}"></i></a>
                   </li>
                   {{ end }}
                 </ul>
