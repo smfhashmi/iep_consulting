@@ -1,6 +1,6 @@
 ---
 slider1:
-  span: IEP Consulting BCBA
+  span: Brighter Futures Start Here
   text: Join us in creating a brighter future for your child, one step at a time
   image: assets/img/slider/slider-02.jpg
   embed_youtube: https://youtu.be/yJg-Y5byMMw
