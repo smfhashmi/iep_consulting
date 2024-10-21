@@ -5,13 +5,13 @@ slider1:
   image: assets/img/slider/slider-02.jpg
   embed_youtube: https://youtu.be/yJg-Y5byMMw
 slider2:
-  span: BCBA
-  text: Behavior Analyst
+  span: Unlock Your Child's Potential
+  text: Comprehensive IEP Stratergies and Parent Guidance
   image: assets/img/slider/slider-01.jpg
   embed_youtube: https://youtu.be/yJg-Y5byMMw
 slider3:
-  span: florina david colar
-  text: ABA Therapy
+  span: Breaking Barriers, Building Futures
+  text: Innovative ABA Therapy and Care
   image: assets/img/slider/slider-02.jpg
   embed_youtube: https://youtu.be/yJg-Y5byMMw
 card1:
