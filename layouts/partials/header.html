@@ -8,7 +8,10 @@
             <div class="header__top-left">
               <div class="">
                 <a href="{{.Site.Params.website}}"
-                  ><img src="{{.Site.Data.header.logo_url}}" alt="{{.Site.Data.header.logo_alt}}" style="width:100%"
+                  ><img
+                    src="{{.Site.Data.header.logo_url}}"
+                    alt="{{.Site.Data.header.logo_alt}}"
+                    style="width: 100%"
                 /></a>
               </div>
             </div>
@@ -59,15 +62,26 @@
               <nav>
                 <ul>
                   {{ range .Site.Data.header.nav }}
-                    <li>
-                      <a href="{{ .url }}">{{.name}}</a>
-                    </li>
+                  <li class="{{ if .dropdown }}.has-dropdown{{ end }}">
+                    <a href="{{ .url }}">{{ .name }}</a>
+                    {{ if .dropdown }}
+                      <ul class="submenu">
+                        {{ range .dropdown }}
+                          <li><a href="{{ .url }}">{{ .name }}</a></li>
+                        {{ end }}
+                      </ul>
+                    {{ end }}
+                  </li>
+
                   {{end}}
                 </ul>
               </nav>
             </div>
             <div class="d-md-none">
-              <a href="/"><img src="{{.Site.Data.header.logo_url}}" alt="{{.Site.Data.header.logo_text}}" / style="width:100%"></a>
+              <a href="/"
+                ><img src="{{.Site.Data.header.logo_url}}"
+                alt="{{.Site.Data.header.logo_text}}" / style="width:100%"></a
+              >
             </div>
           </div>
           <div class="col-xl-5 col-lg-4 col-md-2 col-sm-6 col-4">
@@ -77,14 +91,16 @@
               <div class="social social-border d-none d-xl-block">
                 <ul>
                   {{ range .Site.Data.header.social_media }}
-                    <li>
-                      <a href="{{.url}}"><i class="{{.name}}"></i></a>
-                    </li>
+                  <li>
+                    <a href="{{.url}}"><i class="{{.name}}"></i></a>
+                  </li>
                   {{ end }}
                 </ul>
               </div>
               <div class="header__btn ml-35 d-none d-lg-block">
-                <a href="/" class="s-btn s-btn__square">{{ .Site.Data.header.contact_text }}</a>
+                <a href="/" class="s-btn s-btn__square"
+                  >{{ .Site.Data.header.contact_text }}</a
+                >
               </div>
               <div
                 class="header-bar header-bar-2 info-toggle-btn f-right d-md-block d-lg-none"
