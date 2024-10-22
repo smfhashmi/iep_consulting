@@ -2245,7 +2245,7 @@ p {
   margin-bottom: 22px;
 }
 .sychologist__content p {
-  margin-bottom: 65px;
+  margin-bottom: 15px;
   padding-left: 10px;
 }
 .sychologist__call:hover span {
@@ -5753,7 +5753,7 @@ p {
   }
 
   .sychologist__content.sychologist__content-2 {
-    padding-top: 50px;
+    padding-top: 1px;
   }
 
   /* appointment area start */
