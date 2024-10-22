@@ -153,6 +153,8 @@ content:
     type: "collection"
     fields:
       - { label: "title", name: "title", type: "string" }
+      - { label: "description", name: "description", type: "string" }
+      - { label: "body", name: "body", type: "markdown" }
                   
 
          
