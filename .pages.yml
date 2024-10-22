@@ -152,9 +152,9 @@ content:
     path: content/services
     type: "collection"
     fields:
-      - { label: "title", name: "title", type: "string" }
-      - { label: "description", name: "description", type: "string" }
-      - { label: "body", name: "body", type: "markdown" }
+      - { label: "Title", name: "title", type: "string" }
+      - { label: "Description", name: "description", type: "string" }
+      - { label: "Body", name: "body", type: "markdown" }
                   
 
          
