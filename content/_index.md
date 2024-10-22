@@ -7,12 +7,10 @@ slider2:
   span: Unlock Your Child's Potential
   text: Comprehensive IEP Stratergies and Parent Guidance
   image: assets/img/slider/slider-01.jpg
-  embed_youtube: https://youtu.be/yJg-Y5byMMw
 slider3:
   span: Breaking Barriers, Building Futures
   text: Innovative ABA Therapy and Care
   image: assets/img/slider/slider-02.jpg
-  embed_youtube: https://youtu.be/yJg-Y5byMMw
 card1:
   title: Satisfied Services
   description: We offer personalized care to enhance children's development and
