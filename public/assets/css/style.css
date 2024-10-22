@@ -2824,7 +2824,7 @@ p {
   width: 100%;
 }
 .contact__input.nice-select ul li {
-  display: block;
+  display: flex;
   color: #005046;
 }
 .contact__input.nice-select::after {
@@ -2853,6 +2853,18 @@ p {
 }
 .contact__input-4:focus {
   border-color: #056c5f;
+}
+.contact__input-4 {
+  width: 100%; 
+  white-space: normal; 
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+}
+
+.contact__input-4 option {
+  white-space: normal;
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
 }
 .contact__map-wrapper {
   margin-top: -210px;
