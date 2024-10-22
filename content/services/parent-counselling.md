@@ -1,9 +1,7 @@
-+++
-title = "Parent Counselling"
-list_description = "Support for parents navigating challenges and improving family dynamics. "
-service_image = "/assets/img/services/details/services-details-img.jpg"
-+++
-
+---
+title: Parent Counselling
+description: "Support for parents navigating challenges and improving family dynamics. "
+---
 Form that bearing earth made set likeness god under own male tree behold upon in bete fill Under fruit bring may moving also gathered were fourth stars. One moveth likeness man lesser an beast man thing moving wherein male fifth is darkness whose herb. First is greater does not is own doesnet divide open abundantly our seas beast fly likeness may of blessed days yielding be him etem beginning for creepin earth green tree brought deep abundantly.
 
 Imperdiet vehicula semper faucibus hemel urna porta hymenaeos litora a arcu dolor lectus auctor arcu consequat tellus inceptos doing accumsan vestibulum ornare sodales namer auctor suspendisse enim fringilla sollicitudin dictum maner cause aenean habitant.
