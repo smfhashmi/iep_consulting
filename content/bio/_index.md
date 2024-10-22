@@ -47,8 +47,8 @@ bioArea:
     understanding. As a Ph.D. student in Clinical Psychology, Florina continues
     to push the boundaries of innovation, driven by her passion for making a
     meaningful difference.  In her spare time, Florina enjoys tennis, travel,
-    and exploring the beauty of nature with her family. Her love for animals is
-    evident in her compassionate approach to supporting individuals with autism.
+    exploring the beauty of nature with her family. She is a proud mother and a
+    dog lover.
   aboutYou7: Florina David Colar is a shining example of dedication, compassion,
     and expertise. Her international appeal and commitment to advancing the
     field of ABA make her a beacon of hope for individuals with autism and their
