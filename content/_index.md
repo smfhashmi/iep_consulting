@@ -3,7 +3,6 @@ slider1:
   span: Brighter Futures Start Here
   text: Join us in creating a brighter future for your child, one step at a time
   image: assets/img/slider/slider-02.jpg
-  embed_youtube: https://youtu.be/yJg-Y5byMMw
 slider2:
   span: Unlock Your Child's Potential
   text: Comprehensive IEP Stratergies and Parent Guidance
