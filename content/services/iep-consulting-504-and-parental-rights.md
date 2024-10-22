@@ -1,3 +1,7 @@
+---
+title: IEP Consulting for 504 & Parental Rights
+description: Guidance on IEPs, 504 plans, and parental rights.
+---
 +++
 title = "IEP Consulting for 504 & Parental Rights"
 list_description = "Guidance on IEPs, 504 plans, and parental rights."
