@@ -8,7 +8,7 @@ bioArea:
     evidence-based practices, her team and she have established impactful social
     skills programs and comprehensive guidelines for international internships
     in behavior analysis.
-  image: /assets/img/sychologist/sychologist-person.png
+  image: /assets/img/sychologist/Florina-david.png
   aboutYou1: Her involvement with the Babes-Bolyai University Alumni Association
     underscores her commitment to global mentorship, where she facilitates
     behavior analysis training and supports ABA practitioners. These roles
