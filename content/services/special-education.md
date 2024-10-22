@@ -1,8 +1,7 @@
-+++
-title = "Special Education"
-list_description = "Tailored educational programs for children with unique learning needs."
-service_image = "/assets/img/services/details/services-details-img.jpg"
-+++
+---
+title: Special Education
+description: Tailored educational programs for children with unique learning needs
+---
 
 Form that bearing earth made set likeness god under own male tree behold upon in bete fill Under fruit bring may moving also gathered were fourth stars. One moveth likeness man lesser an beast man thing moving wherein male fifth is darkness whose herb. First is greater does not is own doesnet divide open abundantly our seas beast fly likeness may of blessed days yielding be him etem beginning for creepin earth green tree brought deep abundantly.
 
