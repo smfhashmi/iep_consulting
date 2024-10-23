@@ -36,11 +36,11 @@ nav:
     url: "/contact"
 
 social_media:
-  - name: "fab fa-facebook-f"
-    url: "https://www.facebook.com/"
+  # - name: "fab fa-facebook-f"
+  #   url: "https://www.facebook.com/"
 
-  - name: "fab fa-twitter"
-    url: "https://twitter.com/"
+  # - name: "fab fa-twitter"
+  #   url: "https://twitter.com/"
 
   - name: "fab fa-linkedin-in"
-    url: "https://www.linkedin.com/"
+    url: "https://www.linkedin.com/in/florina-david-colar-bcba-lba-9994a728"

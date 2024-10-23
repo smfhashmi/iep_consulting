@@ -4183,6 +4183,41 @@ p {
 /*----------------------------------------*/
 /*  18. PROJECT CSS START
 /*----------------------------------------*/
+/* Basic styling for button container */
+.button-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Join Us Button Styling */
+.join-us-btn {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 30px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Hover Effect */
+.join-us-btn:hover {
+  background-color: #f8a683;
+  color: #ffffff;
+  transform: scale(1.05); 
+}
+
+.join-us-btn:active {
+  background-color:#056c5f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1); 
+}
+
 .project__slider .owl-nav {
   position: absolute;
   top: -180px;
