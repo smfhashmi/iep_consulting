@@ -13,8 +13,7 @@ Our parent counseling services focus on empowering you with practical strategies
 - Emotional Support: We offer a compassionate space for parents to discuss their challenges, frustrations, and concerns, providing guidance to reduce stress and build resilience.
 - Collaboration with Therapies: We help you integrate ABA strategies and other therapeutic techniques into your daily routine to ensure consistency and progress both at home and in other settings.
 
-### Helping You Walk Again
+### Why Parent Counseling Matters
+By focusing on both the emotional and practical aspects of parenting, our counseling services help parents feel more in control and equipped to meet their child’s needs. With the right guidance, you can foster your child’s growth, build stronger family relationships, and become a more confident advocate in your child’s educational and developmental journey.
 
-Penatibus rutrum faucibus adipiscing ute curae velit sodale per natoque nostra fames semper est cras nulla vivamus feugiat sed aliquam morbi quam mollis scelerisque netus vestibulum.
-
-Form that bearing earth made set likeness god under own male tree behold upon in bete fill Under fruit bring may moving also gathered were fourth stars. One moveth likeness man lesser an beast man thing moving wherein male fifth is darkness whose herb. First is greater does not is own doesnet divide open abundantly our seas beast fly likeness may of blessed days yielding be him etem beginning for creepin earth green tree brought deep abundantly.
+At IEP Consulting BCBA Inc., we believe that empowered parents create the foundation for their child’s success, and we are here to support you every step of the way.
