@@ -1,5 +1,5 @@
 ---
-title: Parent Counselling
+title: Parent Training
 description: "Support for parents navigating challenges and improving family dynamics. "
 ---
 Parenting a child with special needs comes with unique challenges that can feel overwhelming. At IEP Consulting BCBA Inc., we offer parent counseling services to provide you with the tools, guidance, and emotional support you need to navigate your child’s development and education with confidence.
