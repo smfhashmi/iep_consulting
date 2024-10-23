@@ -53,5 +53,5 @@ bioArea:
     and expertise. Her international appeal and commitment to advancing the
     field of ABA make her a beacon of hope for individuals with autism and their
     families worldwide.
-  title: Board of Medicine, ABA Licensed Behaviour Analyst in NC and VA
+  title: Licensed Behaviour Analyst in NC and VA
 ---
