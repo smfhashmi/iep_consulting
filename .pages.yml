@@ -199,7 +199,7 @@ content:
     type: "file"
     fields:
       - { label: "Title", name: "title", type: "string" }
-      - { label: "Description", name: "description", type: "string" }
+      - { label: "Body", name: "body", type: "text" }
 
 
 
