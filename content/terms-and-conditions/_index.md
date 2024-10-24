@@ -1,8 +1,7 @@
 ---
-title: "Terms and Conditions"
+title: Terms and Conditions
 ---
-
-**IEP Consulting BCBA Inc.** ("Company", "We", or "Us") provides consulting services and support to schools, parents, and individuals on the autism spectrum. By accessing or using our website **[www.iepconsultingbcba.com]** **(http://www.iepconsultingbcba.com)** or our services, you agree to be bound by these Terms and Conditions.
+**IEP Consulting BCBA Inc.** ("Company", "We", or "Us") provides consulting services and support to schools, parents, and individuals on the autism spectrum. By accessing or using our website **www.iepconsultingbcba.com** **http://www.iepconsultingbcba.com** or our services, you agree to be bound by these Terms and Conditions.
 
 #### 1. Definitions
 
