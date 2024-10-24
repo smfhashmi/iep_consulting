@@ -192,6 +192,14 @@ content:
         type: "object"
         fields:
           - { label: "description", name: "description", type: "string" }
+  
+  - name: tnc
+    label: Terms and Conditions
+    path: content/terms-and-conditions/_index.md
+    type: "file"
+    fields:
+      - { label: "Title", name: "title", type: "string" }
+      - { label: "Description", name: "description", type: "string" }
 
 
 

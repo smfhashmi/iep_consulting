@@ -27,5 +27,7 @@
     <loc>http://localhost:1313/services/speech-development-verbal-behaviour-development/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/terms-and-conditions/</loc>
   </url>
 </urlset>
