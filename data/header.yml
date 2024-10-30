@@ -4,7 +4,7 @@ working_title: "Working days"
 working_text: "Monday to Friday"
 call_text: "Call us:"
 email_text: "Email us:"
-contact_text: "Contact us Now"
+appointment: "Book an appointment"
 nav:
   - name: "Home"
     url: "/"
