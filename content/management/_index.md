@@ -27,4 +27,7 @@ managementArea:
     and business can come together to transform lives and create a brighter
     future.
   image: /assets/img/team/briana.jpg
+  name1: Briana
+  span1: A Leader in ABA Therapy and Autism Support
+  title1: Briana's biography
 ---
