@@ -7,20 +7,9 @@
       </div>
       <div class="info__wrapper">
         <div class="info__logo mt-25 mb-30">
-          <a href="https://wphix.com/template/sycho-prv/sycho/index.html"
+          <a href="/"
             ><img src="/assets/img/logo/logo.png" alt="logo"
           /></a>
-        </div>
-
-        <div class="info__content">
-          <h4>About Us</h4>
-          <p>
-            We must explain to you how all seds this mistakens idea off
-            denouncing pleasures and praising pain was born and I will give you
-            a completed accounts of the system and expound.
-          </p>
-
-          <a href="contact.html" class="s-btn s-btn__white">Contact us</a>
         </div>
         <div class="info__contact">
           <h3>contact info</h3>
@@ -30,9 +19,7 @@
                 <i class="fal fa-map-marker-alt"></i>
               </div>
               <div class="text">
-                <span
-                  >123/A, Miranda City Likaoli Prikano, Dope United States
-                </span>
+                <span>{{.Site.Params.address}}</span>
               </div>
             </li>
             <li>
@@ -40,7 +27,7 @@
                 <i class="fal fa-phone"></i>
               </div>
               <div class="text">
-                <span>+0989 7876 9865 9</span>
+                <span>{{.Site.Params.mobile}} </span>
               </div>
             </li>
             <li>
@@ -50,7 +37,7 @@
               <div class="text">
                 <span
                   ><a href="{{.Site.Params.website}}" class="__cf_email__"
-                    >two44software.com</a
+                    >{{.Site.Params.email}}</a
                   ></span
                 >
               </div>
@@ -71,6 +58,11 @@
         </li>
         {{end}}
       </ul>
+      <div class="ml-35">
+        <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square"
+            >{{ .Site.Data.header.appointment }}</a
+          >
+      </div>
     </nav>
     <!-- side-mobile-menu end -->
   </div>
