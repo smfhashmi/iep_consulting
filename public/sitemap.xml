@@ -10,6 +10,8 @@
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
+    <loc>http://localhost:1313/management/</loc>
+  </url><url>
     <loc>http://localhost:1313/services/aba-therapy/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>

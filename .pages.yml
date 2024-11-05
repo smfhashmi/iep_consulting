@@ -186,13 +186,13 @@ content:
     fields:
             - label: "Management Area"
               name: "managementArea"
-              type: "object"
+              type: "list"
               fields:
                 - { label: "name", name: "name", type: "string" }
                 - { label: "span", name: "span", type: "string" }
                 - { label: "title", name: "title", type: "string" }
-                - { label: "memberdetail1", name: "memberdetail1", type: "string" }
-                - { label: "memberdetail2", name: "memberdetail2", type: "string" }
+                - { label: "Member Detail 1", name: "memberdetail1", type: "string" }
+                - { label: "Member Detail 2", name: "memberdetail2", type: "string" }
                 - { label: "image", name: "image", type: "string" }
                 - { label: "linkedin", name: "linkedin", type: "string" }
                 - { label: "facebook", name: "facebook", type: "string" }
