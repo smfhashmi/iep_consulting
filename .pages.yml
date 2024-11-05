@@ -180,7 +180,7 @@ content:
             - { label: "image", name: "image", type: "string" }
 
   - name: management
-    label: Management
+    label: Clinical Team
     path: content/management/_index.md
     type: file
     fields:
