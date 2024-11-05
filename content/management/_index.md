@@ -33,7 +33,7 @@ managementArea:
   name2: Joanne Valcin-Dickson
   span2: " QASP-S"
   title2: Joanne's Biography
-  image2: /assets/img/team/joanne.png
+  image2: assets/img/team/joanne.png
   memberdetail21: I am passionate about helping clients achieve their goals,
     enhancing their quality of life, and advocating for their needs within the
     educational system. Through comprehensive assessments, IEP consulting, and
