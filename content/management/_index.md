@@ -30,4 +30,8 @@ managementArea:
   name1: Briana
   span1: A Leader in ABA Therapy and Autism Support
   title1: Briana's biography
+  name2: Joanne Valcin-Dickson
+  span2: " QASP-S"
+  title2: Joanne's Biography
+  image2: /assets/img/team/joanne.png
 ---
