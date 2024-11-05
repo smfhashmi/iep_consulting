@@ -192,7 +192,7 @@ content:
                 - { label: "span1", name: "span1", type: "string" }
                 - { label: "title1", name: "title1", type: "string" }
                 - { label: "Member Detail 1", name: "memberdetail1", type: "string" }
-                - { label: "Member Detail 1", name: "memberdetail1", type: "string" }
+                - { label: "Member Detail 1", name: "memberdetail11", type: "string" }
                 - { label: "image1", name: "image1", type: "string" }
                 - { label: "linkedin1", name: "linkedin1", type: "string" }
                 - { label: "facebook1", name: "facebook1", type: "string" }
@@ -200,7 +200,7 @@ content:
                 - { label: "span2", name: "span2", type: "string" }
                 - { label: "title2", name: "title2", type: "string" }
                 - { label: "Member Detail 2", name: "memberdetail2", type: "string" }
-                - { label: "Member Detail 2", name: "memberdetail2", type: "string" }
+                - { label: "Member Detail 2", name: "memberdetail21", type: "string" }
                 - { label: "image2", name: "image2", type: "string" }
                 - { label: "linkedin2", name: "linkedin2", type: "string" }
                 - { label: "facebook2", name: "facebook2", type: "string" }
