@@ -188,14 +188,22 @@ content:
               name: "managementArea"
               type: "object"
               fields:
-                - { label: "name", name: "name", type: "string" }
-                - { label: "span", name: "span", type: "string" }
-                - { label: "title", name: "title", type: "string" }
+                - { label: "name1", name: "name1", type: "string" }
+                - { label: "span1", name: "span1", type: "string" }
+                - { label: "title1", name: "title1", type: "string" }
                 - { label: "Member Detail 1", name: "memberdetail1", type: "string" }
+                - { label: "Member Detail 1", name: "memberdetail1", type: "string" }
+                - { label: "image1", name: "image", type: "string" }
+                - { label: "linkedin1", name: "linkedin1", type: "string" }
+                - { label: "facebook1", name: "facebook1", type: "string" }
+                - { label: "name2", name: "name2", type: "string" }
+                - { label: "span2", name: "span2", type: "string" }
+                - { label: "title2", name: "title2", type: "string" }
                 - { label: "Member Detail 2", name: "memberdetail2", type: "string" }
-                - { label: "image", name: "image", type: "string" }
-                - { label: "linkedin", name: "linkedin", type: "string" }
-                - { label: "facebook", name: "facebook", type: "string" }
+                - { label: "Member Detail 2", name: "memberdetail2", type: "string" }
+                - { label: "image2", name: "image2", type: "string" }
+                - { label: "linkedin2", name: "linkedin2", type: "string" }
+                - { label: "facebook2", name: "facebook2", type: "string" }
 
 
                 
