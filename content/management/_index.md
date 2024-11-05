@@ -1,35 +1,30 @@
 ---
 managementArea:
   name: Briana
-  span: " ABA Therapy and Autism Support"
+  span: A Leader in ABA Therapy and Autism Support
   title: Briana's Biography
-  memberdetail1: Briana is an MBA and Board Certified Behavior Analyst (BCBA)
-    devoted to creating positive, lasting change for children and families
-    seeking Applied Behavior Analysis (ABA) therapy. With deep expertise in
-    autism support, education administration, and mental health, Briana has
-    helped countless families navigate the unique challenges of autism. Her
-    professional journey across federal, state, and non-profit sectors reflects
-    her unwavering commitment to providing compassionate, effective care
-    tailored to each child’s needs.  Briana’s unique blend of expertise in
-    behavioral science and business leadership allows her to design impactful,
-    evidence-based programs that are both effective and sustainable. With
-    advanced skills in strategy, communication, and financial management from
-    her MBA, Briana goes beyond therapy to create programs that empower
-    families, promote developmental growth, and align with the highest standards
-    in healthcare and education.
-  memberdetail2: What sets Briana apart is her holistic approach to care—she
-    believes in working closely with families, understanding their goals, and
-    celebrating each child's progress. Her emphasis on collaboration means that
-    she partners not only with families but also with schools, caregivers, and
-    community resources to ensure that every child has the support they need
-    across all aspects of their life.  Briana’s dedication to her work is more
-    than just professional; it’s personal. She understands the importance of
-    building trust with families and offering guidance that is both
-    compassionate and practical. By combining the science of behavior analysis
-    with a heartfelt commitment to making a difference, Briana is here to
-    support your child’s unique journey toward growth and independence.  Whether
-    you’re seeking individualized care, expert advice, or a partner who will
-    champion your child’s development, Briana is ready to provide the
-    compassionate, high-quality support that your family deserves.
+  memberdetail1: " Briana is an MBA and Board Certified Behavior Analyst (BCBA)
+    with a rich background in education administration, mental health, and
+    behavior improvement for youth with disabilities and at-risk populations.
+    Her experience spans federal, state, and non-profit sectors, where she has
+    consistently delivered comprehensive, high-quality services that make a
+    lasting difference.     With advanced skills in strategic leadership,
+    financial management, and project coordination from her MBA, Briana blends
+    business acumen with her BCBA expertise to create programs that drive
+    meaningful change. She uses her well-rounded skill set to design
+    interventions that support behavior enhancement within workplace and
+    educational environments, strategically aligning them with broader
+    organizational goals."
+  memberdetail2: Briana’s commitment to excellence is evident in her dedication to
+    serving diverse communities. Her approach prioritizes effective, sustainable
+    services that are aligned with ethical practices and the organization's
+    mission. She also excels in collaboration, leveraging her networking
+    abilities to build partnerships that amplify her initiatives'
+    impact.    Through evidence-based practices, strategic insight, and a
+    deep-rooted passion for supporting others, Briana is dedicated to enhancing
+    educational programs, fostering inclusive environments, and promoting mental
+    health. Her work is a powerful example of how expertise in behavior analysis
+    and business can come together to transform lives and create a brighter
+    future.
   image: /assets/img/team/briana.jpg
 ---
