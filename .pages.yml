@@ -191,9 +191,9 @@ content:
                 - { label: "name1", name: "name1", type: "string" }
                 - { label: "span1", name: "span1", type: "string" }
                 - { label: "title1", name: "title1", type: "string" }
+                - { label: "image1", name: "image1", type: "string" }
                 - { label: "Member Detail 1", name: "memberdetail1", type: "string" }
                 - { label: "Member Detail 1", name: "memberdetail11", type: "string" }
-                - { label: "image1", name: "image1", type: "string" }
                 - { label: "linkedin1", name: "linkedin1", type: "string" }
                 - { label: "facebook1", name: "facebook1", type: "string" }
                 - { label: "name2", name: "name2", type: "string" }
