@@ -179,6 +179,24 @@ content:
             - { label: "aboutYou7", name: "aboutYou7", type: "string" }
             - { label: "image", name: "image", type: "string" }
 
+  - name: management
+    label: Management
+    path: content/management/_index.md
+    type: file
+    fields:
+            - label: "Management Area"
+              name: "managementArea"
+              type: "object"
+              fields:
+                - { label: "name", name: "name", type: "string" }
+                - { label: "span", name: "span", type: "string" }
+                - { label: "title", name: "title", type: "string" }
+                - { label: "memberdetail1", name: "memberdetail1", type: "string" }
+                - { label: "memberdetail2", name: "memberdetail2", type: "string" }
+                - { label: "image", name: "image", type: "string" }
+                - { label: "linkedin", name: "linkedin", type: "string" }
+                - { label: "facebook", name: "facebook", type: "string" }
+
 
                 
   - name: contact 
