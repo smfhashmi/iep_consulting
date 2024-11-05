@@ -186,7 +186,7 @@ content:
     fields:
             - label: "Management Area"
               name: "managementArea"
-              type: "list"
+              type: "object"
               fields:
                 - { label: "name", name: "name", type: "string" }
                 - { label: "span", name: "span", type: "string" }
