@@ -26,14 +26,14 @@ managementArea:
     development. My approach emphasizes collaboration with families, educators,
     and interdisciplinary teams to create tailored, effective interventions that
     promote positive outcomes in various settings.
-  image: /assets/img/team/briana.jpg
+  image: assets/img/team/briana.jpg
   name1: Briana
   span1: A Leader in ABA Therapy and Autism Support
   title1: Briana's biography
   name2: Joanne Valcin-Dickson
   span2: " QASP-S"
   title2: Joanne's Biography
-  image2: assets/img/team/joanne.png
+  image2: /assets/img/team/joanne.png
   memberdetail21: I am passionate about helping clients achieve their goals,
     enhancing their quality of life, and advocating for their needs within the
     educational system. Through comprehensive assessments, IEP consulting, and
