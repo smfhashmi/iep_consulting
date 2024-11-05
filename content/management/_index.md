@@ -28,7 +28,7 @@ managementArea:
     development. My approach emphasizes collaboration with families, educators,
     and interdisciplinary teams to create tailored, effective interventions that
     promote positive outcomes in various settings.
-  image: /assets/img/team/briana.jpg
+  image: public/assets/img/team/briana.jpg
   name1: Briana
   span1: A Leader in ABA Therapy and Autism Support
   title1: Briana's biography
