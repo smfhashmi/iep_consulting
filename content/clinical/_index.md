@@ -1,8 +1,8 @@
 ---
 managementArea:
-  name: Briana
+  name: Briana Grappo
   span: A Leader in ABA Therapy and Autism Support
-  title: Briana's Biography
+  title: Briana Grappo
   memberdetail1: Briana is an MBA and Board Certified Behavior Analyst (BCBA)
     devoted to creating positive, lasting change for children and families
     seeking Applied Behavior Analysis (ABA) therapy. With deep expertise in
@@ -23,13 +23,14 @@ managementArea:
     (ABA). Her journey in this profession has been dedicated to supporting
     children and adolescents with diverse needs, particularly those facing
     challenges related to memory impairment and behavioral difficulties.
+  linkedin1: https://www.linkedin.com/in/briana-grappo-b8339a47
   image: /assets/img/team/briana.jpg
-  name1: Briana
+  name1: Briana Grappo
   span1: A Leader in ABA Therapy and Autism Support
-  title1: Briana's biography
+  title1: Briana Grappo
   name2: Joanne Valcin-Dickson
   span2: " QASP-S"
-  title2: Joanne's Biography
+  title2: Joanne Valcin-Dickson
   image2: /assets/img/team/joanne-new.jpg
   memberdetail21: As a Qualified Autism Service Provider Supervisor (QASP-S),
     Joane is committed to delivering evidence-based strategies that empower
@@ -55,4 +56,5 @@ managementArea:
     you’re seeking individualized care, expert advice, or a partner who will
     champion your child’s development, Briana is ready to provide the
     compassionate, high-quality support that your family deserves.
+  linkedin2: https://www.linkedin.com/in/joanne-valcin-dickson-89bb7a6b
 ---

@@ -6,11 +6,11 @@
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/bio/</loc>
-  </url><url>
     <loc>http://localhost:1313/clinical/</loc>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/leadership/</loc>
   </url><url>
     <loc>http://localhost:1313/services/aba-therapy/</loc>
   </url><url>
