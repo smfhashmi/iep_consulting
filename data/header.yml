@@ -12,11 +12,15 @@ nav:
   - name: "About"
     url: "/about"
 
-  - name: "Bio"
-    url: "/bio"
+ 
 
-  - name: "Clinical Team"
-    url: "/clinical"
+  - name: "Team"
+    # url: "/clinical"
+    dropdown:
+      - name: "Leadership"
+        url: "/leadership"
+      - name: "Clinical Team"
+        url: "/clinical"
 
   - name: "Services"
     url: "/services"
