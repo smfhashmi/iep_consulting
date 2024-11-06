@@ -15,7 +15,7 @@ nav:
   - name: "Bio"
     url: "/bio"
 
-  - name: "Clinical"
+  - name: "Clinical Team"
     url: "/clinical"
 
   - name: "Services"
