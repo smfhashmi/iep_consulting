@@ -1,22 +1,17 @@
 {{ define "main" }}
 
 <!-- team area start -->
-
 <section class="team__details pb-50">
   <div class="container">
     <div class="section__title mb-70 text-center">
       <h1>Clinical Team</h1>
     </div>
     <div class="row">
-      <div class="col-xl-4 col-lg-4">
+      <div class="col-xl-2 col-lg-2 sidebar_member d-flex">
         <div class="team__sidebar">
-          <div class="team__item mb-100">
+          <div class="team__item">
             <div class="team__thumb w-img fix p-relative">
-              <img
-                class="transition-3"
-                src="{{.Params.managementArea.image}}"
-                alt="team-1"
-              />
+              <img class="transition-3" src="{{.Params.managementArea.image}}" alt="team-1" />
             </div>
             <div class="team__content text-center white-bg transition-3">
               <div class="team__name">
@@ -24,17 +19,13 @@
                 <span>{{.Params.managementArea.span1}}</span>
               </div>
               <div class="team__info">
-                <div class="team__social-2 social transition-3 mt-20">
+                <div class="team__social-2 social transition-3">
                   <ul>
                     <li>
-                      <a href="{{.Params.managementArea.facebook1}}"
-                        ><i class="fab fa-facebook-f"></i
-                      ></a>
+                      <a href="{{.Params.managementArea.facebook1}}"><i class="fab fa-facebook-f"></i></a>
                     </li>
                     <li>
-                      <a href="{{.Params.managementArea.linkedin1}}"
-                        ><i class="fab fa-linkedin-in"></i
-                      ></a>
+                      <a href="{{.Params.managementArea.linkedin1}}"><i class="fab fa-linkedin-in"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -43,32 +34,31 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-8 col-lg-8">
-        <div class="team__details-wrapper">
+
+      <div class="col-xl-10 col-lg-10">
+        <div class="team__details-wrapper" id="detailsWrapper1">
           <div class="team__details-item mb-30">
             <div class="team__details-title mb-20">
               <h2>{{.Params.managementArea.title1}}</h2>
             </div>
             <div class="team__details-content">
-              <div class="team__biography">
+              <div class="team__biography" id="biographyContent1" style="max-height: 300px; overflow: hidden;">
                 <p>{{.Params.managementArea.memberdetail1}}</p>
                 <p>{{.Params.managementArea.memberdetail11}}</p>
               </div>
             </div>
           </div>
         </div>
+        <button class="read-more-btn" id="readMoreBtn1" onclick="toggleReadMore('detailsWrapper1', 'readMoreBtn1')">Read More</button>
       </div>
     </div>
+
     <div class="row">
-      <div class="col-xl-4 col-lg-4">
+      <div class="col-xl-2 col-lg-2 mt-50">
         <div class="team__sidebar">
-          <div class="team__item mb-30">
+          <div class="team__item">
             <div class="team__thumb w-img fix p-relative">
-              <img
-                class="transition-3"
-                src="{{.Params.managementArea.image2}}"
-                alt="team-2"
-              />
+              <img class="transition-3" src="{{.Params.managementArea.image2}}" alt="team-2" />
             </div>
             <div class="team__content text-center white-bg transition-3">
               <div class="team__name">
@@ -76,17 +66,13 @@
                 <span>{{.Params.managementArea.span2}}</span>
               </div>
               <div class="team__info">
-                <div class="team__social-2 social transition-3 mt-20">
+                <div class="team__social-2 social transition-3">
                   <ul>
                     <li>
-                      <a href="{{.Params.managementArea.facebook2}}"
-                        ><i class="fab fa-facebook-f"></i
-                      ></a>
+                      <a href="{{.Params.managementArea.facebook2}}"><i class="fab fa-facebook-f"></i></a>
                     </li>
                     <li>
-                      <a href="{{.Params.managementArea.linkedin2}}"
-                        ><i class="fab fa-linkedin-in"></i
-                      ></a>
+                      <a href="{{.Params.managementArea.linkedin2}}"><i class="fab fa-linkedin-in"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -95,24 +81,46 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-8 col-lg-8">
-        <div class="team__details-wrapper">
+
+      <div class="col-xl-10 col-lg-10">
+        <div class="team__details-wrapper" id="detailsWrapper2">
           <div class="team__details-item mb-30">
-            <div class="team__details-title mb-20">
+            <div class="team__details-title mt-50">
               <h2>{{.Params.managementArea.title2}}</h2>
             </div>
             <div class="team__details-content">
-              <div class="team__biography">
+              <div class="team__biography" id="biographyContent2" style="max-height: 300px; overflow: hidden;">
                 <p>{{.Params.managementArea.memberdetail2}}</p>
                 <p>{{.Params.managementArea.memberdetail21}}</p>
               </div>
             </div>
           </div>
         </div>
+        <button class="read-more-btn" id="readMoreBtn2" onclick="toggleReadMore('detailsWrapper2', 'readMoreBtn2')">Read More</button>
       </div>
     </div>
   </div>
 </section>
 <!-- team area end -->
+
+<!-- JavaScript -->
+<script>
+  function toggleReadMore(detailsWrapperId, readMoreBtnId) {
+    const detailsWrapper = document.getElementById(detailsWrapperId);
+    const readMoreBtn = document.getElementById(readMoreBtnId);
+    const biographyContent = document.getElementById(`biographyContent${detailsWrapperId.replace('detailsWrapper', '')}`);
+
+    // Check if the content is already expanded
+    if (biographyContent.style.maxHeight === "300px") {
+      biographyContent.style.maxHeight = "none"; 
+      biographyContent.style.overflow = "visible"; 
+      readMoreBtn.textContent = 'Read Less'; 
+    } else {
+      biographyContent.style.maxHeight = "300px"; 
+      biographyContent.style.overflow = "hidden"; 
+      readMoreBtn.textContent = 'Read More'; 
+    }
+  }
+</script>
 
 {{ end }}
