@@ -158,11 +158,11 @@ content:
         
   - name: bio 
     label: "Bio"
-    path: content/bio/_index.md
+    path: content/leadership/_index.md
     type: file
     fields:
 
-        - label: "Bio Area"
+        - label: "Leadership Area"
           name: "bioArea"
           type: "object"
           fields:
@@ -179,9 +179,9 @@ content:
             - { label: "aboutYou7", name: "aboutYou7", type: "string" }
             - { label: "image", name: "image", type: "string" }
 
-  - name: management
+  - name: clinical
     label: Clinical Team
-    path: content/management/_index.md
+    path: content/clinical/_index.md
     type: file
     fields:
             - label: "Management Area"
