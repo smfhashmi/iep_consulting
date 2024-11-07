@@ -184,7 +184,7 @@ content:
     path: content/clinical/_index.md
     type: file
     fields:
-            - label: "Management Area"
+            - label: "Clinical Area"
               name: "managementArea"
               type: "object"
               fields:
