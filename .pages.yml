@@ -169,14 +169,14 @@ content:
             - { label: "name", name: "name", type: "string" }
             - { label: "occupation", name: "occupation", type: "string" }
             - { label: "title", name: "title", type: "string" }
-            - { label: "aboutYou", name: "aboutYou", type: "string" }
-            - { label: "aboutYou1", name: "aboutYou1", type: "string" }
-            - { label: "aboutYou2", name: "aboutYou2", type: "string" }
-            - { label: "aboutYou3", name: "aboutYou3", type: "string" }
-            - { label: "aboutYou4", name: "aboutYou4", type: "string" }
-            - { label: "aboutYou5", name: "aboutYou5", type: "string" }
-            - { label: "aboutYou6", name: "aboutYou6", type: "string" }
-            - { label: "aboutYou7", name: "aboutYou7", type: "string" }
+            - { label: "aboutYou", name: "aboutYou", type: "text" }
+            - { label: "aboutYou1", name: "aboutYou1", type: "text" }
+            - { label: "aboutYou2", name: "aboutYou2", type: "text" }
+            - { label: "aboutYou3", name: "aboutYou3", type: "text" }
+            - { label: "aboutYou4", name: "aboutYou4", type: "text" }
+            - { label: "aboutYou5", name: "aboutYou5", type: "text" }
+            - { label: "aboutYou6", name: "aboutYou6", type: "text" }
+            - { label: "aboutYou7", name: "aboutYou7", type: "text" }
             - { label: "image", name: "image", type: "string" }
 
   - name: clinical
@@ -192,15 +192,15 @@ content:
                 - { label: "span1", name: "span1", type: "string" }
                 - { label: "title1", name: "title1", type: "string" }
                 - { label: "image1", name: "image", type: "string" }
-                - { label: "Member Detail 1", name: "memberdetail1", type: "string" }
-                - { label: "Member Detail 1", name: "memberdetail11", type: "string" }
+                - { label: "Member Detail 1", name: "memberdetail1", type: "text" }
+                - { label: "Member Detail 1", name: "memberdetail11", type: "text" }
                 - { label: "linkedin1", name: "linkedin1", type: "string" }
                 - { label: "facebook1", name: "facebook1", type: "string" }
                 - { label: "name2", name: "name2", type: "string" }
                 - { label: "span2", name: "span2", type: "string" }
                 - { label: "title2", name: "title2", type: "string" }
-                - { label: "Member Detail 2", name: "memberdetail2", type: "string" }
-                - { label: "Member Detail 2", name: "memberdetail21", type: "string" }
+                - { label: "Member Detail 2", name: "memberdetail2", type: "text" }
+                - { label: "Member Detail 2", name: "memberdetail21", type: "text" }
                 - { label: "image2", name: "image2", type: "string" }
                 - { label: "linkedin2", name: "linkedin2", type: "string" }
                 - { label: "facebook2", name: "facebook2", type: "string" }
