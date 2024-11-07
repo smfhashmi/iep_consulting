@@ -41,7 +41,7 @@ managementArea:
     enhancing their quality of life and advocating for their needs within the
     educational system. Through comprehensive assessments, IEP consulting and
     ongoing support, Joanne strives to facilitate meaningful change and growth
-    for each individual she works with
+    for each individual she works with.
   memberdetail11: What sets Briana apart is her holistic approach to care—she
     believes in working closely with families, understanding their goals, and
     celebrating each child's progress. Her emphasis on collaboration means that
