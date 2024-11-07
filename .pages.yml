@@ -157,7 +157,7 @@ content:
                 
         
   - name: bio 
-    label: "Bio"
+    label: "Leadership"
     path: content/leadership/_index.md
     type: file
     fields:
