@@ -29,7 +29,7 @@ managementArea:
   span1: A Leader in ABA Therapy and Autism Support
   title1: Briana Grappo
   name2: Joanne Valcin-Dickson
-  span2: " QASP-S"
+  span2: "NC Behavior Analyst Assistant "
   title2: Joanne Valcin-Dickson
   image2: /assets/img/team/joanne-new.jpg
   memberdetail21: As a Qualified Autism Service Provider Supervisor (QASP-S),
