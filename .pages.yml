@@ -204,6 +204,14 @@ content:
                 - { label: "image2", name: "image2", type: "string" }
                 - { label: "linkedin2", name: "linkedin2", type: "string" }
                 - { label: "facebook2", name: "facebook2", type: "string" }
+                - { label: "name3", name: "name3", type: "string" }
+                - { label: "span3", name: "span3", type: "string" }
+                - { label: "title3", name: "title3", type: "string" }
+                - { label: "Member Detail 3", name: "memberdetail3", type: "text" }
+                - { label: "Member Detail 3", name: "memberdetail31", type: "text" }
+                - { label: "image3", name: "image3", type: "string" }
+                - { label: "linkedin3", name: "linkedin3", type: "string" }
+                - { label: "facebook3", name: "facebook3", type: "string" }
 
 
                 
