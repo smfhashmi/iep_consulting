@@ -57,4 +57,19 @@ managementArea:
     champion your child’s development, Briana is ready to provide the
     compassionate, high-quality support that your family deserves.
   linkedin2: https://www.linkedin.com/in/joanne-valcin-dickson-89bb7a6b
+  name3: Eman Abushabab
+  span3: BCBA, QBA
+  title3: Eman Abushabab
+  image3: /assets/img/team/eman.jpg
+  linkedin3: https://www.linkedin.com/in/eman-abushabab/
+  memberdetail3: Eman Abushabab is a bilingual (Arabic/English) Board Certified
+    Behavior Analyst (BCBA) and Qualified Behavior Analyst (QBA) with
+    international certification through QABA. She is licensed by the Community
+    Development Authority in Dubai and holds a Master’s in Behavior Analysis
+    from Florida Institute of Technology. Currently based at Medcare-Camali in
+    Dubai, Eman also consults internationally, offering autism spectrum disorder
+    (ASD) interventions, including ABA, early intervention, FBA/BIP creation,
+    social skills, and parent training. She provides educator support for IEP
+    development, behavior management, crisis intervention, and professional
+    development.
 ---
