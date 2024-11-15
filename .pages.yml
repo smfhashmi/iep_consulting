@@ -81,11 +81,7 @@ content:
         fields:
           - { label: "Title", name: "title", type: "string" }
           - { label: "Text", name: "description", type: "string" } 
-          
-     
 
-        
-      
   - name: about
     label: About us
     path: content/about/_index.md
@@ -139,9 +135,6 @@ content:
                 - { label: "service4year", name: "service4year", type: "string" }
                 - { label: "service4title", name: "service4title", type: "string" }
                 - { label: "service4explain", name: "service4explain", type: "string" } 
-          
-
-
 
   - name: services
     label: Services
@@ -151,10 +144,6 @@ content:
       - { label: "Title", name: "title", type: "string" }
       - { label: "Description", name: "description", type: "string" }
       - { label: "Body", name: "body", type: "text" }
-                  
-
-         
-                
         
   - name: bio 
     label: "Leadership"
@@ -184,44 +173,10 @@ content:
     path: content/clinical/_index.md
     type: file
     fields:
-            - label: "Clinical Area"
-              name: "managementArea"
-              type: "object"
-              fields:
-                - { label: "name1", name: "name1", type: "string" }
-                - { label: "span1", name: "span1", type: "string" }
-                - { label: "title1", name: "title1", type: "string" }
-                - { label: "image1", name: "image", type: "string" }
-                - { label: "Member Detail 1", name: "memberdetail1", type: "text" }
-                - { label: "Member Detail 1", name: "memberdetail11", type: "text" }
-                - { label: "linkedin1", name: "linkedin1", type: "string" }
-                - { label: "facebook1", name: "facebook1", type: "string" }
-                - { label: "name2", name: "name2", type: "string" }
-                - { label: "span2", name: "span2", type: "string" }
-                - { label: "title2", name: "title2", type: "string" }
-                - { label: "Member Detail 2", name: "memberdetail2", type: "text" }
-                - { label: "Member Detail 2", name: "memberdetail21", type: "text" }
-                - { label: "image2", name: "image2", type: "string" }
-                - { label: "linkedin2", name: "linkedin2", type: "string" }
-                - { label: "facebook2", name: "facebook2", type: "string" }
-                - { label: "name3", name: "name3", type: "string" }
-                - { label: "span3", name: "span3", type: "string" }
-                - { label: "title3", name: "title3", type: "string" }
-                - { label: "Member Detail 3", name: "memberdetail3", type: "text" }
-                - { label: "Member Detail 3", name: "memberdetail31", type: "text" }
-                - { label: "image3", name: "image3", type: "string" }
-                - { label: "linkedin3", name: "linkedin3", type: "string" }
-                - { label: "facebook3", name: "facebook3", type: "string" }
-                - { label: "name4", name: "name4", type: "string" }
-                - { label: "span4", name: "span4", type: "string" }
-                - { label: "title4", name: "title4", type: "string" }
-                - { label: "Member Detail 4", name: "memberdetail4", type: "text" }
-                - { label: "Member Detail 4", name: "memberdetail41", type: "text" }
-                - { label: "image4", name: "image4", type: "string" }
-                - { label: "linkedin4", name: "linkedin4", type: "string" }
-                - { label: "facebook4", name: "facebook4", type: "string" }
-
-
+      - label: "People"
+        name: "people"
+        type: "object"
+        
                 
   - name: contact 
     label: Contact Us
@@ -243,9 +198,6 @@ content:
       - { label: "Title", name: "title", type: "string" }
       - { label: "Body", name: "body", type: "text" }
 
-
-
-
   - name: config
     label: website config
     type: file
@@ -264,14 +216,3 @@ content:
             - {label: mobile, name: mobile, type: string}
             - {label: address, name: address, type: string}
             - {label: keywords(comma separated), name: keywords, type: string}
-        
-
-
-  
-          
-        
-            
-            
-
-
-        
