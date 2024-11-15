@@ -212,6 +212,14 @@ content:
                 - { label: "image3", name: "image3", type: "string" }
                 - { label: "linkedin3", name: "linkedin3", type: "string" }
                 - { label: "facebook3", name: "facebook3", type: "string" }
+                - { label: "name4", name: "name4", type: "string" }
+                - { label: "span4", name: "span4", type: "string" }
+                - { label: "title4", name: "title4", type: "string" }
+                - { label: "Member Detail 4", name: "memberdetail4", type: "text" }
+                - { label: "Member Detail 4", name: "memberdetail41", type: "text" }
+                - { label: "image4", name: "image4", type: "string" }
+                - { label: "linkedin4", name: "linkedin4", type: "string" }
+                - { label: "facebook4", name: "facebook4", type: "string" }
 
 
                 
