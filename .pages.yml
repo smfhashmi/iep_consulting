@@ -212,3 +212,8 @@ content:
             - {label: mobile, name: mobile, type: string}
             - {label: address, name: address, type: text}
             - {label: keywords(comma separated), name: keywords, type: text}
+
+  - name: people
+    label: people json
+    type: file
+    path: content/people.json
