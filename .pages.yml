@@ -172,7 +172,7 @@ content:
     path: content/clinical/_index.md
     type: file
     fields:
-      - { label: "People", name: "people", type: "object"}
+      - { label: "People", name: "people", type: "text"}
         
                 
   - name: contact 
@@ -180,12 +180,11 @@ content:
     path: content/contact/_index.md
     type: file
     fields:
-      
       - label: "contact Area "
         name: "contactArea"
         type: "object"
         fields:
-          - { label: "description", name: "description", type: "string" }
+          - { label: "description", name: "description", type: "text" }
   
   - name: tnc
     label: Terms and Conditions
@@ -211,5 +210,5 @@ content:
             - {label: Company, name: company, type: string}
             - {label: email, name: email, type: string}
             - {label: mobile, name: mobile, type: string}
-            - {label: address, name: address, type: string}
-            - {label: keywords(comma separated), name: keywords, type: string}
+            - {label: address, name: address, type: text}
+            - {label: keywords(comma separated), name: keywords, type: text}
