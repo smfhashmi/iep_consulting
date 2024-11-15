@@ -150,8 +150,7 @@ content:
     path: content/leadership/_index.md
     type: file
     fields:
-
-        - label: "Leadership Area"
+      - label: "Leadership Area"
           name: "bioArea"
           type: "object"
           fields:
@@ -173,9 +172,7 @@ content:
     path: content/clinical/_index.md
     type: file
     fields:
-      - label: "People"
-        name: "people"
-        type: "object"
+      - {label: "People", name: "people", type: "text"}
         
                 
   - name: contact 
