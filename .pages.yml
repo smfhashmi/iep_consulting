@@ -216,4 +216,4 @@ content:
   - name: people
     label: people json
     type: file
-    path: content/people.json
+    path: people.json
