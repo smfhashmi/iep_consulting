@@ -167,13 +167,6 @@ content:
             - { label: "aboutYou7", name: "aboutYou7", type: "text" }
             - { label: "image", name: "image", type: "string" }
 
-  - name: clinical
-    label: Clinical Team
-    path: content/clinical/_index.md
-    type: file
-    fields:
-      - { label: "People", name: "people", type: "text"}
-        
                 
   - name: contact 
     label: Contact Us
@@ -214,6 +207,6 @@ content:
             - {label: keywords(comma separated), name: keywords, type: text}
 
   - name: people
-    label: people json
+    label: Team JSON
     type: file
-    path: people.json
+    path: data/people.json
