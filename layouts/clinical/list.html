@@ -6,7 +6,7 @@
     <div class="section__title mb-70 text-center">
       <h1>Clinical Team</h1>
     </div>
-    {{ range $index, $person := .Site.Data.people }}
+    {{ range $index, $person := .Params.people }}
       <div class="row mb-50">
         <div class="col-xl-3 col-lg-3 sidebar_member d-flex">
           <div class="team__sidebar">

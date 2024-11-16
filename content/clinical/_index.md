@@ -1,5 +1,5 @@
 ---
-entries:
+people:
   - name: Briana Grappo
     caption: A Leader in ABA Therapy and Autism Support
     linkedin: https://www.linkedin.com/in/briana-grappo-b8339a47

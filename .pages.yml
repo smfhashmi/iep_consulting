@@ -206,11 +206,6 @@ content:
             - {label: address, name: address, type: text}
             - {label: keywords(comma separated), name: keywords, type: text}
 
-  - name: people
-    label: Team JSON
-    type: file
-    path: data/people.json
-
   - name: team
     label: Team
     type: file
