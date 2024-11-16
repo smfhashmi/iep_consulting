@@ -6,188 +6,50 @@
     <div class="section__title mb-70 text-center">
       <h1>Clinical Team</h1>
     </div>
-    <div class="row">
-      <div class="col-xl-3 col-lg-3 sidebar_member d-flex">
-        <div class="team__sidebar">
-          <div class="team__item">
-            <div class="team__thumb w-img fix p-relative">
-              <img class="transition-3" src="{{.Params.managementArea.image}}" alt="team-1" />
-            </div>
-            <div class="team__content text-center white-bg transition-3">
-              <div class="team__name">
-                <h3>{{.Params.managementArea.name1}}</h3>
-                <span>{{.Params.managementArea.span1}}</span>
+    {{ range $index, $person := .Site.Data.people }}
+      <div class="row mb-50">
+        <div class="col-xl-3 col-lg-3 sidebar_member d-flex">
+          <div class="team__sidebar">
+            <div class="team__item">
+              <div class="team__thumb w-img fix p-relative">
+                <img class="transition-3" src="{{$person.image}}" alt="team-1" />
               </div>
-              <div class="team__info">
-                <div class="team__social-2 social transition-3">
-                  <ul>
-                    <!-- <li>
-                      <a href="{{.Params.managementArea.facebook1}}"><i class="fab fa-facebook-f"></i></a>
-                    </li> -->
-                    <li>
-                      <a target="_blank" href="{{.Params.managementArea.linkedin1}}"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                  </ul>
+              <div class="team__content text-center white-bg transition-3">
+                <div class="team__name">
+                  <h3>{{$person.name}}</h3>
+                  <span>{{$person.caption}}</span>
+                </div>
+                <div class="team__info">
+                  <div class="team__social-2 social transition-3">
+                    <ul>
+                      <li>
+                        <a target="_blank" href="{{$person.linkedin}}"><i class="fab fa-linkedin-in"></i></a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-xl-9 col-lg-9">
-        <div class="team__details-wrapper" id="detailsWrapper1">
-          <div class="team__details-item mb-30">
-            <div class="team__details-title mb-20">
-              <h2>{{.Params.managementArea.title1}}</h2>
-            </div>
-            <div class="team__details-content">
-              <div class="team__biography" id="biographyContent1" style="max-height: 300px; overflow: hidden;">
-                <p>{{.Params.managementArea.memberdetail1}}</p>
-                <p>{{.Params.managementArea.memberdetail11}}</p>
+        <div class="col-xl-9 col-lg-9">
+          <div class="team__details-wrapper" id="{{ add $index 1 }}-name">
+            <div class="team__details-item mb-30">
+              <div class="team__details-title mb-20">
+                <h2>{{$person.name}}</h2>
               </div>
-            </div>
-          </div>
-        </div>
-        <button class="read-more-btn" id="readMoreBtn1" onclick="toggleReadMore('detailsWrapper1', 'readMoreBtn1')">Read More</button>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xl-3 col-lg-3 mt-50">
-        <div class="team__sidebar">
-          <div class="team__item">
-            <div class="team__thumb w-img fix p-relative">
-              <img class="transition-3" src="{{.Params.managementArea.image2}}" alt="team-2" />
-            </div>
-            <div class="team__content text-center white-bg transition-3">
-              <div class="team__name">
-                <h3>{{.Params.managementArea.name2}}</h3>
-                <span>{{.Params.managementArea.span2}}</span>
-              </div>
-              <div class="team__info">
-                <div class="team__social-2 social transition-3">
-                  <ul>
-                    <!-- <li>
-                      <a href="{{.Params.managementArea.facebook2}}"><i class="fab fa-facebook-f"></i></a>
-                    </li> -->
-                    <li>
-                      <a target="_blank" href="{{.Params.managementArea.linkedin2}}"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                  </ul>
+              <div class="team__details-content">
+                <div class="team__biography" id="{{ add $index 1 }}-content" style="max-height: 300px; overflow: hidden;">
+                  {{ $person.description | safeHTML }}
                 </div>
               </div>
             </div>
           </div>
+          <button class="read-more-btn" id="{{ add $index 1 }}-btn" onclick="toggleReadMore('{{ add $index 1 }}-name', '{{ add $index 1 }}-btn')">Read More</button>
         </div>
       </div>
-
-      <div class="col-xl-9 col-lg-9">
-        <div class="team__details-wrapper" id="detailsWrapper2">
-          <div class="team__details-item mb-30">
-            <div class="team__details-title mt-50">
-              <h2>{{.Params.managementArea.title2}}</h2>
-            </div>
-            <div class="team__details-content">
-              <div class="team__biography" id="biographyContent2" style="max-height: 300px; overflow: hidden;">
-                <p>{{.Params.managementArea.memberdetail2}}</p>
-                <p>{{.Params.managementArea.memberdetail21}}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button class="read-more-btn" id="readMoreBtn2" onclick="toggleReadMore('detailsWrapper2', 'readMoreBtn2')">Read More</button>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xl-3 col-lg-3 mt-50">
-        <div class="team__sidebar">
-          <div class="team__item">
-            <div class="team__thumb w-img fix p-relative">
-              <img class="transition-3" src="{{.Params.managementArea.image3}}" alt="team-3" />
-            </div>
-            <div class="team__content text-center white-bg transition-3">
-              <div class="team__name">
-                <h3>{{.Params.managementArea.name3}}</h3>
-                <span>{{.Params.managementArea.span3}}</span>
-              </div>
-              <div class="team__info">
-                <div class="team__social-2 social transition-3">
-                  <ul>
-                    <!-- <li>
-                      <a href="{{.Params.managementArea.facebook2}}"><i class="fab fa-facebook-f"></i></a>
-                    </li> -->
-                    <li>
-                      <a target="_blank" href="{{.Params.managementArea.linkedin3}}"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xl-9 col-lg-9">
-        <div class="team__details-wrapper" id="detailsWrapper2">
-          <div class="team__details-item mb-30">
-            <div class="team__details-title mt-50">
-              <h2>{{.Params.managementArea.title3}}</h2>
-            </div>
-            <div class="team__details-content">
-              <div class="team__biography" id="biographyContent2" style="max-height: 300px; overflow: hidden;">
-                <p>{{.Params.managementArea.memberdetail3}}</p>
-                <p>{{.Params.managementArea.memberdetail31}}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button class="read-more-btn" id="readMoreBtn3" onclick="toggleReadMore('detailsWrapper3', 'readMoreBtn3')">Read More</button>
-      </div>
-    </div>
-    <!-- <div class="row">
-      <div class="col-xl-3 col-lg-3 mt-50">
-        <div class="team__sidebar">
-          <div class="team__item">
-            <div class="team__thumb w-img fix p-relative">
-              <img class="transition-3" src="{{.Params.managementArea.image4}}" alt="team-4" />
-            </div>
-            <div class="team__content text-center white-bg transition-3">
-              <div class="team__name">
-                <h3>{{.Params.managementArea.name4}}</h3>
-                <span>{{.Params.managementArea.span4}}</span>
-              </div>
-              <div class="team__info">
-                <div class="team__social-2 social transition-3">
-                  <ul>
-                    <li>
-                      <a target="_blank" href="{{.Params.managementArea.linkedin4}}"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xl-9 col-lg-9">
-        <div class="team__details-wrapper" id="detailsWrapper2">
-          <div class="team__details-item mb-30">
-            <div class="team__details-title mt-50">
-              <h2>{{.Params.managementArea.title4}}</h2>
-            </div>
-            <div class="team__details-content">
-              <div class="team__biography" id="biographyContent2" style="max-height: 300px; overflow: hidden;">
-                <p>{{.Params.managementArea.memberdetail4}}</p>
-                <p>{{.Params.managementArea.memberdetail41}}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button class="read-more-btn" id="readMoreBtn4" onclick="toggleReadMore('detailsWrapper4', 'readMoreBtn4')">Read More</button>
-      </div>
-    </div> -->
+    {{ end }}
   </div>
 </section>
 <!-- team area end -->
@@ -219,9 +81,8 @@
 <!-- JavaScript -->
 <script>
   function toggleReadMore(detailsWrapperId, readMoreBtnId) {
-    const detailsWrapper = document.getElementById(detailsWrapperId);
     const readMoreBtn = document.getElementById(readMoreBtnId);
-    const biographyContent = document.getElementById(`biographyContent${detailsWrapperId.replace('detailsWrapper', '')}`);
+    const biographyContent = $(`#${detailsWrapperId.split('-')[0]}-content`)[0];
 
     // Check if the content is already expanded
     if (biographyContent.style.maxHeight === "300px") {
