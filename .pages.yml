@@ -210,3 +210,20 @@ content:
     label: Team JSON
     type: file
     path: data/people.json
+
+  - name: team
+    label: Team
+    type: file
+    path: content/clinical/_index.md
+    fields:
+      - { label: "Team", name: "new Team", type: "string" }
+      - name: entries
+        label: Entries
+        type: object
+        list: true
+        fields:
+          - {name: name, label: Name, type: string}
+          - {name: caption, label: Caption, type: string}
+          - {name: linkedin, label: Linkedin, type: string}
+          - {name: image, label: Image, type: string}
+          - {name: description, label: Description, type: string}
