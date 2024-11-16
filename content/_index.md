@@ -20,7 +20,7 @@ card2:
   description: Our skilled therapists, BCBAs and RBTs, provide individualized ABA
     therapy, building essential communication and social skills for your child
 card3:
-  title: Support Patient
+  title: "Patient Support "
   description: We offer continuous support, ensuring progress beyond therapy
     sessions, empowering children and families with comprehensive, 24/7 care.
 imageCard:
