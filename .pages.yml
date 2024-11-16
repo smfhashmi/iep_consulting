@@ -211,8 +211,8 @@ content:
     type: file
     path: content/clinical/_index.md
     fields:
-      - name: entries
-        label: Entries
+      - name: people
+        label: People
         type: object
         list: true
         fields:
