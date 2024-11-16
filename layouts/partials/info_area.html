@@ -53,11 +53,19 @@
       </div>
       <ul id="mobile-menu-active">
         {{ range .Site.Data.header.nav }}
-        <li>
-          <a href="{{ .url }}">{{.name}}</a>
-        </li>
-        {{end}}
-      </ul>
+                  <li class="{{ if .dropdown }}has-dropdown{{ end }}">
+                    <a href="{{ .url }}">{{ .name }}</a>
+                    {{ if .dropdown }}
+                      <ul class="submenu">
+                        {{ range .dropdown }}
+                          <li><a href="{{ .url }}">{{ .name }}</a></li>
+                        {{ end }}
+                      </ul>
+                    {{ end }}
+                  </li>
+
+                  {{end}}
+                </ul>
       <div class="ml-35">
         <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square"
             >{{ .Site.Data.header.appointment }}</a
