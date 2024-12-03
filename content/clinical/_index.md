@@ -50,7 +50,7 @@ people:
       professional development.</p>
   - name: Aleena Rivera | RBT, Aspiring QBA/BCBA
     caption: RBT, Aspiring QBA/BCBA
-    image: /assets/img/team/aleena.jpg
+    image: /assets/img/team/aleena.png
     description: >-
       <p>Aleena Rivera is a dedicated Registered Behavior Technician (RBT) with
       experience in the field of Applied Behavior Analysis (ABA). She
