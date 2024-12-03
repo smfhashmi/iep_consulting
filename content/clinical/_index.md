@@ -48,4 +48,26 @@ people:
       creation, social skills, and parent training. She provides educator
       support for IEP development, behavior management, crisis intervention, and
       professional development.</p>
+  - name: Aleena Rivera
+    caption: Registered Behavior Technician (RBT) | Aspiring QBA/BCBA
+    description: >-
+      <p>Aleena Rivera is a dedicated Registered Behavior Technician (RBT) with
+      experience in the field of Applied Behavior Analysis (ABA). She
+      specializes in welcoming and onboarding new RBTs and newcomers, ensuring
+      they receive the support and resources necessary to thrive.</p>
+
+      <p>As an RBT, Aleena believes in the power of personalizing therapy to
+      meet the unique needs of each individual. She focuses on contriving
+      factors that make therapy effective by considering the distinct
+      circumstances, preferences, and goals of those she works with. This
+      approach not only fosters meaningful progress but also helps to create a
+      supportive and empowering environment for clients.
+
+      </p>
+
+      <p>Aleena is currently working toward becoming a Qualified Behavior
+      Analyst (QBA) and Board-Certified Behavior Analyst (BCBA). Her commitment
+      to professional growth, leadership, and individualized care drives her
+      passion for improving the lives of others and guiding her colleagues
+      through their professional journeys.</p>
 ---
