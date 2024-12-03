@@ -49,7 +49,7 @@ people:
       support for IEP development, behavior management, crisis intervention, and
       professional development.</p>
   - name: Aleena Rivera | RBT, Aspiring QBA/BCBA
-    caption: RBT, Aspiring QBA/BCBA
+    caption: RBT
     image: /assets/img/team/aleena.png
     description: >-
       <p>Aleena Rivera is a dedicated Registered Behavior Technician (RBT) with
