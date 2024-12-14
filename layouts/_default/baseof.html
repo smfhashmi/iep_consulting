@@ -34,5 +34,37 @@
       src="https://kit.fontawesome.com/853ed08db5.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          const consentKey = "cookieConsent";
+          const optionalConsentKey = "optionalCookies";
+  
+          // Show modal if no consent is stored
+          if (!localStorage.getItem(consentKey)) {
+              const cookieModal = new bootstrap.Modal(document.getElementById("cookieConsentModal"));
+              cookieModal.show();
+          }
+  
+          // Handle Accept Selected button
+          document.getElementById("acceptCookies").addEventListener("click", function () {
+              localStorage.setItem(consentKey, "true");
+              const optionalCookiesEnabled = document.getElementById("optionalCookies").checked;
+              localStorage.setItem(optionalConsentKey, optionalCookiesEnabled ? "true" : "false");
+  
+              const cookieModal = bootstrap.Modal.getInstance(document.getElementById("cookieConsentModal"));
+              cookieModal.hide();
+          });
+  
+          // Handle Reject button
+          document.getElementById("rejectCookies").addEventListener("click", function () {
+              localStorage.setItem(consentKey, "true"); // Consent given for necessary cookies only
+              localStorage.setItem(optionalConsentKey, "false");
+  
+              const cookieModal = bootstrap.Modal.getInstance(document.getElementById("cookieConsentModal"));
+              cookieModal.hide();
+          });
+      });
+    </script>
+    
   </body>
 </html>

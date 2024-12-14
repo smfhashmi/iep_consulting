@@ -1,6 +1,6 @@
 ---
 people:
-  - name: Briana Grappo
+  - name: Briana Grappo | M.A, MBA, BCBA
     caption: A Leader in ABA Therapy and Autism Support
     linkedin: https://www.linkedin.com/in/briana-grappo-b8339a47
     image: /assets/img/team/briana.jpg
