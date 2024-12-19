@@ -1,7 +1,7 @@
 ---
 aboutArea:
   span: Welcome to IEP Consulting BCBA
-  title: Patients are Happy, Cause Proper Tailored Plans
+  title: Cleints are Happy, Cause Proper Tailored Plans
   description: At IEP Consulting BCBA, we are a well recognized international team
     helping children with autism reach their full potential through personalized
     Applied Behaviour Analysis (ABA) therapy. Our team of experienced Board
